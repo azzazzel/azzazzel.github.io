@@ -1,0 +1,37 @@
+title: Milen Dyankov
+description: Software Engineer, Consultant and Trainer
+copyright: Milen Dyankov
+
+
+url: ""
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:year/:month/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+excerpt_separator: <!--more-->
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Posts
+   url: /posts
+ - title: Talks
+   url: /talks
+ 
+social:
+   email: milendyankov@gmail.com
+   github: azzazzel
+   googleplus: +MilenDyankov-profile
+   lanyard: milendyankov
+   linkedin: milendyankov
+   picasaweb: 114975002325789911081
+   slideshare: MilenDyankov1
+   twitter: milendyankov
+
+google_analytics: ""
