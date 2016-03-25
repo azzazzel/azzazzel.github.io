@@ -29,7 +29,7 @@ CustomGlobalMarkup can do all of these. First of all, create new markup and add 
 
 <script src="https://gist.github.com/2948364.js?file=import_librariies.html"></script>
 
-This is something we would like to have in the head so make sure "Location" is TOP: ![](/assets/posts/CustomGlobalMarkup-image-slider-code1.png)
+This is something we would like to have in the head so make sure "Location" is TOP: ![](/assets/2012-06-18-how_to_use_customglobalmarkup_portlet_to_add_image_slider_on_every_liferay_page/CustomGlobalMarkup-image-slider-code1.png)
 
 Then add another markup for the CSS:
 
@@ -37,12 +37,12 @@ Then add another markup for the CSS:
 
 Pay attention that styles contain `width` and `height` attributes you need to adjust according to the size of the images you use. You may also change text color, background, location, ... When you are done save it and make sure `Location` says `TOP`:
 
-![](/assets/posts/CustomGlobalMarkup-image-slider-code2.png)
+![](/assets/2012-06-18-how_to_use_customglobalmarkup_portlet_to_add_image_slider_on_every_liferay_page/CustomGlobalMarkup-image-slider-code2.png)
 
 You can join the above snippets into simple markup entry if you prefer. I keep them separately because it's more convenient  to disable/enable small pieces.
 Before we add the HTML code and start `s3Slider` we need some images. If you already have have images publicly available then you can skip this step and simply adjust the URLs in the next snipped accordingly. Otherwise, upload your images to Liferay's Document Library and note their addresses:
 
-![](/assets/posts/CustomGlobalMarkup-image-slider-images.png)
+![](/assets/2012-06-18-how_to_use_customglobalmarkup_portlet_to_add_image_slider_on_every_liferay_page/CustomGlobalMarkup-image-slider-images.png)
 
 Now create the last markup entry and fill it with this code:
 
@@ -52,10 +52,10 @@ The first statement in the `ready` function looks for `breadcrumbs` element and 
 
 The second statement uses the element added and starts `s3Slider` on it. So finally you should have something like this:
 
-![](/assets/posts/CustomGlobalMarkup-image-slider-codes.png)
+![](/assets/2012-06-18-how_to_use_customglobalmarkup_portlet_to_add_image_slider_on_every_liferay_page/CustomGlobalMarkup-image-slider-codes.png)
 
 And that's it. Save the markups and go back to the portal. You should see something like this:
 
-![](/assets/posts/CustomGlobalMarkup-image-slider-result.png)
+![](/assets/2012-06-18-how_to_use_customglobalmarkup_portlet_to_add_image_slider_on_every_liferay_page/CustomGlobalMarkup-image-slider-result.png)
 
 You can install `CustomGlobalMarkup` from Liferay's community plugins repository or download the latest version from [here](http://sourceforge.net/projects/liferay-plugins/files/custom-global-markup/)!
