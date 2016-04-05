@@ -31,6 +31,10 @@ blockquote {
 		color: #174A2E;
 }
 
+#impliedsubmit {
+	color: #405430;
+}
+
 @media (min-width: 43.75em) {
 }
 

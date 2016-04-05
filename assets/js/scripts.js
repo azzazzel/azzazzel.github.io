@@ -13,6 +13,14 @@ $( document ).ready(function() {
       return Math.round(parseFloat(value));
     });
 
+		$.cookiesDirective({
+			explicitConsent: false,
+			cookieScripts: 'Google Analytics',
+			position : 'bottom',
+			backgroundColor: '#405430',
+			fontColor: '#FFFFFF',
+			linkColor: '#FFFFFF',
+			impliedSubmitText: ' OK ',
+		});
+
 });
-
-
