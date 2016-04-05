@@ -23,7 +23,7 @@ navigation:
    url: /posts
  - title: Talks
    url: /talks
- 
+
 social:
    email: milendyankov@gmail.com
    github: azzazzel
@@ -34,4 +34,4 @@ social:
    slideshare: MilenDyankov1
    twitter: milendyankov
 
-google_analytics: ""
+google_analytics: "UA-6858591-2"
