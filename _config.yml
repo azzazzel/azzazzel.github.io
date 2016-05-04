@@ -3,7 +3,7 @@ description: Software Engineer, Consultant and Trainer
 copyright: Milen Dyankov
 
 
-url: ""
+url: "http://milendyankov.com"
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:year/:month/:title/
