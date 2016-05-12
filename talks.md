@@ -4,6 +4,8 @@ title: Talks
 ---
 
 ### [![What's not new in modular Java?](http://image.slidesharecdn.com/notnewinmodularjava-160210170221/95/whats-not-new-in-modular-java-1-638.jpg?cb=1458384921)](http://www.slideshare.net/MilenDyankov1/whats-not-new-in-modular-java)
+ - June 16, 2016 ♖ [JBCNconf](http://www.jbcnconf.com/2016) ⚐ Barcelona, Spain
+ - May 26, 2016 ♖ [jPrime](http://jprime.io/) ⚐ Sofia, Bulgaria
  - March 19, 2016 ♖ [Codemotion](http://rome2016.codemotionworld.com) ⚐ Rome, Italy
  - February 10, 2016 ♖ [JFokus](http://www.jfokus.se/) ⚐ Stockholm, Sweden ☞ *[Recording](https://www.youtube.com/watch?v=ImRznovfJuM)*
 
@@ -22,11 +24,14 @@ title: Talks
 ---
 
 ### [![Microservices and Modularity or the difference between treatment and cure](https://image.slidesharecdn.com/microservicesandmodularity-150318082308-conversion-gate01/95/microservices-and-modularity-or-the-difference-between-treatment-and-cure-1-638.jpg?cb=1426667297)](http://www.slideshare.net/MilenDyankov1/microservices-and-modularity)
+ - May 25, 2016 ♖ [СофтУни](https://softuni.bg/trainings/1388/microservices-and-modularity) ⚐ Sofia, Bulgaria
+ - May 20, 2016 ♖ [I T.A.K.E. Unconference](http://itakeunconf.com/) ⚐ Bucharest, Romania
  - November 12, 2015 ♖ [DEVOXX](http://www.devoxx.be/) ⚐ Antwerp, Belgium ☞ *[Recording](https://www.youtube.com/watch?v=O77777Zy_HE)*
+ - November 5, 2015 ♖ [LJC Meetup](http://www.meetup.com/Londonjavacommunity/) ⚐ London, UK ☞ *[Recording](https://skillsmatter.com/skillscasts/6985-microservices-and-modularity-or-the-difference-between-treatment-and-cure)*
  - October 1-2, 2015 ♖ [ApacheCon: Core Europe](http://events.linuxfoundation.org/events/apachecon-core-europe) ⚐ Budapest, Hungary
  - September 19, 2015 ♖ [JDay](http://www.jday.com.ua/) ⚐ Lviv, Ukraine ☞ *[Recording](https://www.youtube.com/watch?v=nTAaU4v-pl4)*
  - June 30, 2015 ♖ [Liferay Budapest Tech Meetup](http://www.meetup.com/Liferay-Budapest-Tech-Meetup/events/222957142/) ⚐ Budapest, Hungary
- - May 27, 2015 ♖ [JPrime](http://jprime.io/) ⚐ Sofia, Bulgaria ☞ *[Recording](https://www.youtube.com/watch?v=rK2serMZXoo)*
+ - May 27, 2015 ♖ [jPrime](http://jprime.io/) ⚐ Sofia, Bulgaria ☞ *[Recording](https://www.youtube.com/watch?v=rK2serMZXoo)*
  - May 18-19, 2015 ♖ [Atmosphere](http://atmosphere-conference.com/) ⚐ Krakow, Poland ☞ *[Recording](https://www.youtube.com/watch?v=Ad5aajcbuKE)*
  - April 20, 2015 ♖ [4Developers](http://4developers.org.pl/) ⚐ Warsaw, Poland ☞ *[Recording](https://www.youtube.com/watch?v=_3L5raKY6hA)*
  - March 17-18, 2015 ♖ [jDays](http://www.jdays.se/) ⚐ Göteborg, Sweden
