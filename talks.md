@@ -3,11 +3,33 @@ layout: page
 title: Talks
 ---
 
+### [![Things you cannot do before 7](http://image.slidesharecdn.com/thingsyoucannotdobefore7-160602223521/95/things-you-cannotdobefore7-1-638.jpg?cb=1464907575)](http://www.slideshare.net/MilenDyankov1/things-you-cannotdobefore7)
+- May 31, 2016 ♖ [Liferay France Symposium](https://www.liferay.com/en/web/france2015) ⚐ Paris, France ☞ *[Recording](https://www.youtube.com/watch?v=nAit8wRdcrc&index=1)*
+
+---
+
+### [![OSGi Fundamentals](http://image.slidesharecdn.com/osgifundamentals-160602222652/95/osgi-fundamentals-1-638.jpg?cb=1464907267)](http://www.slideshare.net/MilenDyankov1/osgi-fundamentals)
+- May 31, 2016 ♖ [Liferay France Symposium](https://www.liferay.com/en/web/france2015) ⚐ Paris, France ☞ *[Recording](https://www.youtube.com/watch?v=R-VeJLp6pVA)*
+
+---
+
 ### [![What's not new in modular Java?](http://image.slidesharecdn.com/notnewinmodularjava-160210170221/95/whats-not-new-in-modular-java-1-638.jpg?cb=1458384921)](http://www.slideshare.net/MilenDyankov1/whats-not-new-in-modular-java)
  - June 16, 2016 ♖ [JBCNconf](http://www.jbcnconf.com/2016) ⚐ Barcelona, Spain
- - May 26, 2016 ♖ [jPrime](http://jprime.io/) ⚐ Sofia, Bulgaria
+ - May 26, 2016 ♖ [jPrime](http://jprime.io/) ⚐ Sofia, Bulgaria ☞ *[Recording](https://www.youtube.com/watch?v=NKS5VU_r7Bo)*
  - March 19, 2016 ♖ [Codemotion](http://rome2016.codemotionworld.com) ⚐ Rome, Italy
  - February 10, 2016 ♖ [JFokus](http://www.jfokus.se/) ⚐ Stockholm, Sweden ☞ *[Recording](https://www.youtube.com/watch?v=ImRznovfJuM)*
+
+---
+
+### [![Liferay infrastructure as code](/assets/talks/infrastructure_as_code.png)](https://prezi.com/epuaqzlkns9b/liferay-infrastructure-as-code/)
+ - October 6-8, 2015 ♖ [DEVCON](https://liferay.com/devcon2015) ⚐ Darmstadt, Germany ☞ *[Recording](https://www.youtube.com/watch?v=IjBEragveVw)*
+ - November 16-17, 2015 ♖ [Liferay Symposium](https://liferay.com/northamerica2015) ⚐ Chicago, USA
+
+---
+
+### [![Using Docker & Kubernetes to mange your Liferay deployments](/assets/talks/docker_kubernetes_liferay.png)](https://prezi.com/2cjip6hn6yvw/using-docker-kubernetes-to-manage-liferay-deployments/)
+ - October 6-8, 2015 ♖ [Liferay DEVCON](https://liferay.com/devcon2015) ⚐ Darmstadt, Germany ☞ *[Recording](https://www.youtube.com/watch?v=oelIjNK2a9s)*
+ - November 16-17, 2015 ♖ [Liferay Symposium](https://liferay.com/northamerica2015) ⚐ Chicago, USA
 
 ---
 
@@ -55,7 +77,7 @@ title: Talks
 
 ---
 
-### [Clustering Liferay](https://prezi.com/4gjbivklbaet/clustering-liferay/)
+### [![Clustering Liferay](/assets/talks/clustering_liferay.png)](https://prezi.com/4gjbivklbaet/clustering-liferay/)
  - June 10-12, 2014 ♖ [Liferay France Symposium](http://www.liferay.com/france2014) ⚐ Paris, France ☞ *[Recording](https://www.youtube.com/watch?v=JtV4_n5pXGE)*
 
 ---
