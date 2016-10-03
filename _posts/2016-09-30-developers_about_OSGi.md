@@ -65,6 +65,6 @@ The answers under "other" were:
 
 #### Summary
 
-As I said in the beginning, I don't fool myself this survey is representative. There seams to be far more Java developers out there that do not care about the subject. So the only conclusion I can make for sure is that there is a lot of room to popularize OSGi among Java developers. If you want to learn more details, feel invited to attend my "OSGi for outsiders" talk at [OSGi Community Event 2016](https://www.eclipsecon.org/europe2016/session/osgi-outsiders) and [ApacheCon Europe 2016](https://apacheconeu2016.sched.org/event/8ULH?iframe=no).
+As I said in the beginning, I don't fool myself this survey is representative. There seams to be far more Java developers out there not aware of what modularity is and why it matters. So the only conclusion I can make for sure is that there is a lot of room to popularize OSGi among Java developers. If you want to learn more details, feel invited to attend my "OSGi for outsiders" talk at [OSGi Community Event 2016](https://www.eclipsecon.org/europe2016/session/osgi-outsiders) and [ApacheCon Europe 2016](https://apacheconeu2016.sched.org/event/8ULH?iframe=no).
 
 If you want to play with the data yourself, [here it is in CSV format](/assets/2016-09-30-developers_about_OSGi/OSGi_survey_results.csv)!
