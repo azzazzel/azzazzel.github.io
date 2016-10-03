@@ -8,21 +8,21 @@ In a few weeks period there were 220 responses to the survey. Even though there 
 
 <!--more-->
 
-### What is your favorite JVM programming language?
+#### What is your favorite JVM programming language?
 
-The question was put this way on purpose. I was interested in what JVM language people actually like and not what they use because of company rules and policies. It seams Java is still strong:
+The question was put this way on purpose. I was interested in what JVM language people actually like and not what they use because of company rules and policies. What language people like tells me more about from what perspective their judgements are made. Surprisingly though, it seams Java is still strong:
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/12lDBu_BM5DnStMOcKNKZ_J6jc6xaTIYzM2_DCZoKrxM/pubchart?oid=1184654248&amp;format=interactive"></iframe>
 
-### Years of experience in building software?
+#### Years of experience in building software?
 
-The purpose of the question was to make some analysis of how experience reflect opinions. I may publish those later on. For now you may be surprised to note that either our industry is getting old or young people don't care much about surveys:
+The purpose of the question was to make some analysis of how professional experience reflect opinions. You may be surprised to note that either our industry is getting old or young people don't care much about surveys:
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/12lDBu_BM5DnStMOcKNKZ_J6jc6xaTIYzM2_DCZoKrxM/pubchart?oid=886915795&amp;format=interactive"></iframe>
 
-### What best describes the source of your knowledge about OSGi?
+#### What best describes the source of your knowledge about OSGi?
 
-Before asking people about their opinion I think it's important to understand what influenced them. Again it's likely that only people that have strong opinions participated which could explain the low number of people not familiar with OSGi:
+Before asking people about their opinion I think it's important to understand what how much of that it is backed by experience or knowledge. But then again, it's very likely that only people with strong opinions participated so don't be too quick to judge. This could also explain the low number of people not familiar with OSGi:
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/12lDBu_BM5DnStMOcKNKZ_J6jc6xaTIYzM2_DCZoKrxM/pubchart?oid=621161433&amp;format=interactive"></iframe>
 
@@ -36,13 +36,13 @@ The answers under "other" were:
  - I have given training on OSGi
  - I've experimented with OSGi and plan to use it in a team for a professional project
 
-### What would you primarily use OSGi for?
+#### What would you primarily use OSGi for?
 
-Time for some opinions. Move your mouse over the answer to see full text. As people could give up to 4 answers, the numbers can hardly be presented as percents. I personally find them quite interesting though:
+Time for some opinions (move your mouse over the answer to see full text). As people could give up to 4 answers, the numbers can hardly be presented as percents. I personally find them quite interesting though:
 
 <iframe width="812.5" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/12lDBu_BM5DnStMOcKNKZ_J6jc6xaTIYzM2_DCZoKrxM/pubchart?oid=1980600680&amp;format=interactive"></iframe>
 
-### Think of a project where OSGi could add value but wasn't/wouldn't be used! What was/would be used instead of OSGi?
+#### Think of a project where OSGi could add value but wasn't/wouldn't be used! What was/would be used instead of OSGi?
 
 And finally alternatives. Over the years I learned that asking people "what you consider to be an alternative for X" gives you quite good idea about what they think about X. So here it is, and to my surprise "micro-services" is not the leader:
 
@@ -63,8 +63,8 @@ The answers under "other" were:
  - NetBeans platform
  - custom classloaders
 
-### Summary
+#### Summary
 
 As I said in the beginning, I don't fool myself this survey is representative. There seams to be far more Java developers out there that do not care about the subject. So the only conclusion I can make for sure is that there is a lot of room to popularize OSGi among Java developers. If you want to learn more details, feel invited to attend my "OSGi for outsiders" talk at [OSGi Community Event 2016](https://www.eclipsecon.org/europe2016/session/osgi-outsiders) and [ApacheCon Europe 2016](https://apacheconeu2016.sched.org/event/8ULH?iframe=no).
 
-If you want to play with the data yourself, [here it is in CSV format](/assets/2016-09-30-developers_about_OSGi/OSGi_survey_results.csv)! 
+If you want to play with the data yourself, [here it is in CSV format](/assets/2016-09-30-developers_about_OSGi/OSGi_survey_results.csv)!
