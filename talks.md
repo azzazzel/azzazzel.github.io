@@ -3,6 +3,10 @@ layout: page
 title: Talks
 ---
 
+### [![OSGi for outsiders](http://image.slidesharecdn.com/osgi4outsiders-161107113109/95/osgi-for-outsiders-1-638.jpg?cb=1478518411)](http://www.slideshare.net/MilenDyankov1/osgi-for-outsiders)
+- October 25, 2016 ♖ [OSGi Community Event during EclipseCon](https://www.eclipsecon.org/europe2016/) ⚐ Ludwigsburg, Germany 
+---
+
 ### [![Things you cannot do before 7](http://image.slidesharecdn.com/thingsyoucannotdobefore7-160602223521/95/things-you-cannotdobefore7-1-638.jpg?cb=1464907575)](http://www.slideshare.net/MilenDyankov1/things-you-cannotdobefore7)
 - May 31, 2016 ♖ [Liferay France Symposium](https://www.liferay.com/en/web/france2015) ⚐ Paris, France ☞ *[Recording](https://www.youtube.com/watch?v=nAit8wRdcrc&index=1)*
 
