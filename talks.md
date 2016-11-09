@@ -10,13 +10,16 @@ title: Talks
 
 ### [![OSGi Fundamentals](http://image.slidesharecdn.com/osgifundamentals-160602222652/95/osgi-fundamentals-1-638.jpg?cb=1464907267)](http://www.slideshare.net/MilenDyankov1/osgi-fundamentals)
 - May 31, 2016 ♖ [Liferay France Symposium](https://www.liferay.com/en/web/france2015) ⚐ Paris, France ☞ *[Recording](https://www.youtube.com/watch?v=R-VeJLp6pVA)*
+- November 02, 2016 ♖ [LDSF Dev.Live Sessions](https://www.eventbrite.com/e/devlive-sessions-2016-registration-23823597020#) ⚐ London, UK
 
 ---
 
 ### [![What's not new in modular Java?](http://image.slidesharecdn.com/notnewinmodularjava-160210170221/95/whats-not-new-in-modular-java-1-638.jpg?cb=1458384921)](http://www.slideshare.net/MilenDyankov1/whats-not-new-in-modular-java)
+ - October 24, 2016 ♖ [Codemotion Berlin](http://berlin2016.codemotionworld.com/) ⚐ Berlin, Germany ☞ *[Recording](https://www.voicerepublic.com/talks/what-s-not-new-in-modular-java)*
+ - July 2, 2016 ♖ [Confitura](http://2016.confitura.pl) ⚐ Warsaw, Poland ☞ *[Recording](https://www.youtube.com/watch?v=VsYL9EezaW4)*
  - June 16, 2016 ♖ [JBCNconf](http://www.jbcnconf.com/2016) ⚐ Barcelona, Spain
  - May 26, 2016 ♖ [jPrime](http://jprime.io/) ⚐ Sofia, Bulgaria ☞ *[Recording](https://www.youtube.com/watch?v=NKS5VU_r7Bo)*
- - March 19, 2016 ♖ [Codemotion](http://rome2016.codemotionworld.com) ⚐ Rome, Italy
+ - March 19, 2016 ♖ [Codemotion Rome](http://rome2016.codemotionworld.com) ⚐ Rome, Italy
  - February 10, 2016 ♖ [JFokus](http://www.jfokus.se/) ⚐ Stockholm, Sweden ☞ *[Recording](https://www.youtube.com/watch?v=ImRznovfJuM)*
 
 ---
@@ -46,8 +49,10 @@ title: Talks
 ---
 
 ### [![Microservices and Modularity or the difference between treatment and cure](https://image.slidesharecdn.com/microservicesandmodularity-150318082308-conversion-gate01/95/microservices-and-modularity-or-the-difference-between-treatment-and-cure-1-638.jpg?cb=1426667297)](http://www.slideshare.net/MilenDyankov1/microservices-and-modularity)
+ - October 19, 2016 ♖ [Brussels JUG Meetup](https://www.meetup.com/BruJUG/events/234421071/) ⚐ Brussels, Belgium
  - May 25, 2016 ♖ [СофтУни](https://softuni.bg/trainings/1388/microservices-and-modularity) ⚐ Sofia, Bulgaria
  - May 20, 2016 ♖ [I T.A.K.E. Unconference](http://itakeunconf.com/) ⚐ Bucharest, Romania
+ - January 14, 2016 ♖ [Łódź JUG Meetup](https://www.meetup.com/Java-User-Group-Lodz/events/227132299/) ⚐ Łódź, Poland ☞ *[Recording](https://www.youtube.com/watch?v=gzAsmQQM0Bs)*
  - November 12, 2015 ♖ [DEVOXX](http://www.devoxx.be/) ⚐ Antwerp, Belgium ☞ *[Recording](https://www.youtube.com/watch?v=O77777Zy_HE)*
  - November 5, 2015 ♖ [LJC Meetup](http://www.meetup.com/Londonjavacommunity/) ⚐ London, UK ☞ *[Recording](https://skillsmatter.com/skillscasts/6985-microservices-and-modularity-or-the-difference-between-treatment-and-cure)*
  - October 1-2, 2015 ♖ [ApacheCon: Core Europe](http://events.linuxfoundation.org/events/apachecon-core-europe) ⚐ Budapest, Hungary
@@ -72,7 +77,7 @@ title: Talks
 ---
 
 ### [![Web application performance tuning beyond Xmx](https://image.slidesharecdn.com/webappperformance-140707140346-phpapp01/95/web-application-performance-tuning-beyond-xmx-1-638.jpg?cb=1416054360)](http://www.slideshare.net/MilenDyankov1/webapp-performance)
- - November 12-14, 2014 ♖ [DEVOXX](http://www.devoxx.be/) ⚐ Antwerp, Belgium ☞ *[Recording](https://parleys.com/play/5471db73e4b065ebcfa1d57d)*
+ - November 12-14, 2014 ♖ [DEVOXX](http://www.devoxx.be/) ⚐ Antwerp, Belgium ☞ *[Recording](https://www.youtube.com/watch?v=uW9kSCU9jCg)*
  - July 5, 2014 ♖ [Confitura](http://2014.confitura.pl/) ⚐ Warsaw, Poland ☞ *[Recording](https://www.youtube.com/watch?v=QKH1kJmjc78)*
 
 ---
