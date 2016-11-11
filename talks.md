@@ -20,6 +20,7 @@ title: Talks
 ---
 
 ### [![What's not new in modular Java?](http://image.slidesharecdn.com/notnewinmodularjava-160210170221/95/whats-not-new-in-modular-java-1-638.jpg?cb=1458384921)](http://www.slideshare.net/MilenDyankov1/whats-not-new-in-modular-java)
+ - November 10, 2016 ♖ [Devoxx](https://devoxx.be/) ⚐ Antwerp, Belgium ☞ *[Recording](https://www.youtube.com/watch?v=gHk_XxRKNiw)*
  - October 24, 2016 ♖ [Codemotion Berlin](http://berlin2016.codemotionworld.com/) ⚐ Berlin, Germany ☞ *[Recording](https://www.voicerepublic.com/talks/what-s-not-new-in-modular-java)*
  - July 2, 2016 ♖ [Confitura](http://2016.confitura.pl) ⚐ Warsaw, Poland ☞ *[Recording](https://www.youtube.com/watch?v=VsYL9EezaW4)*
  - June 16, 2016 ♖ [JBCNconf](http://www.jbcnconf.com/2016) ⚐ Barcelona, Spain
