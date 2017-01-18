@@ -7,7 +7,8 @@ title: Talks
 
 ### 2017
 
- - Mar 01 🇦🇹 [Topconf Linz](http://topconf.com/linz-2017/) 🗣 What's not new in modular Java?
+- Mar 01 🇦🇹 [Topconf Linz](http://topconf.com/linz-2017/) 🗣 What's not new in modular Java?
+- Feb 11 🇭🇷 [Javantura](https://javantura.com/javantura-v4/) 🗣 What's not new in modular Java?
 
 
 ### 2016
@@ -16,7 +17,7 @@ title: Talks
  - Nov 15 🇩🇪 [DEVCON](https://web.liferay.com/web/events2016) 🗣 Software Craftsmanship in the era of Software Revolution [🎦](https://www.youtube.com/watch?v=OfCsp4h0puY)
  - Nov 10 🇧🇪 [Devoxx](https://devoxx.be/) 🗣 What's not new in modular Java? [🎦](https://www.youtube.com/watch?v=gHk_XxRKNiw)
  - Nov 02 🇬🇧 [LDSF Dev.Live Sessions](https://www.eventbrite.com/e/devlive-sessions-2016-registration-23823597020#) 🗣 OSGi Fundamentals
- - Oct 25 🇩🇪 [EclipseCon](https://www.eclipsecon.org/europe2016/) 🗣 OSGi for outsiders
+ - Oct 25 🇩🇪 [EclipseCon](https://www.eclipsecon.org/europe2016/) 🗣 OSGi for outsiders [🎦](https://www.youtube.com/watch?v=hwV0HwwVOy0)
  - Oct 24 🇩🇪 [Codemotion Berlin](http://berlin2016.codemotionworld.com/) 🗣 What's not new in modular Java? [🔊](https://www.voicerepublic.com/talks/what-s-not-new-in-modular-java)
  - Oct 19 🇧🇪 [Brussels JUG meetup](https://www.meetup.com/BruJUG/events/234421071/) 🗣 Microservices and Modularity or the difference between treatment and cure
  - Oct 15 🇸🇰 [OpenSlava](http://www.openslava.sk/2016/) 🗣 Introducing Liferay DXP - from Portal to Platform [🎦](https://www.youtube.com/watch?v=MLkar6MBXww)
@@ -24,7 +25,7 @@ title: Talks
  - Sep 26 🇺🇸 [Liferay Symposium North America](https://web.liferay.com/web/events2016/northamerica) 🗣 Uncovering the Business Wins in Modularity, Microservices and Other Technical Megatrends
  - Sep 08 🇵🇱 [Łódź JUG meetup](https://www.meetup.com/Java-User-Group-Lodz/events/233394575/) 🗣 Agile applications with OSGi: Fundamentals!
  - Jul 02 🇵🇱 [Confitura](http://2016.confitura.pl) 🗣 What's not new in modular Java? [🎦](https://www.youtube.com/watch?v=VsYL9EezaW4)
- - Jun 16 🇪🇸 [JBCNconf](http://www.jbcnconf.com/2016) 🗣 What's not new in modular Java?
+ - Jun 16 🇪🇸 [JBCNconf](http://www.jbcnconf.com/2016) 🗣 What's not new in modular Java? [🎦](https://www.youtube.com/watch?v=2V8OEtZBBco)
  - May 31 🇫🇷 [Liferay France Symposium](https://www.liferay.com/en/web/france2015) 🗣Things you cannot do before 7 [🎦](https://www.youtube.com/watch?v=nAit8wRdcrc&index=1)
  - May 31 🇫🇷 [Liferay France Symposium](https://www.liferay.com/en/web/france2015) 🗣OSGi Fundamentals [🎦](https://www.youtube.com/watch?v=R-VeJLp6pVA)
  - May 26 🇧🇬 [jPrime](http://jprime.io/) 🗣What's not new in modular Java? [🎦](https://www.youtube.com/watch?v=NKS5VU_r7Bo)
