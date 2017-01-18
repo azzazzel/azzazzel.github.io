@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Trainings and certificates
 ---
-
-### Trainings and certificates
 
 - Zarządzanie projektami (2007, [<i class="fa fa-trophy"> pdf</i>](/assets/cert/ZARZADZANIE_PROJEKTAMI.pdf))
 - Liferay Developer Training (2009, [<i class="fa fa-trophy"> pdf</i>](/assets/cert/Liferay_Developer_Training.pdf))
