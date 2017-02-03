@@ -9,6 +9,8 @@ title: Talks
 
 - Mar 01 🇦🇹 [Topconf Linz](http://topconf.com/linz-2017/) 🗣 What's not new in modular Java?
 - Feb 11 🇭🇷 [Javantura](https://javantura.com/javantura-v4/) 🗣 What's not new in modular Java?
+- May 06 🇹🇷 [Java Day Istanbul](https://javaday.istanbul/) 🗣 What's not new in modular Java?
+- May 17 🇵🇱 [GeeCON](https://2017.geecon.org/) 🗣 What's not new in modular Java?
 
 
 ### 2016
