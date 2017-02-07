@@ -7,8 +7,8 @@ title: Talks
 
 ### 2017
 
-- Mar 01 🇦🇹 [Topconf Linz](http://topconf.com/linz-2017/) 🗣 What's not new in modular Java?
 - Feb 11 🇭🇷 [Javantura](https://javantura.com/javantura-v4/) 🗣 What's not new in modular Java?
+- Mar 01 🇦🇹 [Topconf Linz](http://topconf.com/linz-2017/) 🗣 What's not new in modular Java?
 - May 06 🇹🇷 [Java Day Istanbul](https://javaday.istanbul/) 🗣 What's not new in modular Java?
 - May 17 🇵🇱 [GeeCON](https://2017.geecon.org/) 🗣 What's not new in modular Java?
 
@@ -28,9 +28,9 @@ title: Talks
  - Sep 08 🇵🇱 [Łódź JUG meetup](https://www.meetup.com/Java-User-Group-Lodz/events/233394575/) 🗣 Agile applications with OSGi: Fundamentals!
  - Jul 02 🇵🇱 [Confitura](http://2016.confitura.pl) 🗣 What's not new in modular Java? [🎦](https://www.youtube.com/watch?v=VsYL9EezaW4)
  - Jun 16 🇪🇸 [JBCNconf](http://www.jbcnconf.com/2016) 🗣 What's not new in modular Java? [🎦](https://www.youtube.com/watch?v=2V8OEtZBBco)
- - May 31 🇫🇷 [Liferay France Symposium](https://www.liferay.com/en/web/france2015) 🗣Things you cannot do before 7 [🎦](https://www.youtube.com/watch?v=nAit8wRdcrc&index=1)
- - May 31 🇫🇷 [Liferay France Symposium](https://www.liferay.com/en/web/france2015) 🗣OSGi Fundamentals [🎦](https://www.youtube.com/watch?v=R-VeJLp6pVA)
- - May 26 🇧🇬 [jPrime](http://jprime.io/) 🗣What's not new in modular Java? [🎦](https://www.youtube.com/watch?v=NKS5VU_r7Bo)
+ - May 31 🇫🇷 [Liferay France Symposium](https://www.liferay.com/en/web/france2015) 🗣 Things you cannot do before 7 [🎦](https://www.youtube.com/watch?v=nAit8wRdcrc&index=1)
+ - May 31 🇫🇷 [Liferay France Symposium](https://www.liferay.com/en/web/france2015) 🗣 OSGi Fundamentals [🎦](https://www.youtube.com/watch?v=R-VeJLp6pVA)
+ - May 26 🇧🇬 [jPrime](http://jprime.io/) 🗣 What's not new in modular Java? [🎦](https://www.youtube.com/watch?v=NKS5VU_r7Bo)
  - May 25 🇧🇬 [СофтУни](https://softuni.bg/trainings/1388/microservices-and-modularity) 🗣 Microservices and Modularity or the difference between treatment and cure
  - May 20 🇷🇴 [I T.A.K.E. Unconference](http://itakeunconf.com/) 🗣 Microservices and Modularity or the difference between treatment and cure
  - Mar 19 🇮🇹 [Codemotion Rome](http://rome2016.codemotionworld.com) 🗣 What's not new in modular Java?
