@@ -167,7 +167,7 @@ title: Talks
 
 ### 2011
 
- - `Oct 18` &nbsp; 🇩🇪 &nbsp; [Liferay Europe Symposium](https://www.liferay.com/events/liferay-symposiums/europe-2011)
+ - `Oct 18` &nbsp; [Liferay Europe Symposium](https://www.liferay.com/events/liferay-symposiums/europe-2011)
  &nbsp; 🇩🇪 &nbsp; Pluggable mobile device detection
 
 
