@@ -13,6 +13,12 @@ title: Talks
 &nbsp; 🇵🇱 &nbsp; What's not new in modular Java?
 - `May 06` &nbsp; [Java Day Istanbul](https://javaday.istanbul/)
 &nbsp; 🇹🇷 &nbsp; What's not new in modular Java?
+- `Apr 26` &nbsp; [Liferay France Symposium](https://www.liferay.com/fr/web/events-symposium-france)
+&nbsp; 🇫🇷 &nbsp; From zero to production in 1 conference talk time
+- `Apr 07` &nbsp; [JPoint](https://jpoint.ru/)
+&nbsp; 🇷🇺 &nbsp; Microservices and Modularity or the difference between treatment and cure!
+- `Apr 03` &nbsp; [4Developers](http://2017.4developers.org.pl/)
+&nbsp; 🇵🇱 &nbsp; Fantastic Java Contracts - And Where to Find Them?
 - `Mar 01` &nbsp; [Topconf Linz](http://topconf.com/linz-2017/)
 &nbsp; 🇦🇹 &nbsp; What's not new in modular Java?
 - `Feb 11` &nbsp; [Javantura](https://javantura.com/javantura-v4/)
