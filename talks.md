@@ -19,6 +19,8 @@ title: Talks
 &nbsp; 🇷🇺 &nbsp; Microservices and Modularity or the difference between treatment and cure!
 - `Apr 03` &nbsp; [4Developers](http://2017.4developers.org.pl/)
 &nbsp; 🇵🇱 &nbsp; Fantastic Java Contracts - And Where to Find Them?
+- `Mar 11` &nbsp; [JavaSkop](http://jug.mk/event/java-day/2017-03-11-javaskop.html)
+&nbsp; 🇲🇰 &nbsp; From zero to production in 1 conference talk time
 - `Mar 01` &nbsp; [Topconf Linz](http://topconf.com/linz-2017/)
 &nbsp; 🇦🇹 &nbsp; What's not new in modular Java?
 - `Feb 11` &nbsp; [Javantura](https://javantura.com/javantura-v4/)
