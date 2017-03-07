@@ -21,6 +21,8 @@ title: Talks
 &nbsp; 🇵🇱 &nbsp; Fantastic Java Contracts - And Where to Find Them?
 - `Mar 11` &nbsp; [JavaSkop](http://jug.mk/event/java-day/2017-03-11-javaskop.html)
 &nbsp; 🇲🇰 &nbsp; From zero to production in 1 conference talk time
+- `Mar 09` &nbsp; [Bulgarian JUG meetup](https://jug.bg/events/agile-applications-with-osgi-fundamentals/)
+&nbsp; 🇧🇬 &nbsp; Agile applications with OSGi: Fundamentals!
 - `Mar 01` &nbsp; [Topconf Linz](http://topconf.com/linz-2017/)
 &nbsp; 🇦🇹 &nbsp; What's not new in modular Java?
 - `Feb 11` &nbsp; [Javantura](https://javantura.com/javantura-v4/)
