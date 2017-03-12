@@ -31,8 +31,8 @@ title: Talks
 
 ### 2016
 
- - `Nov 18` &nbsp; [ApacheCon: Core Europe](http://events.linuxfoundation.org/events/apachecon-core-europe)
- &nbsp; 🇧🇪 &nbsp; OSGi for outsiders
+ - `Nov 18` &nbsp; [ApacheCon: Core Europe](http://events.linuxfoundation.org/events/apachecon-europe)
+ &nbsp; 🇪🇸 &nbsp; OSGi for outsiders
  - `Nov 15` &nbsp; [DEVCON](https://web.liferay.com/web/events2016)
  &nbsp; 🇩🇪 &nbsp; Software Craftsmanship in the era of Software Revolution
  &nbsp; [📽️](https://www.youtube.com/watch?v=OfCsp4h0puY)
