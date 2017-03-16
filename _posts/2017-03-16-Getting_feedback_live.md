@@ -12,7 +12,7 @@ Based on many conversations I've had with attendees in the past, I figured they 
 
 So I thought, what if I can get them to send feedback __during__ the talk via some web application. Most people are constantly online these days anyway, so it shouldn't be too big issue. To make it more fun and motivate more people, I could even display their comments on the big screen once in a while during the talk. I can then adjust my talk based on their comments and ratings and answer their questions while still relevant without them having to interrupt me and shout from the other end of the room. I had no idea if this will work, but it was worth trying. The only question was, how do I build this web application?
 
-#### There's an app for it
+#### There's an app for that
 
 Building simple app as "Talkback" _(this is what I ended up calling it)_ was amazingly easy and straightforward! OK, that's a bold lie! It wasn't! I struggled a lot with the UI part. Not only I'm not any good UI developer but _(since I'm modularity freak)_ I also decided to learn better [Polymer](https://www.polymer-project.org/) and [WebComponents](https://en.wikipedia.org/wiki/Web_Components) while doing it. So building a static HTML site out of web components took me quite some time and raised my frustration to higher level! But at the same time I learned a lot about front-end modularity _(which is perhaps a topic for another post)_. At the end it wasn't the prettiest thing on earth, but for someone who has spend his entire professional life on the backend side, I was satisfied with the result.
 
@@ -30,7 +30,7 @@ The first conference to give me the opportunity to present it _(or run my experi
  - **do the WeDeploy have limit of pinging other servers?** - Not that I'm aware of. Keep in mind though, at the time of writing this post, WeDeploy is in alpha _(oops I guess I said "beta" during the conference)_, so things may change.
  - **can we deploy vanila java ee app?** - As I demonstrated during the last few minutes of the talk you can [run Java applications](http://wedeploy.com/docs/other/java.html) _(SpringBoot based one in this case)_. I've also run OGSi based applications on it. I'm pretty sure you can run Java EE applications on it if you manage to package them as single executable jar _(for example by using one of the solutions from [MicroProfile](https://microprofile.io/))_. It can also run [Liferay as a service](http://wedeploy.com/docs/other/liferay.html), which is quite complex Java EE app :)
 
-If you have more questions about WeDeploy please use the conversations on [wedeploy.com](http://wedeploy.com/) or join [WeDeploy's Slack](wedeploy.slack.com)!
+If you have more questions about WeDeploy please use the conversations on [wedeploy.com](http://wedeploy.com/) or join [WeDeploy's Slack](http://wedeploy.slack.com)!
 
 #### Back to feedback
 
