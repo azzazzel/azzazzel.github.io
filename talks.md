@@ -3,6 +3,13 @@ layout: page
 title: Talks
 ---
 
+<style type="text/css">
+  li {
+    font-size: 13px;
+  }
+</style>
+
+
 ## Schedule
 
 ### 2017
@@ -118,7 +125,7 @@ title: Talks
  &nbsp; 🇺🇦 &nbsp; Microservices and Modularity or the difference between treatment and cure
  &nbsp; [📽️](https://www.youtube.com/watch?v=nTAaU4v-pl4)
  - `Jun 30` &nbsp; [Liferay Budapest Tech Meetup](http://www.meetup.com/Liferay-Budapest-Tech-Meetup/events/222957142/)
- &nbsp; 🇭🇺 &nbsp; Hungary Microservices and Modularity or the difference between treatment and cure
+ &nbsp; 🇭🇺 &nbsp; Microservices and Modularity or the difference between treatment and cure
  - `Jun 17` &nbsp; [Liferay France Symposium](https://www.liferay.com/en/web/france2015)
  &nbsp; 🇫🇷 &nbsp; OSGi to Create Extensible Plugins
  - `May 27` &nbsp; [jPrime](http://jprime.io/)

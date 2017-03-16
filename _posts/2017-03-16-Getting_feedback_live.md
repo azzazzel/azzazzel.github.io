@@ -6,13 +6,13 @@ I have spoken at [quite some conferences](/talks) over the last years. Part of t
 
 <!--more-->
 
-#### About feedback
+### About feedback
 
 Based on many conversations I've had with attendees in the past, I figured they are more likely to give feedback the moment they disagree with you or the moment they are impressed by something. If you ask them after the talk, the moment is gone and all you get is the overall feeling, most of the time highly influenced by what you have said in the last 5 minutes. Let me give you an example. I have a couple of 45min to 1h long talks about Java modularity. Apart from introducing myself and who I work for in the beginning, I only talk about technologies, methodologies and concepts and never mention [Liferay](http://liferay.com) for about 95% of the time I have. Than I take 3 to 5 minutes at the end to explain how we apply those concepts in our products. This looks like both fair and useful approach to me. Yet every time I get feedback __after__ the talk, there will be some people complaining that I'm advertising my company too much. And that would be actually OK if it wasn't the only thing they have to say about the whole talk.
 
 So I thought, what if I can get them to send feedback __during__ the talk via some web application. Most people are constantly online these days anyway, so it shouldn't be too big issue. To make it more fun and motivate more people, I could even display their comments on the big screen once in a while during the talk. I can then adjust my talk based on their comments and ratings and answer their questions while still relevant without them having to interrupt me and shout from the other end of the room. I had no idea if this will work, but it was worth trying. The only question was, how do I build this web application?
 
-#### There's an app for that
+### There's an app for that
 
 Building simple app as "Talkback" _(this is what I ended up calling it)_ was amazingly easy and straightforward! OK, that's a bold lie! It wasn't! I struggled a lot with the UI part. Not only I'm not any good UI developer but _(since I'm modularity freak)_ I also decided to learn better [Polymer](https://www.polymer-project.org/) and [WebComponents](https://en.wikipedia.org/wiki/Web_Components) while doing it. So building a static HTML site out of web components took me quite some time and raised my frustration to higher level! But at the same time I learned a lot about front-end modularity _(which is perhaps a topic for another post)_. At the end it wasn't the prettiest thing on earth, but for someone who has spend his entire professional life on the backend side, I was satisfied with the result.
 
@@ -21,7 +21,7 @@ Building simple app as "Talkback" _(this is what I ended up calling it)_ was ama
 
 With a static HTML app in place, I had to implement authentication and some remote services to store and retrieve the data. OK, "implement" is what I would have to do without __[WeDeploy](http://wedeploy.com/) - "the service that gives you access to intuitive APIs and help you create modern apps faster"__. Yes, it is built by [Liferay](http://liferay.com). Yes, you can again blame me for advertising the company I work for. But it doesn't change the fact it's a great service that allows rapid application development! And no, you don't need to take my word for it! You can _(and if fact should)_ try it yourself! It's free! So, in the case of "Talkback" all I had to do was to configure `auth` and `data` services provided by [WeDeploy](http://wedeploy.com/) and I was done! Learning curve aside and having the UI ready, one can really build such app in minutes! I thought that was something worth sharing and this is how "From 0 to production in one conference talk time" live demo was born.
 
-#### Feedback about the feedback app
+### Feedback about the feedback app
 
 The first conference to give me the opportunity to present it _(or run my experiment if you prefer)_ was [JavaSkop](http://jug.mk/javaskop17) - a lovely event in Skopje, Macedonia. And it went surprisingly well! People seamed to have fun playing with the app as I was creating and deploying it! It was a relief to see so many _(now I know the number is 25)_ "thumb up" comments, 3 "average" ratings and only two "thumb down"s. There were a few questions as well, some of which I left unanswered, so let me fix that here:
 
@@ -32,7 +32,7 @@ The first conference to give me the opportunity to present it _(or run my experi
 
 If you have more questions about WeDeploy please use the conversations on [wedeploy.com](http://wedeploy.com/) or join [WeDeploy's Slack](http://wedeploy.slack.com)!
 
-#### Back to feedback
+### Back to feedback
 
 So that's how the experiment went! I got quite some feedback about the technologies I demonstrated. I also got zero feedback about how I was doing as a speaker :) I guess I need to figure out a way to encourage people to rate that aspect too. Overall, despite the fact I'm still scared I'll see many "thumbs down", I'm looking forward to improve the app and "build it from scratch" at few more conferences in the future.
 
