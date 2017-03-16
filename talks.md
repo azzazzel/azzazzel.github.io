@@ -18,7 +18,7 @@ title: Talks
 - `Apr 07` &nbsp; [JPoint](https://jpoint.ru/)
 &nbsp; 🇷🇺 &nbsp; Microservices and Modularity or the difference between treatment and cure!
 - `Apr 03` &nbsp; [4Developers](http://2017.4developers.org.pl/)
-&nbsp; 🇵🇱 &nbsp; Fantastic Java Contracts - And Where to Find Them?
+&nbsp; 🇵🇱 &nbsp; Fantastic Java contracts - and where to define them?
 - `Mar 18` &nbsp; [Łódź JUG meetup](https://www.meetup.com/Java-User-Group-Lodz/events/238207914/)
 &nbsp; 🇵🇱 &nbsp; Architecture Kata
 - `Mar 11` &nbsp; [JavaSkop](http://jug.mk/event/java-day/2017-03-11-javaskop.html)
