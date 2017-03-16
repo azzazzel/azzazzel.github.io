@@ -6,6 +6,8 @@
 
 body {
 	font-family: Verdana, Geneva, sans-serif;
+	line-height: 1.65;
+	font-size: 1.0em;
 }
 
 .avatar-panel {

@@ -4,7 +4,7 @@ title: Talks
 ---
 
 <style type="text/css">
-  li {
+  .post li {
     font-size: 13px;
   }
 </style>
