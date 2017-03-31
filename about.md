@@ -8,13 +8,14 @@ I've been building various kind of software and played various roles in IT indus
 
 ### What I do
 
-Most of my time I spend working as senior consultant for an awesome company called [Liferay](http://liferay.com). A role that allow me to learn a lot while trying to help some of the biggest European companies succeed in today's rapidly changing virtual reality by engaging their customers, partners, and employees.
+As of 2017 I'm Developer Advocate at [Liferay](http://liferay.com) and member of Developer Relations team where my main focus is on Java and modularity related aspects! I'm a [frequent conference speaker](/talks) trying my best to share my experience with fellow developers and collect important feedback from our users.
 
-I still enjoy coding and use every occasion to do so - customer solutions, contributing to Liferay's core platform, various private projects, ... I always find a reason to code :)
+I still enjoy coding and use every occasion to do so - customer solutions, contributing to Open Source projects, various private projects, ... I always find a reason to code :)
 
-I also love to share my experience with other people. Being a Liferay trainer and frequent conference speaker is a great way to do so!
 
 ### What I have done in the past
+
+From 2012 to 2016 I spent most of my time working as senior consultant and trainer at [Liferay](http://liferay.com). A role that allowed me to learn a lot while helping some of the biggest European companies engage with their customers, partners, and employees in this rapidly changing digital world.
 
 From 2009 to 2012 I was working as software architect and head of _(what was known as)_ portals competence center at another great company called [AMG.net](http://web.archive.org/web/20140108082734/http://www.amg.net.pl/en) which unfortunately does not exists anymore! It was both challenging and great to be able to design and deliver enterprise software for some of the biggest companies in telecommunication industry in Europe.
 
