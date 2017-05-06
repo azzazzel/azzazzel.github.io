@@ -25,11 +25,11 @@ So, if you are familiar with [Scott Stark's famous blog post](https://developer.
 
 > "You can choose to vote "no" anyway, of course, if you decide that it is more important to protect your own narrow interests than it is to support the **broader interests of the entire Java ecosystem**."
 
-Wow! Oracle is guarding the interests of the entire Java ecosystem while RedHat is only protecting their own narrow interests! This is the first time I witness a heavily commercial centric company to claim it represents the community better then widely recognized Open Source software vendor! It comes as a surprise to me but who am I to argue with the Chief Architect.
+Wow! Oracle is guarding the interests of the entire Java ecosystem while RedHat is only protecting their own narrow interests! This is the first time I witness a company mostly famous for its high price tags and very successful legal department to claim it represents the community better then widely recognized Open Source Software vendor! It comes as a surprise to me but who am I to argue with the Chief Architect.
 
 What about IBM? Well, Mark Reinhold claims in his "[An Open Letter to the JCP Executive Committee](http://mreinhold.org/blog/to-the-jcp-ec)" that _"IBM has decided that their interests are best served by delaying this JSR"_ ! As you can see, here again he reaches for the universal argument "whoever disagree with us, is trying to sabotage us"!
 
-So yes, I'm pretty sure Java 9 will be released as planned regardless of now many EG members vote "No"! Then Oracle's marketing machine will start to position it as the best modular system on Earth. And if someone dares to say something else ... well here is the next prediction:
+So yes, I'm pretty sure Java 9 will be released as planned regardless of how many EG members vote "No"! Then Oracle's marketing machine will start to position it as the best modular system on Earth. And if someone dares to say something else ... well here is the next prediction:
 
 ### People raising concerns about JPMS will be "by definition, stupid and ugly"
 
