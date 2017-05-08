@@ -14,10 +14,16 @@ title: Talks
 
 ### 2017
 
+- `Jun 19` &nbsp; [JDK IO](https://jdk.io/)
+&nbsp; 🇩🇰 &nbsp; Fantastic Java contracts - and where to define them?
 - `May 26` &nbsp; [JEEConf](http://jeeconf.com/)
 &nbsp; 🇺🇦 &nbsp; What's not new in modular Java?
+- `May 30` &nbsp; [jPrime](http://jprime.io/)
+&nbsp; 🇧🇬 &nbsp; Fantastic Java contracts - and where to define them?
 - `May 17` &nbsp; [GeeCON](https://2017.geecon.org/)
 &nbsp; 🇵🇱 &nbsp; What's not new in modular Java?
+- `May 16` &nbsp; [Atmosphere](http://2017.atmosphere-conference.com/)
+&nbsp; 🇵🇱 &nbsp; From Zero to Production in 1 Conference Talk Time
 - `May 06` &nbsp; [Java Day Istanbul](https://javaday.istanbul/)
 &nbsp; 🇹🇷 &nbsp; What's not new in modular Java?
 - `Apr 26` &nbsp; [Liferay France Symposium](https://www.liferay.com/fr/web/events-symposium-france)
