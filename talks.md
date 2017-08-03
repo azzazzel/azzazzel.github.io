@@ -18,6 +18,10 @@ title: Talks
 &nbsp; 🇨🇦 &nbsp; Fantastic Java contracts - and where to define them?
 - `Dec 04` &nbsp; [ConFoo](https://confoo.ca/en/yvr2017/)
 &nbsp; 🇨🇦 &nbsp; Microservices and Modularity or the difference between treatment and cure!
+- `Nov 08` &nbsp; [Liferay Digital Solutions Forum](https://www.liferay.com/web/events-ldsf-uk)
+&nbsp; 🇬🇧 &nbsp; From zero to production in 1 conference talk time
+- `Oct 24` &nbsp; [OSGi Community Event](https://www.osgi.org/2017-osgi-community-event/)
+&nbsp; 🇩🇪 &nbsp; Fantastic Java contracts - and where to define them?
 - `Jul 11` &nbsp; [Hackatrain 2017](http://hackatrain.nl/)
 &nbsp; 🇩🇪 &nbsp; From zero to production in 1 conference talk time
 - `Jun 22` &nbsp; [Hackatrain 2017 pre-gathering](https://www.facebook.com/events/1653165014946188/)
