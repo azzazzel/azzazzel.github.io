@@ -39,8 +39,10 @@ title: Talks
 &nbsp; 🇵🇱 &nbsp; From Zero to Production in 1 Conference Talk Time
 - `May 06` &nbsp; [Java Day Istanbul](https://javaday.istanbul/)
 &nbsp; 🇹🇷 &nbsp; What's not new in modular Java?
+&nbsp; [📽️](https://www.youtube.com/watch?v=p55sKNUQ8o0)
 - `Apr 26` &nbsp; [Liferay France Symposium](https://www.liferay.com/fr/web/events-symposium-france)
 &nbsp; 🇫🇷 &nbsp; From zero to production in 1 conference talk time
+&nbsp; [📽️](https://www.youtube.com/watch?v=WJHMuu3iJVc)
 - `Apr 07` &nbsp; [JPoint](https://jpoint.ru/)
 &nbsp; 🇷🇺 &nbsp; Microservices and Modularity or the difference between treatment and cure!
 - `Apr 03` &nbsp; [4Developers](http://2017.4developers.org.pl/)
@@ -70,7 +72,8 @@ title: Talks
  - `Nov 02` &nbsp; [LDSF Dev.Live Sessions](https://www.eventbrite.com/e/devlive-sessions-2016-registration-23823597020#)
  &nbsp; 🇬🇧 &nbsp; OSGi Fundamentals
  - `Oct 25` &nbsp; [EclipseCon](https://www.eclipsecon.org/europe2016/)
- &nbsp; 🇩🇪 &nbsp; OSGi for outsiders &nbsp; [📽️](https://www.youtube.com/watch?v=hwV0HwwVOy0)
+ &nbsp; 🇩🇪 &nbsp; OSGi for outsiders
+ &nbsp; [📽️](https://www.youtube.com/watch?v=hwV0HwwVOy0)
  - `Oct 24` &nbsp; [Codemotion Berlin](http://berlin2016.codemotionworld.com/)
  &nbsp; 🇩🇪 &nbsp; What's not new in modular Java?
  &nbsp; [🔊](https://www.voicerepublic.com/talks/what-s-not-new-in-modular-java)
