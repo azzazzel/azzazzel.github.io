@@ -34,6 +34,7 @@ title: Talks
 &nbsp; 🇺🇦 &nbsp; What's not new in modular Java?
 - `May 17` &nbsp; [GeeCON](https://2017.geecon.org/)
 &nbsp; 🇵🇱 &nbsp; What's not new in modular Java?
+&nbsp; [📽️](https://www.youtube.com/watch?v=n6H3_KkFZCs)
 - `May 16` &nbsp; [Atmosphere](http://2017.atmosphere-conference.com/)
 &nbsp; 🇵🇱 &nbsp; From Zero to Production in 1 Conference Talk Time
 - `May 06` &nbsp; [Java Day Istanbul](https://javaday.istanbul/)
