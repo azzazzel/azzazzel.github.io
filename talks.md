@@ -22,6 +22,10 @@ title: Talks
 &nbsp; 🇬🇧 &nbsp; From zero to production in 1 conference talk time
 - `Oct 24` &nbsp; [OSGi Community Event](https://www.osgi.org/2017-osgi-community-event/)
 &nbsp; 🇩🇪 &nbsp; Fantastic Java contracts - and where to define them?
+- `Oct 10` &nbsp; [Brussels JUG meetup](https://www.meetup.com/BruJUG/events/243469673/)
+&nbsp; 🇧🇪 &nbsp; Fantastic Java contracts - and where to define them?
+- `Sep 26` &nbsp; [TomcatCon](https://tomcat.apache.org/conference.html)
+&nbsp; 🇬🇧 &nbsp; Science of buzzwords (demystifying software trends)
 - `Jul 11` &nbsp; [Hackatrain 2017](http://hackatrain.nl/)
 &nbsp; 🇩🇪 &nbsp; From zero to production in 1 conference talk time
 - `Jun 22` &nbsp; [Hackatrain 2017 pre-gathering](https://www.facebook.com/events/1653165014946188/)
