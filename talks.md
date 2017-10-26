@@ -18,6 +18,8 @@ title: Talks
 &nbsp; 🇨🇦 &nbsp; Fantastic Java contracts - and where to define them?
 - `Dec 04` &nbsp; [ConFoo](https://confoo.ca/en/yvr2017/)
 &nbsp; 🇨🇦 &nbsp; Microservices and Modularity or the difference between treatment and cure!
+- `Nov 09` &nbsp; [Devoxx](https://devoxx.be/)
+&nbsp; 🇧🇪 &nbsp; Launching Projects Faster with WeDeploy
 - `Nov 08` &nbsp; [Liferay Digital Solutions Forum](https://www.liferay.com/web/events-ldsf-uk)
 &nbsp; 🇬🇧 &nbsp; From zero to production in 1 conference talk time
 - `Oct 24` &nbsp; [OSGi Community Event](https://www.osgi.org/2017-osgi-community-event/)
@@ -34,8 +36,10 @@ title: Talks
 &nbsp; 🇩🇰 &nbsp; Fantastic Java contracts - and where to define them?
 - `May 30` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Fantastic Java contracts - and where to define them?
+&nbsp; [📽️](https://www.youtube.com/watch?v=mwpm6KLt8AA)
 - `May 26` &nbsp; [JEEConf](http://jeeconf.com/)
 &nbsp; 🇺🇦 &nbsp; What's not new in modular Java?
+&nbsp; [📽️](https://www.youtube.com/watch?v=6lz_UWW-mqw)
 - `May 17` &nbsp; [GeeCON](https://2017.geecon.org/)
 &nbsp; 🇵🇱 &nbsp; What's not new in modular Java?
 &nbsp; [📽️](https://www.youtube.com/watch?v=n6H3_KkFZCs)
