@@ -19,9 +19,9 @@ title: Talks
 - `Dec 04` &nbsp; [ConFoo](https://confoo.ca/en/yvr2017/)
 &nbsp; 🇨🇦 &nbsp; Microservices and Modularity or the difference between treatment and cure!
 - `Nov 17` &nbsp; [Liferay Italy Symposium](https://www.liferay.com/web/events-symposium-italy/home)
-&nbsp; 🇮🇹🇪 &nbsp; Why Liferay's Community Matters More Than Ever!
+&nbsp; 🇮🇹 &nbsp; Why Liferay's Community Matters More Than Ever!
 - `Nov 17` &nbsp; [Liferay Italy Symposium](https://www.liferay.com/web/events-symposium-italy/home)
-&nbsp; 🇮🇹🇪 &nbsp; From zero to production in 1 conference talk time
+&nbsp; 🇮🇹 &nbsp; From zero to production in 1 conference talk time
 - `Nov 09` &nbsp; [Devoxx](https://devoxx.be/)
 &nbsp; 🇧🇪 &nbsp; Launching Projects Faster with WeDeploy
 - `Nov 08` &nbsp; [Liferay Digital Solutions Forum](https://www.liferay.com/web/events-ldsf-uk)
