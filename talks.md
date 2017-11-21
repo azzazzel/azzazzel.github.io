@@ -1,6 +1,65 @@
 ---
 layout: page
 title: Talks
+talks:
+ - title: Why Liferay's Community Matters More Than Ever!
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1196/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/why-liferay-s-community-matters-more-than-ever
+ - title: Science of buzzwords
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1195/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/the-science-of-buzzwords
+ - title: Fantastic Java contracts - and where to define them
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1194/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/fantastic-java-contracts-and-where-to-define-them
+ - title: Software Craftsmanship in the era of Software Revolution
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1193/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/software-craftsmanship-in-the-era-of-software-revolution
+ - title: Business Wins in Modularity, Microservices and Other Technical Megatrends
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1192/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/business-wins-in-modularity-microservices-and-other-technical-megatrends
+ - title: OSGi for outsiders
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1191/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/osgi-for-outsiders
+ - title: Things you cannot do before 7
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1190/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/things-you-cannot-do-before-7
+ - title: OSGi fundamentals
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1189/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/osgi-fundamentals
+ - title: What's NOT new in modular Java
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1188/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/what-s-not-new-in-modular-java
+ - title: Leveraging OSGi to Create Extensible Plugins for Liferay 6.2
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1187/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/leveraging-osgi-to-create-extensible-plugins-for-liferay-6-2
+ - title: Liferay 7 - microservices for the enterprise
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1186/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/liferay-7-microservices-for-the-enterprise
+ - title: Using Docker & Kubernetes to manage Liferay deployments
+   thumbnail: https://0701.static.prezi.com/preview/rmbry32hnvkye5yasv6oprdyzh6jc3sachvcdoaizecfr3dnitcq_0_0.png
+   url: https://prezi.com/2cjip6hn6yvw/using-docker-kubernetes-to-manage-liferay-deployments/
+ - title: Liferay infrastructure as code
+   thumbnail: https://0901.static.prezi.com/preview/42kp5o6q2mzg5osv4goegxy3ex6jc3sachvcdoaizecfr3dnitcq_0_0.png
+   url: https://prezi.com/epuaqzlkns9b/liferay-infrastructure-as-code/
+ - title: Your role in the next release of &quot;World&quot; project
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1185/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/your-role-in-the-next-release-of-world-project
+ - title: Microservices and Modularity or the difference between treatment and cure!
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1184/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/microservices-and-modularity-or-the-difference-between-treatment-and-cure
+ - title: Clustering Liferay
+   thumbnail: https://0901.static.prezi.com/preview/7lxmtdhslmnrck5xl6vipzqqbd6jc3sachvcdoaizecfr3dnitcq_0_0.png
+   url: https://prezi.com/4gjbivklbaet/clustering-liferay/
+ - title: Web application performance tuning beyond Xmx
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1183/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/web-application-performance-tuning-beyond-xmx
+ - title: Liferay Multi-channel (mobile) delivery platform
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1182/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/liferay-multi-channel-mobile-delivery-platform
+ - title: What is a portal?
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1181/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/what-is-a-portal
+
 ---
 
 <style type="text/css">
@@ -10,7 +69,10 @@ title: Talks
 </style>
 
 
-## Schedule
+{% for talk in page.talks %}<a href="{{ talk.url }}"><img src="{{ talk.thumbnail }}" style="width:150px; margin:2px;" alt="{{ talk.title }}"/></a>{% endfor %}
+
+
+## Conferences
 
 ### 2017
 
@@ -24,10 +86,12 @@ title: Talks
 &nbsp; 🇮🇹 &nbsp; From zero to production in 1 conference talk time
 - `Nov 09` &nbsp; [Devoxx](https://devoxx.be/)
 &nbsp; 🇧🇪 &nbsp; Launching Projects Faster with WeDeploy
+&nbsp; [📽️](https://www.youtube.com/watch?v=sSF0eeXY7IM)
 - `Nov 08` &nbsp; [Liferay Digital Solutions Forum](https://www.liferay.com/web/events-ldsf-uk)
 &nbsp; 🇬🇧 &nbsp; From zero to production in 1 conference talk time
 - `Oct 24` &nbsp; [OSGi Community Event](https://www.osgi.org/2017-osgi-community-event/)
 &nbsp; 🇩🇪 &nbsp; Fantastic Java contracts - and where to define them?
+&nbsp; [📽️](https://www.youtube.com/watch?v=bJOwczoRz90)
 - `Oct 10` &nbsp; [Brussels JUG meetup](https://www.meetup.com/BruJUG/events/243469673/)
 &nbsp; 🇧🇪 &nbsp; Fantastic Java contracts - and where to define them?
 - `Sep 26` &nbsp; [TomcatCon](https://tomcat.apache.org/conference.html)
@@ -38,6 +102,7 @@ title: Talks
 &nbsp; 🇳🇱 &nbsp; Science of buzzwords (demystifying software trends)
 - `Jun 19` &nbsp; [JDK IO](https://jdk.io/)
 &nbsp; 🇩🇰 &nbsp; Fantastic Java contracts - and where to define them?
+&nbsp; [📽️](https://www.youtube.com/watch?v=1wRpaEr2dEk)
 - `May 30` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Fantastic Java contracts - and where to define them?
 &nbsp; [📽️](https://www.youtube.com/watch?v=mwpm6KLt8AA)
@@ -216,15 +281,3 @@ title: Talks
 
  - `Oct 18` &nbsp; [Liferay Europe Symposium](https://www.liferay.com/events/liferay-symposiums/europe-2011)
  &nbsp; 🇩🇪 &nbsp; Pluggable mobile device detection
-
-
-
-## Slides & Prezis
-
-<iframe src="http://www.slideshare.net/MilenDyankov1/slideshelf" width="760px" height="570px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
-
-<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="760" height="570" src="https://prezi.com/embed/4gjbivklbaet/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0VnJMaGNXMEFSdDZQV2FZOGZkNU50VFhBPT0&amp;landing_sign=W2V22nhj2Qpd-r4elRRdilamt6-RDhqbE3_C31ES2nY"></iframe>
-
-<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="760" height="570" src="https://prezi.com/embed/epuaqzlkns9b/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0ejJNRm1IcFFBUEV0Zlc1Sk4zdk1rM2VBPT0&amp;landing_sign=3QAPCGwiwT_OzmhkxtBYG0qgGmkkbZaH_DcltWdxylc"></iframe>
-
-<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="760" height="570" src="https://prezi.com/embed/2cjip6hn6yvw/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0c29vZUowcVR5anExeWdQZnRiZXdXeEd3PT0&amp;landing_sign=MYhlu1hFuWEWi_9z5lpWmXVevkESo4aY1HyCXxXzn_w"></iframe>

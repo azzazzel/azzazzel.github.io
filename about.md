@@ -8,7 +8,7 @@ I've been building various kind of software and played various roles in IT indus
 
 ### What I do
 
-As of 2017 I'm Developer Advocate at [Liferay](http://liferay.com) and member of Developer Relations team where my main focus is on Java and modularity related aspects! I'm a [frequent conference speaker](/talks) trying my best to share my experience with fellow developers and collect important feedback from our users.
+Since 2017 I'm Developer Advocate at [Liferay](http://liferay.com) and member of Developer Relations team where my main focus is on Java and modularity related aspects! I'm a [frequent conference speaker](/talks) trying my best to share my experience with fellow developers and collect important feedback from our users.
 
 I still enjoy coding and use every occasion to do so - customer solutions, contributing to Open Source projects, various private projects, ... I always find a reason to code :)
 
