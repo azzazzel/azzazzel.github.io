@@ -74,6 +74,11 @@ talks:
 
 ## Conferences
 
+### 2018
+
+- `Jan 23` &nbsp; [Let's Manage IT](https://events.letsmanageit.pl/LMIT40)
+&nbsp; 🇵🇱 &nbsp; The fruits of our labour
+
 ### 2017
 
 - `Dec 04` &nbsp; [ConFoo](https://confoo.ca/en/yvr2017/)
