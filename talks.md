@@ -76,6 +76,8 @@ talks:
 
 ### 2018
 
+- `Feb 17` &nbsp; [Javantura](https://javantura.com)
+&nbsp; 🇭🇷 &nbsp; Fantastic Java contracts - and where to define them?
 - `Jan 23` &nbsp; [Let's Manage IT](https://events.letsmanageit.pl/LMIT40)
 &nbsp; 🇵🇱 &nbsp; The fruits of our labour
 
