@@ -97,13 +97,15 @@ talks:
 &nbsp; 🇨🇦 &nbsp; Microservices and Modularity or the difference between treatment and cure!
 - `Nov 17` &nbsp; [Liferay Italy Symposium](https://www.liferay.com/web/events-symposium-italy/home)
 &nbsp; 🇮🇹 &nbsp; Why Liferay's Community Matters More Than Ever!
+&nbsp; [📽️](https://www.youtube.com/watch?v=nLtxcs6LJhs)
 - `Nov 17` &nbsp; [Liferay Italy Symposium](https://www.liferay.com/web/events-symposium-italy/home)
 &nbsp; 🇮🇹 &nbsp; From zero to production in 1 conference talk time
 - `Nov 09` &nbsp; [Devoxx](https://devoxx.be/)
 &nbsp; 🇧🇪 &nbsp; Launching Projects Faster with WeDeploy
 &nbsp; [📽️](https://www.youtube.com/watch?v=sSF0eeXY7IM)
 - `Nov 08` &nbsp; [Liferay Digital Solutions Forum](https://www.liferay.com/web/events-ldsf-uk)
-&nbsp; 🇬🇧 &nbsp; From zero to production in 1 conference talk time
+&nbsp; 🇬🇧 &nbsp; Launching Projects Faster with WeDeploy
+&nbsp; [📽️](https://www.youtube.com/watch?v=GQ0NiOethVQ)
 - `Oct 24` &nbsp; [OSGi Community Event](https://www.osgi.org/2017-osgi-community-event/)
 &nbsp; 🇩🇪 &nbsp; Fantastic Java contracts - and where to define them?
 &nbsp; [📽️](https://www.youtube.com/watch?v=bJOwczoRz90)
@@ -137,6 +139,7 @@ talks:
 &nbsp; [📽️](https://www.youtube.com/watch?v=WJHMuu3iJVc)
 - `Apr 07` &nbsp; [JPoint](https://jpoint.ru/)
 &nbsp; 🇷🇺 &nbsp; Microservices and Modularity or the difference between treatment and cure!
+&nbsp; [📽️](https://www.youtube.com/watch?v=pkZ9uY9rlpU)
 - `Apr 03` &nbsp; [4Developers](http://2017.4developers.org.pl/)
 &nbsp; 🇵🇱 &nbsp; Fantastic Java contracts - and where to define them?
 - `Mar 18` &nbsp; [Łódź JUG meetup](https://www.meetup.com/Java-User-Group-Lodz/events/238207914/)
@@ -149,6 +152,7 @@ talks:
 &nbsp; 🇦🇹 &nbsp; What's not new in modular Java?
 - `Feb 11` &nbsp; [Javantura](https://javantura.com/javantura-v4/)
 &nbsp; 🇭🇷 &nbsp; What's not new in modular Java?
+&nbsp; [📽️](https://www.youtube.com/watch?v=4nIhSqqG_P8)
 
 
 ### 2016
