@@ -78,10 +78,20 @@ talks:
 
 - `Jun 14` &nbsp; [IT Manager of Tomorrow](http://www.itmtconf.com/2018-en/)
 &nbsp; 🇵🇱 &nbsp; The fruits of our labour
+- `Jun 06` &nbsp; [Liferay France Symposium](https://www.liferay.com/web/events-symposium-france)
+&nbsp; 🇫🇷 &nbsp; Why Liferay's Community Matters More Than Ever
 - `May 29` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Decomposing Java applications
+- `May 18` &nbsp; [JEEConf](http://jeeconf.com/)
+&nbsp; 🇺🇦 &nbsp; Decomposing Java applications
 - `May 10` &nbsp; [GeeCON](https://2018.geecon.org/)
 &nbsp; 🇵🇱 &nbsp; Decomposing Java applications
+- `May 08` &nbsp; [JavaCRO](http://2018.javacro.hr/eng)
+&nbsp; 🇭🇷 &nbsp; Decomposing Java applications
+- `May 07` &nbsp; [JavaCRO](http://2018.javacro.hr/eng)
+&nbsp; 🇭🇷 &nbsp; The fruits of our labour
+- `Apr 21` &nbsp; [Bulgarian JUG](https://jug.bg/events/liferay-workshop/)
+&nbsp; 🇧🇬 &nbsp; Why choose between CMS and custom Java app when you can have both Liferay?
 - `Apr 17` &nbsp; [Java With The Best](https://java.withthebest.com/)
 &nbsp; 🌍  &nbsp; Fantastic Java contracts - and where to define them?
 - `Feb 17` &nbsp; [Javantura](https://javantura.com)
