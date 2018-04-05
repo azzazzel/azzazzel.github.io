@@ -90,6 +90,8 @@ talks:
 &nbsp; 🇭🇷 &nbsp; Decomposing Java applications
 - `May 07` &nbsp; [JavaCRO](http://2018.javacro.hr/eng)
 &nbsp; 🇭🇷 &nbsp; The fruits of our labour
+- `May 05` &nbsp; [Java Day Istanbul](https://javaday.istanbul/)
+&nbsp; 🇹🇷 &nbsp; Decomposing Java applications
 - `Apr 21` &nbsp; [Bulgarian JUG](https://jug.bg/events/liferay-workshop/)
 &nbsp; 🇧🇬 &nbsp; Why choose between CMS and custom Java app when you can have both Liferay?
 - `Apr 17` &nbsp; [Java With The Best](https://java.withthebest.com/)
