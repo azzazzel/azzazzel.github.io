@@ -93,7 +93,7 @@ talks:
 - `May 05` &nbsp; [Java Day Istanbul](https://javaday.istanbul/)
 &nbsp; 🇹🇷 &nbsp; Decomposing Java applications
 - `Apr 21` &nbsp; [Bulgarian JUG](https://jug.bg/events/liferay-workshop/)
-&nbsp; 🇧🇬 &nbsp; Why choose between CMS and custom Java app when you can have both Liferay?
+&nbsp; 🇧🇬 &nbsp; Why choose between CMS and custom Java app when you can have both with Liferay?
 - `Apr 17` &nbsp; [Java With The Best](https://java.withthebest.com/)
 &nbsp; 🌍  &nbsp; Fantastic Java contracts - and where to define them?
 - `Feb 17` &nbsp; [Javantura](https://javantura.com)
