@@ -2,6 +2,9 @@
 layout: page
 title: Talks
 talks:
+ - title: Decomposing Java applications
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1359/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/decomposing-java-applications
  - title: Why Liferay's Community Matters More Than Ever!
    thumbnail: https://slidrio-decks.global.ssl.fastly.net/1196/thumbs/1_1280.jpg
    url: https://slidr.io/azzazzel/why-liferay-s-community-matters-more-than-ever
@@ -76,14 +79,20 @@ talks:
 
 ### 2018
 
+- `Nov 19` &nbsp; [Øredev](http://oredev.org/2018)
+&nbsp; 🇸🇪 &nbsp; Decomposing Java applications
+- `Jun 30` &nbsp; [Confitura](https://2018.confitura.pl/)
+&nbsp; 🇵🇱 &nbsp; Decomposing Java applications
 - `Jun 14` &nbsp; [IT Manager of Tomorrow](http://www.itmtconf.com/2018-en/)
 &nbsp; 🇵🇱 &nbsp; The fruits of our labour
 - `Jun 06` &nbsp; [Liferay France Symposium](https://www.liferay.com/web/events-symposium-france)
 &nbsp; 🇫🇷 &nbsp; Why Liferay's Community Matters More Than Ever
+&nbsp; [📽️](https://www.youtube.com/watch?v=O3C6OcVQ_es)
 - `May 29` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Decomposing Java applications
 - `May 18` &nbsp; [JEEConf](http://jeeconf.com/)
 &nbsp; 🇺🇦 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://www.youtube.com/watch?v=OFgoSnlZEII)
 - `May 10` &nbsp; [GeeCON](https://2018.geecon.org/)
 &nbsp; 🇵🇱 &nbsp; Decomposing Java applications
 - `May 08` &nbsp; [JavaCRO](http://2018.javacro.hr/eng)
@@ -92,6 +101,7 @@ talks:
 &nbsp; 🇭🇷 &nbsp; The fruits of our labour
 - `May 05` &nbsp; [Java Day Istanbul](https://javaday.istanbul/)
 &nbsp; 🇹🇷 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://www.youtube.com/watch?v=OM8QB3H-rdM)
 - `Apr 21` &nbsp; [Bulgarian JUG](https://jug.bg/events/liferay-workshop/)
 &nbsp; 🇧🇬 &nbsp; Why choose between CMS and custom Java app when you can have both with Liferay?
 - `Apr 17` &nbsp; [Java With The Best](https://java.withthebest.com/)
