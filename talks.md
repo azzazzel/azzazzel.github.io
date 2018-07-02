@@ -81,6 +81,8 @@ talks:
 
 - `Nov 19` &nbsp; [Øredev](http://oredev.org/2018)
 &nbsp; 🇸🇪 &nbsp; Decomposing Java applications
+- `Oct 18` &nbsp; [Heapcon](https://heapcon.io/)
+&nbsp; 🇷🇸 &nbsp; Decomposing Java applications
 - `Jun 30` &nbsp; [Confitura](https://2018.confitura.pl/)
 &nbsp; 🇵🇱 &nbsp; Decomposing Java applications
 - `Jun 14` &nbsp; [IT Manager of Tomorrow](http://www.itmtconf.com/2018-en/)
