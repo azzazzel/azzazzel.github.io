@@ -75,7 +75,7 @@ talks:
 {% for talk in page.talks %}<a href="{{ talk.url }}"><img src="{{ talk.thumbnail }}" style="width:150px; margin:2px;" alt="{{ talk.title }}"/></a>{% endfor %}
 
 
-## Conferences
+## Events
 
 ### 2018
 
@@ -87,16 +87,19 @@ talks:
 &nbsp; 🇵🇱 &nbsp; Decomposing Java applications
 - `Jun 14` &nbsp; [IT Manager of Tomorrow](http://www.itmtconf.com/2018-en/)
 &nbsp; 🇵🇱 &nbsp; The fruits of our labour
+&nbsp; [📽️](https://www.youtube.com/watch?v=M4kxGttQ9RA)
 - `Jun 06` &nbsp; [Liferay France Symposium](https://www.liferay.com/web/events-symposium-france)
 &nbsp; 🇫🇷 &nbsp; Why Liferay's Community Matters More Than Ever
 &nbsp; [📽️](https://www.youtube.com/watch?v=O3C6OcVQ_es)
 - `May 29` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://www.youtube.com/watch?v=FodUKpwtae0)
 - `May 18` &nbsp; [JEEConf](http://jeeconf.com/)
 &nbsp; 🇺🇦 &nbsp; Decomposing Java applications
 &nbsp; [📽️](https://www.youtube.com/watch?v=OFgoSnlZEII)
 - `May 10` &nbsp; [GeeCON](https://2018.geecon.org/)
 &nbsp; 🇵🇱 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://www.youtube.com/watch?v=LrbuL9zBlLo)
 - `May 08` &nbsp; [JavaCRO](http://2018.javacro.hr/eng)
 &nbsp; 🇭🇷 &nbsp; Decomposing Java applications
 - `May 07` &nbsp; [JavaCRO](http://2018.javacro.hr/eng)
