@@ -21,6 +21,7 @@ $( document ).ready(function() {
 			fontColor: '#FFFFFF',
 			linkColor: '#FFFFFF',
 			impliedSubmitText: ' OK ',
+			privacyPolicyUri: '/privacy'
 		});
 
 });
