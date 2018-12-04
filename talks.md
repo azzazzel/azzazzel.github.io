@@ -79,14 +79,18 @@ talks:
 
 ### 2018
 
+- `Dec 12` &nbsp; [Madrid JUG](https://www.meetup.com/MadridJUG/events/)
+&nbsp; 🇪🇸 &nbsp; Decomposing Java applications
 - `Nov 19` &nbsp; [Øredev](http://oredev.org/2018)
 &nbsp; 🇸🇪 &nbsp; Decomposing Java applications
 - `Oct 18` &nbsp; [Heapcon](https://heapcon.io/)
 &nbsp; 🇷🇸 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://www.youtube.com/watch?v=2_v2JybFKUw)
 - `Oct 02` &nbsp; [Liferay Digital Solutions Forum](https://www.liferay.com/web/events-ldsf-uk)
 &nbsp; 🇬🇧 &nbsp; Untangling dependencies in modular systems
 - `Jun 30` &nbsp; [Confitura](https://2018.confitura.pl/)
 &nbsp; 🇵🇱 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://www.youtube.com/watch?v=9wRSPBixRX8)
 - `Jun 14` &nbsp; [IT Manager of Tomorrow](http://www.itmtconf.com/2018-en/)
 &nbsp; 🇵🇱 &nbsp; The fruits of our labour
 &nbsp; [📽️](https://www.youtube.com/watch?v=M4kxGttQ9RA)
