@@ -77,6 +77,13 @@ talks:
 
 ## Events
 
+### 2019
+
+- `Apr 05` &nbsp; [JPoint](https://jpoint.ru/)
+&nbsp; 🇷🇺 &nbsp; Decomposing Java applications
+- `May 31` &nbsp; [Riga Dev Days](https://2019.rigadevdays.lv/)
+&nbsp; 🇱🇻 &nbsp; Decomposing Java applications
+
 ### 2018
 
 - `Dec 12` &nbsp; [Madrid JUG](https://www.meetup.com/MadridJUG/events/)
