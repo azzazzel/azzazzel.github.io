@@ -79,10 +79,14 @@ talks:
 
 ### 2019
 
-- `Apr 05` &nbsp; [JPoint](https://jpoint.ru/)
-&nbsp; 🇷🇺 &nbsp; Decomposing Java applications
+- `Oct 25` &nbsp; [Share&lt;IT&gt;](https://shareit.hycom.pl/)
+&nbsp; 🇵🇱 &nbsp; Decomposing Java applications
+- `Sep 25` &nbsp; [Liferay Warsaw Tech Meetup](https://www.meetup.com/Liferay-Warsaw-Tech-Meetup/events/264493413/)
+&nbsp; 🇵🇱 &nbsp; Liferay Portal - the Java platform for busy developers?
 - `May 31` &nbsp; [Riga Dev Days](https://2019.rigadevdays.lv/)
 &nbsp; 🇱🇻 &nbsp; Decomposing Java applications
+- `Apr 05` &nbsp; [JPoint](https://jpoint.ru/)
+&nbsp; 🇷🇺 &nbsp; Decomposing Java applications
 
 ### 2018
 
