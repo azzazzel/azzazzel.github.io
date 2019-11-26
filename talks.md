@@ -2,6 +2,9 @@
 layout: page
 title: Talks
 talks:
+ - title: Untangling dependencies in Java module systems
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1483/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/untangling-dependencies-in-java-module-systems
  - title: Decomposing Java applications
    thumbnail: https://slidrio-decks.global.ssl.fastly.net/1359/thumbs/1_1280.jpg
    url: https://slidr.io/azzazzel/decomposing-java-applications
