@@ -87,20 +87,25 @@ talks:
 &nbsp; 🇵🇱 &nbsp; Liferay Portal - the Java platform for busy developers
 - `May 31` &nbsp; [Riga Dev Days](https://2019.rigadevdays.lv/)
 &nbsp; 🇱🇻 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://www.youtube.com/watch?v=nHRkSleCeMw)
 - `Apr 05` &nbsp; [JPoint](https://jpoint.ru/)
 &nbsp; 🇷🇺 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://www.youtube.com/watch?v=HL70ymW6GpM)
 
 ### 2018
 
 - `Dec 12` &nbsp; [Madrid JUG](https://www.meetup.com/MadridJUG/events/)
 &nbsp; 🇪🇸 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://www.youtube.com/watch?v=18zKdzV4AiI)
 - `Nov 19` &nbsp; [Øredev](http://oredev.org/2018)
 &nbsp; 🇸🇪 &nbsp; Decomposing Java applications
+&nbsp; [📽️](https://vimeo.com/311505951)
 - `Oct 18` &nbsp; [Heapcon](https://heapcon.io/)
 &nbsp; 🇷🇸 &nbsp; Decomposing Java applications
 &nbsp; [📽️](https://www.youtube.com/watch?v=2_v2JybFKUw)
 - `Oct 02` &nbsp; [Liferay Digital Solutions Forum](https://www.liferay.com/web/events-ldsf-uk)
 &nbsp; 🇬🇧 &nbsp; Untangling dependencies in modular systems
+&nbsp; [📽️](https://www.youtube.com/watch?v=hGNrZmr0zz8)
 - `Jun 30` &nbsp; [Confitura](https://2018.confitura.pl/)
 &nbsp; 🇵🇱 &nbsp; Decomposing Java applications
 &nbsp; [📽️](https://www.youtube.com/watch?v=9wRSPBixRX8)
@@ -132,6 +137,7 @@ talks:
 &nbsp; 🌍  &nbsp; Fantastic Java contracts - and where to define them?
 - `Feb 17` &nbsp; [Javantura](https://javantura.com)
 &nbsp; 🇭🇷 &nbsp; Fantastic Java contracts - and where to define them?
+&nbsp; [📽️](https://www.youtube.com/watch?v=tadgCsWUgfQ)
 - `Jan 23` &nbsp; [Let's Manage IT](https://events.letsmanageit.pl/LMIT40)
 &nbsp; 🇵🇱 &nbsp; The fruits of our labour
 
