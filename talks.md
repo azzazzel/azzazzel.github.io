@@ -79,6 +79,8 @@ talks:
 
 ### 2019
 
+- `Nov 30` &nbsp; [Byte My Code](https://bytemycode.pl/)
+&nbsp; 🇵🇱 &nbsp; Decomposing Java applications
 - `Oct 25` &nbsp; [Share&lt;IT&gt;](https://shareit.hycom.pl/)
 &nbsp; 🇵🇱 &nbsp; Decomposing Java applications
 - `Sep 25` &nbsp; [Liferay Warsaw Tech Meetup](https://www.meetup.com/Liferay-Warsaw-Tech-Meetup/events/264493413/)
