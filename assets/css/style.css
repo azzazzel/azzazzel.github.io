@@ -86,4 +86,25 @@ blockquote {
 		width:98%
 	}
 
+	.menu {
+		display: -webkit-flex !important;
+		display: -ms-flex !important;
+		display: flex !important;
+	}
+	
+	.menu li {
+		display: inline-block;
+		list-style: none;
+	}
+	
+	.menu li:not(:last-of-type) {
+	  margin: 0 5px;
+	  width: auto;
+	}
+	
+	.menu li:last-of-type {
+		margin-left: auto;
+		text-align: right;
+	}
 }
+

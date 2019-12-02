@@ -23,6 +23,8 @@ navigation:
    url: /posts
  - title: Talks
    url: /talks
+ - title: Conference Tracker
+   url: /ConferenceTracker
 
 social:
    email: milendyankov@gmail.com
