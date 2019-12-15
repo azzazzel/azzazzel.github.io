@@ -57,7 +57,7 @@ If I was preparing the above demo, my package structure would have rather been s
 - `___.___.shared.internal`
 - ...
 
-I'd argue we should re-enforce the message about the importance of coherence and strong encapsulation on every occasion. No matter if it is tutorial, demo, PoC or production code. If we are serious about teaching people to write good code, we must take no shortcuts as those will inevitably be seen as patterns. I'd rather have people confused about my usage of packages and ask me questions about it, than have them assume it's OK to just thrown classes in a packages named after some (irrelevant from business perspective) technical characteristic.
+I'd argue we should re-enforce the message about the importance of coherence and strong encapsulation on every occasion. No matter if it is tutorial, demo, PoC or production code. If we are serious about teaching people to write good code, we must take no shortcuts as those will inevitably be seen as patterns. I'd rather have people confused about my usage of packages and ask me questions about it, than have them assume it's OK to just throw classes in a packages named after some (irrelevant from business perspective) technical characteristic.
 
 ### It's not only about packages
 
