@@ -17,6 +17,9 @@ title: Home
             {{ post.excerpt }}
           {% endif %}
         </p>
+        <div style="text-align: right;">
+          <a href="{{ post.url | prepend: site.baseurl }}">read more &raquo;</a>
+        </div>
       </li>
     {% endfor %}
   </ul>
