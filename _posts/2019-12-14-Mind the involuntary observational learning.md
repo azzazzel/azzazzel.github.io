@@ -11,13 +11,11 @@ It's an issue I've observed a lot over the years. To the point I have somehow tr
 
 I really don't want to be the moron who noticed something not quite right and is now rushing to criticize. Sadly my experiences shows people often feel this is the case when given negative feedback. So it's been hard for me to point fingers at the (otherwise great) outcome of people's hard work.
 
-But, today I saw an opportunity to demonstrate the issue I have in mind, while I was watching a recording of the talk of my friend and colleague [Neil Griffin](https://twitter.com/NeilGriffin95). Neil is very very talented software engineer. He is also a Java Champion who participated in a number of JSRs. But what's more important is that he is a very very nice person, super friendly and supportive. So I really hope he'll forgive me for picking his talk as an example and will not take that post as personal attack.
-
 ### The observation
 
-Here is a screenshot of [the recording](https://www.youtube.com/watch?v=r_9xPbVsGX0) of his amazing talk at [Liferay DEVCON 2019](https://www.liferay.com/web/events-devcon-recap). Take a closer look at the structure of the source code displayed. Is there something that bothers you?
+Here is a screenshot of the recording of an amazing talk at [Liferay DEVCON 2019](https://www.liferay.com/web/events-devcon-recap) by a friend and colleague. A very very talented software engineer and Java Champion who asked me not to mention his name here. Take a closer look at the structure of the source code displayed. Is there something that bothers you?
 
-![Screenshot of Neil's talk recording](/assets/2019-12-14-Mind_the_involuntary_observational_learning/talk-screenshot.png)
+![Screenshot of talk recording](/assets/2019-12-14-Mind_the_involuntary_observational_learning/talk-screenshot-anonymous.png)
 
 I don't know about you but I get goose flesh when I see package names like those:
 
