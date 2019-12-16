@@ -48,7 +48,6 @@ When we talk about libraries, a second dimension of segregation is needed. In ad
 
 If I was preparing the above demo, my package structure would have rather been something like this:
 
-
 - `___.___.applicant`
 - `___.___.applicant.internal`
 - `___.___.terms`
@@ -63,8 +62,17 @@ I'd argue we should re-enforce the message about the importance of coherence and
 
 And it's not only about bad examples. Missing context is almost as bad. Modularity for example is often ignored concept in many resources, thus convincing people it's not important. Software architecture and application design suffer from the same side effects:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just because we&#39;re not saying something in our talk, doesn&#39;t mean we don&#39;t think it&#39;s important.<br><br>People seem keen to read into what&#39;s not said - &quot;they didn&#39;t explicitly mention design, therefore we shouldn&#39;t do design&quot;<a href="https://twitter.com/simonbrown?ref_src=twsrc%5Etfw">@simonbrown</a> <a href="https://twitter.com/hashtag/yow19?src=hash&amp;ref_src=twsrc%5Etfw">#yow19</a></p>&mdash; Andy Palmer (@AndyPalmer) <a href="https://twitter.com/AndyPalmer/status/1202744513850044416?ref_src=twsrc%5Etfw">December 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">
+        Just because we&#39;re not saying something in our talk, doesn&#39;t mean we don&#39;t think it&#39;s important.
+        <br><br>People seem keen to read into what&#39;s not said - &quot;they didn&#39;t explicitly mention design, therefore we shouldn&#39;t do design&quot;
+        <a href="https://twitter.com/simonbrown?ref_src=twsrc%5Etfw">@simonbrown</a> 
+        <a href="https://twitter.com/hashtag/yow19?src=hash&amp;ref_src=twsrc%5Etfw">#yow19</a>
+    </p>
+    &mdash; Andy Palmer (@AndyPalmer) <a href="https://twitter.com/AndyPalmer/status/1202744513850044416?ref_src=twsrc%5Etfw">December 6, 2019</a>
+</blockquote> 
 
 We kind of learned the lesson in the case of security though. Most content I see these days has some kind of warning stating that what you are looking at is just a demo/sample and is not secure the way it is. They often point out some potential risks and strongly encourage people to learn about security before they apply what they have just learned on production. Can we all please do the same for software architecture, application design, modularity, packaging, ...?
 
-I'll conclude this post with a request to my fellow speakers, bloggers, technical writers, trainers and in general people who teach other people. **When working on a demo/sample code, please watch out for patterns, or lack thereof, that predisposes to involuntary observational learning of bad habits**.
+I'll conclude this post with a request to my fellow speakers, bloggers, technical writers, trainers and in general people who teach other people. **When working on a demo/sample code, please watch out for patterns, or lack thereof, that predispose to involuntary observational learning of bad habits**.
