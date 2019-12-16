@@ -13,7 +13,7 @@ I really don't want to be the moron who noticed something not quite right and is
 
 ### The observation
 
-Here is a screenshot of the recording of an amazing talk at [Liferay DEVCON 2019](https://www.liferay.com/web/events-devcon-recap) by a friend and colleague. A very very talented software engineer and Java Champion who asked me not to mention his name here. Take a closer look at the structure of the source code displayed. Is there something that bothers you?
+Here is a screenshot of the recording of otherwise amazing talk at [Liferay DEVCON 2019](https://www.liferay.com/web/events-devcon-recap) by a friend and colleague. Take a closer look at the structure of the source code displayed. Is there something that bothers you?
 
 ![Screenshot of talk recording](/assets/2019-12-14-Mind_the_involuntary_observational_learning/talk-screenshot-anonymous.png)
 
