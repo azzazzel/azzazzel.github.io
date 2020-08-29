@@ -108,3 +108,6 @@ blockquote {
 	}
 }
 
+pre, pre.highlight {
+	margin: 0 !important;
+}
