@@ -47,7 +47,7 @@ The winner in the poll is not a surprise. [Lombok](https://projectlombok.org/) c
 
 The really cool thing about this approach is that it does not modify your source code. Lombok is essentially an [annotation processor](https://openjdk.java.net/groups/compiler/processing-code.html#processor) that enhances the compiled classes directly. Therefore when you edit the file you only have the important data. All the boilerplate is added behind the scenes.
 
-There are few downsides of that approach though. First, you don't see the generated code. It's probably not an issue for simple data classes but it may be for more complex ones. I've heard of projects who run into serialization/deserialization issues with Lombok generated classes. Another inconvenience is that by default IDEs will not be aware of Lombok. They will not run the annotation processor(s) and fail to compile your code. You'll have configure your IDE's annotation processing options or install a Lombok plugin. 
+There are few downsides of that approach though. First, you don't see the generated code. It's probably not an issue for simple data classes but it may be for more complex ones. I've heard of projects who run into serialization/deserialization issues with Lombok generated classes. Another inconvenience is that by default IDEs will not be aware of Lombok. They will not run the annotation processor(s) and fail to compile your code. You'll have to configure your IDE's annotation processing options or install a Lombok plugin. 
 
 There is also one false drawback that is often brought up. Namely that Lombok is an additional dependency that you need to ship with your app. That's not true. Lombok is required at compile/build time only. It's not needed at runtime. Your application may use Lombok to produce a binary and then run perfectly fine without it. That said, if you introduce it, everyone (humans and systems) building the project would have to be able to work with it. Only in that sense it is an additional dependency.
 
@@ -60,7 +60,7 @@ The downside of this approach has is that you still will have all this boilerpla
 
 #### Use Kotlin's data classes
 
-Significantly reducing the boilerplate is one of the things most JVM languages pride themselves with. Kotlin - a JVM language which popularity skyrocketed after Google announced it's the preferred language for Android apps - is no exception. Its [data classes](https://kotlinlang.org/docs/reference/data-classes.html) provide conceptually the same functionality you get with Lombok but with even simpler syntax: 
+Significantly reducing the boilerplate is one of the things most JVM languages pride themselves with. Kotlin - a JVM language whose popularity skyrocketed after Google announced it's the preferred language for Android apps - is no exception. Its [data classes](https://kotlinlang.org/docs/reference/data-classes.html) provide conceptually the same functionality you get with Lombok but with even simpler syntax: 
 
 ```kotlin
 data class User(var name: String, var age: Int)
@@ -96,7 +96,7 @@ A few people pointed out [Immutables](http://immutables.github.io/) as their pre
 ```
 If I understood the concept correctly the main difference would be that it'll by default generate an immutable class and a builder for it. Something you can also do with Lombok if you want to, by using [`@Value`](https://projectlombok.org/features/Value) and [`@Builder`](https://projectlombok.org/features/Builder) annotations. 
 
-I have the feeling the pros and cons here are exactly the same as in Lombok's case. 
+I have the feeling the pros and cons here are exactly the same as in Lombok case described above. 
 
 #### Use records <small>(requires Java 14 or newer)</small>
 
@@ -106,7 +106,7 @@ A possible, long awaited, official solution to the data class boilerplate proble
 record Person (String name, Integer age) {}
 ```
 
-That's another solution I have no experience with, so I'll refrain from speculating about pros and cons. At the time of writing, this is still a preview feature in a non-LTS Java version. You shouldn't be using that in production systems just yet. By time it's production ready, it may look or behave differently. That said, it seems some unicorn projects are happy with it. I'm sure there will be tons of articles about it in the upcoming months. 
+That's another solution I have no experience with, so I'll refrain from speculating about pros and cons. At the time of writing, this is still a preview feature in a non-LTS Java version. You shouldn't be using that in production systems just yet. By the time it's production ready, it may look or behave differently. That said, it seems some unicorn projects are happy with it. I'm sure there will be tons of articles about it in the upcoming months. 
 
 
 ### Summary
