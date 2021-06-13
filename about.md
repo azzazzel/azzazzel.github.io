@@ -8,7 +8,7 @@ I’ve been building various kinds of software and have played multiple roles in
 
 ### What I do
 
-Since 2020 I'm a Developer Advocate at [AxonIQ](http://axoniq.io), where I'm effectively lead the Developer Relations team. Next to Java and modularity, I deepen and share my knowledge about Domain-Driven Design, Command and Query Responsibility Separation, Event Sourcing, and similar architectural concepts.
+Since 2020 I am a Developer Advocate at [AxonIQ](http://axoniq.io), where I effectively lead the Developer Relations team. Next to Java and modularity, I deepen and share my knowledge about Domain-Driven Design, Command and Query Responsibility Separation, Event Sourcing, and similar architectural concepts.
 
 
 I'm a [frequent conference speaker](/talks) trying my best to share my experience with fellow developers and collect meaningful feedback from our users.
