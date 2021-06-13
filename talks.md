@@ -2,6 +2,9 @@
 layout: page
 title: Talks
 talks:
+ - title: Give your application memories
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1789/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/give-your-application-memories
  - title: Untangling dependencies in Java module systems
    thumbnail: https://slidrio-decks.global.ssl.fastly.net/1483/thumbs/1_1280.jpg
    url: https://slidr.io/azzazzel/untangling-dependencies-in-java-module-systems
@@ -79,6 +82,14 @@ talks:
 
 
 ## Events
+
+### 2020
+
+- `Oct 23` &nbsp; [JFuture](https://jfuture.dev/)
+&nbsp; 👨‍💻 &nbsp; Give your application memories
+&nbsp; [📽️](https://www.youtube.com/watch?v=etpqWxXMEyQ)
+- `Oct 14` &nbsp; [JDD](https://jdd.org.pl/)
+&nbsp; 👨‍💻 &nbsp; Give your application memories
 
 ### 2019
 
