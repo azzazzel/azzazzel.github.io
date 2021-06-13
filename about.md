@@ -4,7 +4,7 @@ title: About Me
 image: milen.jpg
 ---
 
-I’ve been building various kinds of software and have played multiple roles in the IT industry for the last {{ site.time | date: '%Y' | minus: 1995 }} years!
+I’ve been building various kinds of software and have played multiple roles in the IT industry for the last {{ site.time | date: '%Y' | minus: 1999 }} years!
 
 ### What I do
 
@@ -24,10 +24,13 @@ From 2012 to 2016, I spent most of my time working as a senior consultant and tr
 
 From 2009 to 2012, I was working as a software architect, and head of _(what was known as)_ portals competence center at another great company called [AMG.net](http://web.archive.org/web/20140108082734/http://www.amg.net.pl/en) which unfortunately does not exists anymore! It was both challenging and rewarding to design and deliver enterprise software for some of the biggest companies in the telecommunication industry in Europe.
 
+From 2002 to 2009, I was in various software development roles (mid to senior level). I was part of teams building POS terminals, CRM systems, banking/insurance/credit systems, online stores, telecommunication services, etc.
+
+From 1999 to 2002, I was a freelancer building websites and relatively simple online services (mainly using Perl).
 
 ### Programming background
 
-Starting with [Basic](https://en.wikipedia.org/wiki/BASIC) _(as almost everyone back in early 90s)_ I quickly moved to [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)) and then [Delphy](https://en.wikipedia.org/wiki/Delphi_(programming_language)). Then the Internet came to my country and forced me to learn [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) and some [JavaScript](https://en.wikipedia.org/wiki/JavaScript). An eyeopening experience was discovering the existence of [Perl](https://en.wikipedia.org/wiki/Perl) which I used for several years before finally moving to [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) {{ site.time | date: '%Y' | minus: 2002 }} years ago! That long journey went through rather huge amount of technologies and frameworks like [Swing](https://en.wikipedia.org/wiki/Swing_(Java)), [EJB](https://en.wikipedia.org/wiki/Enterprise_JavaBeans), [Spring](https://en.wikipedia.org/wiki/Spring_Framework), [Portlets](https://en.wikipedia.org/wiki/Java_Portlet_Specification) to mostly concentrate around [OSGi](https://en.wikipedia.org/wiki/OSGi) these days!
+Starting with [Basic](https://en.wikipedia.org/wiki/BASIC) _(as almost everyone back in early 90s)_ I quickly moved to [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)) and then [Delphy](https://en.wikipedia.org/wiki/Delphi_(programming_language)). Then the Internet came to my country and forced me to learn [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) and some [JavaScript](https://en.wikipedia.org/wiki/JavaScript). An eyeopening experience was discovering the existence of [Perl](https://en.wikipedia.org/wiki/Perl) which I used for several years before finally moving to [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) {{ site.time | date: '%Y' | minus: 2001 }} years ago! That long journey went through rather huge amount of technologies and frameworks like [Swing](https://en.wikipedia.org/wiki/Swing_(Java)), [EJB](https://en.wikipedia.org/wiki/Enterprise_JavaBeans), [Spring](https://en.wikipedia.org/wiki/Spring_Framework), [Portlets](https://en.wikipedia.org/wiki/Java_Portlet_Specification), [OSGi](https://en.wikipedia.org/wiki/OSGi) and countless others!
 
 ### Other
 
