@@ -83,6 +83,11 @@ talks:
 
 ## Events
 
+### 2021
+
+- `Oct 05` &nbsp; [JAX London](https://jaxlondon.com)
+&nbsp; 👨‍💻 &nbsp; Demystifying ‘Event’ Related Software Concepts and Methodologies
+
 ### 2020
 
 - `Oct 23` &nbsp; [JFuture](https://jfuture.dev/)
