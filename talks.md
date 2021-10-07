@@ -2,6 +2,9 @@
 layout: page
 title: Talks
 talks:
+ - title:  Demystifying 'event' related software concepts and methodologies
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1805/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/demystifying-event-related-software-concepts-and-methodologies
  - title: Give your application memories
    thumbnail: https://slidrio-decks.global.ssl.fastly.net/1789/thumbs/1_1280.jpg
    url: https://slidr.io/azzazzel/give-your-application-memories
