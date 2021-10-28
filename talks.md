@@ -88,6 +88,8 @@ talks:
 
 ### 2021
 
+- `Nov 02` &nbsp; [Devoxx UK](https://www.devoxx.co.uk)
+&nbsp; 👨‍💻 &nbsp; Demystifying ‘Event’ Related Software Concepts and Methodologies
 - `Oct 05` &nbsp; [JAX London](https://jaxlondon.com)
 &nbsp; 👨‍💻 &nbsp; Demystifying ‘Event’ Related Software Concepts and Methodologies
 
