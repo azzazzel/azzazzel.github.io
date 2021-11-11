@@ -86,12 +86,20 @@ talks:
 
 ## Events
 
+### 2022
+
+- `May 24` &nbsp; [DevOps Pro Europe](https://devopspro.lt/)
+&nbsp; 🇱🇹 &nbsp; Location transparency
+- `Feb 23` &nbsp; [ConFoo](https://confoo.ca/en/2022)
+&nbsp; 🇨🇦 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+- `Feb 23` &nbsp; [ConFoo](https://confoo.ca/en/2022/)
+&nbsp; 🇨🇦 &nbsp; Give your application memories
 ### 2021
 
 - `Nov 02` &nbsp; [Devoxx UK](https://www.devoxx.co.uk)
-&nbsp; 👨‍💻 &nbsp; Demystifying ‘Event’ Related Software Concepts and Methodologies
+&nbsp; 👨‍💻 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `Oct 05` &nbsp; [JAX London](https://jaxlondon.com)
-&nbsp; 👨‍💻 &nbsp; Demystifying ‘Event’ Related Software Concepts and Methodologies
+&nbsp; 👨‍💻 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 
 ### 2020
 
