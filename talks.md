@@ -94,8 +94,12 @@ talks:
 &nbsp; 🇨🇦 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `Feb 23` &nbsp; [ConFoo](https://confoo.ca/en/2022/)
 &nbsp; 🇨🇦 &nbsp; Give your application memories
+
 ### 2021
 
+- `Dec 09` &nbsp; [Bulgarian JUG](https://jug.bg/events/demystifying-event-related-software-concepts-and-methodologies/)
+&nbsp; 🇧🇬 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+&nbsp; [📽️](https://www.youtube.com/watch?v=TnKzCFPtl0E)
 - `Nov 02` &nbsp; [Devoxx UK](https://www.devoxx.co.uk)
 &nbsp; 👨‍💻 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `Oct 05` &nbsp; [JAX London](https://jaxlondon.com)
