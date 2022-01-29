@@ -48,7 +48,7 @@ layout: default
         {% unless prevPage}
           {% break %}
         {% endunless %}
-        {% if prevPage.draft %}
+        {% if prevPage.hidden %}
           {% assign prevPage = prevPage.previous %}
         {% else %}
           {% break %}
@@ -69,7 +69,7 @@ layout: default
         {% unless nextPage}
           {% break %}
         {% endunless %}
-        {% if nextPage.draft %}
+        {% if nextPage.hidden %}
           {% assign nextPage = nextPage.next %}
         {% else %}
           {% break %}

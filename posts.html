@@ -6,7 +6,7 @@ title: Posts
 <div class="home" id="home">
   <h1 class="pageTitle">All Posts</h1>
   {% for post in site.posts %}
-    {% unless post.draft %}
+    {% unless post.hidden %}
     <h5><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     <small style="font-weight: normal">( published {{ post.date | date: '%B %d, %Y' }} )</small></h5>
     {% endunless %}

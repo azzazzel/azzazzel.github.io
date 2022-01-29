@@ -1,7 +1,7 @@
 ---
 layout: new_post
 title: Test hidden
-draft: true
+hidden: true
 ---
 
 This should not be displayed

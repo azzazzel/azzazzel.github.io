@@ -7,7 +7,6 @@ title: Home
   <h1 class="pageTitle">Recent Posts</h1>
   <ul class="posts noList">
     {% for post in paginator.posts %}
-      {% unless post.draft %}
       <li>
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
@@ -22,7 +21,6 @@ title: Home
           <a href="{{ post.url | prepend: site.baseurl }}">read more &raquo;</a>
         </div>
       </li>
-      {% endunless %}
     {% endfor %}
   </ul>
   <!-- Pagination links -->
