@@ -4,36 +4,28 @@
 
       <div class="footer-links">
          <ul class="noList">
-          {% if site.social.github %}
-            <li><a href="https://github.com/{{ site.social.github }}" title="GitHub"><i class="fa fa-github-square fa-2x"></i></a></li>
-          {% endif %}
-          {% if site.social.googleplus %}
-            <li><a href="https://plus.google.com/{{ site.social.googleplus }}" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-          {% endif %}
-          {% if site.social.facebook %}
-            <li><a href="https://www.facebook.com/{{ site.social.facebook }}" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-          {% endif %}
-          {% if site.social.lanyard %}
-            <li><a href="http://lanyrd.com/profile/{{ site.social.lanyard }}" title="Lanyard"><img src="/assets/icons/lanyard.svg" style="height:22px; position:relative; top: 2px;"/></a></li>
+          {% if site.social.twitter %}
+            <li><a href="https://twitter.com/{{ site.social.twitter }}" title="Twitter"><i class="bi bi-twitter" style="font-size: 1.5rem;"></i></a></li>
           {% endif %}
           {% if site.social.linkedin %}
-            <li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" title="LinkedIn"><i class="bi bi-linkedin" style="font-size: 1.5rem;"></i></a></li>
           {% endif %}
-          {% if site.social.picasaweb %}
-            <li><a href="https://picasaweb.google.com/{{ site.social.picasaweb }}" title="Picasa albums"><i class="fa fa-camera fa-2x"></i></a></li>
+          {% if site.social.facebook %}
+            <li><a href="https://www.facebook.com/{{ site.social.facebook }}" title="Facebook"><i class="bi bi-facebook" style="font-size: 1.5rem;"></i></a></li>
+          {% endif %}
+          <li>&nbsp;</li>
+          {% if site.social.github %}
+            <li><a href="https://github.com/{{ site.social.github }}" title="GitHub"><i class="bi bi-github" style="font-size: 1.5rem;"></i></i></a></li>
           {% endif %}
           {% if site.social.slideshare %}
-            <li><a href="http://www.slidr.io/{{ site.social.slidrio }}" title="Slides"><img src="/assets/icons/slidr.io.png" style="height:22px; position:relative; top: 2px;"/></a></li>
-          {% endif %}
-          {% if site.social.twitter %}
-            <li><a href="https://twitter.com/{{ site.social.twitter }}" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="http://www.slidr.io/{{ site.social.slidrio }}" title="Slides"><i class="bi bi-easel3" style="font-size: 1.5rem;"></i></a></li>
           {% endif %}
           <li>&nbsp;</li>
           {% if site.social.email %}
-          <li><a href="mailto:{{ site.social.email }}" title="E-Mail"><i class="fa fa-envelope-square fa-2x"></i></a></li>
+          <li><a href="mailto:{{ site.social.email }}" title="E-Mail"><i class="bi bi-envelope" style="font-size: 1.5rem;"></i></a></li>
           {% endif %}
 
-            <li><a href="/feed.xml" title="RSS feed"><i class="fa fa-rss-square fa-2x"></i></a></li>
+          <li><a href="/feed.xml" title="RSS feed"><i class="bi bi-rss" style="font-size: 1.5rem;"></i></a></li>
          </ul>
       </div>
    </div>
