@@ -41,19 +41,47 @@ layout: default
 
   <!-- POST NAVIGATION -->
   <div class="postNav clearfix">
+
     {% if page.previous.url %}
-      <a class="prev{% if page.previous.image %} image{% endif %}" href="{{ page.previous.url | prepend: site.baseurl }}"><span>&laquo;&nbsp;{{ page.previous.title }}</span>
-      {% if page.previous.image %}
-        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.previous.image }}" alt="">
+      {% assign prevPage = page.previous %}
+      {% for counter in (0..100) %}
+        {% unless prevPage}
+          {% break %}
+        {% endunless %}
+        {% if prevPage.draft %}
+          {% assign prevPage = prevPage.previous %}
+        {% else %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if prevPage %}
+        <a class="prev{% if prevPage.image %} image{% endif %}" href="{{ prevPage.url | prepend: site.baseurl }}"><span>&laquo;&nbsp;{{ prevPage.title }}</span>
+        {% if prevPage.image %}
+          <img src="{{ '/assets/img/' | prepend: site.baseurl | append: prevPage.image }}" alt="">
+        {% endif %}
+        </a>
       {% endif %}
-    </a>
     {% endif %}
+
     {% if page.next.url %}
-      <a class="next{% if page.next.image %} image{% endif %}" href="{{ page.next.url | prepend: site.baseurl }}"><span>{{ page.next.title }}&nbsp;&raquo;</span>
-      {% if page.next.image %}
-        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.next.image }}" alt="">
+      {% assign nextPage = page.next %}
+      {% for counter in (0..100) %}
+        {% unless nextPage}
+          {% break %}
+        {% endunless %}
+        {% if nextPage.draft %}
+          {% assign nextPage = nextPage.next %}
+        {% else %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if nextPage %}
+        <a class="next{% if nextPage.image %} image{% endif %}" href="{{ nextPage.url | prepend: site.baseurl }}"><span>{{ nextPage.title }}&nbsp;&raquo;</span>
+        {% if nextPage.image %}
+          <img src="{{ '/assets/img/' | prepend: site.baseurl | append: nextPage.image }}" alt="">
+        {% endif %}
+        </a>
       {% endif %}
-      </a>
     {% endif %}
   </div>
 </div>
