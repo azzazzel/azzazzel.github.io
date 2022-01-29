@@ -90,10 +90,10 @@ talks:
 
 - `May 24` &nbsp; [DevOps Pro Europe](https://devopspro.lt/)
 &nbsp; 🇱🇹 &nbsp; Location transparency
+- `Feb 24` &nbsp; [ConFoo](https://confoo.ca/en/2022/)
+&nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i> &nbsp; Give your application memories
 - `Feb 23` &nbsp; [ConFoo](https://confoo.ca/en/2022)
 &nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i> &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
-- `Feb 23` &nbsp; [ConFoo](https://confoo.ca/en/2022/)
-&nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i> &nbsp; Give your application memories
 
 ### 2021
 
