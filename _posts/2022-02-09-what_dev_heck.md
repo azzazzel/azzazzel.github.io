@@ -1,7 +1,6 @@
 ---
 layout: new_post
 title: What dev heck?
-hidden: true
 ---
 
 There are a lot of publications explaining how crucial DevRel (Developer Relations) and DX (Developer eXperience) are for software vendors. It seems more, and more of them establish such teams. The goals they hope to achieve probably vary a lot. Yet, according to the 2021 edition of [State of Developer Relations](https://www.stateofdeveloperrelations.com/) report, most often, such teams report to marketing. Is DevRel a fancy name for developer-focused marketing then?
