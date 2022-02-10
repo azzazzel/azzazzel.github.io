@@ -47,7 +47,7 @@ The primary goal of the community team is to facilitate communication for 3rd pa
 
 Two of the main tools in that space are the [Discuss platform](https://discuss.axoniq.io/) and a dedicated developer portal <small>(still work in progress at the time of writing)</small>. The responsibility to keep those <small>(and future ones)</small> helpful and friendly lies in the "Community Platforms Developer" role.
 
-Naturally, we provide the most incentives or amenities in the community around our products. But we understand all too well we don't exist in a void. There are plenty of other communities and organizations our users belong to. We'd love to contribute to and partner with those to better understand the various contexts developers operate in. That is the scope of the "Communities coordinator" role.
+Naturally, we provide the most incentives and amenities in the community around our products. But we understand all too well we don't exist in a void. There are plenty of other communities and organizations our users belong to. We'd love to contribute to and partner with those to better understand the various contexts developers operate in. That is the scope of the "Communities coordinator" role.
 
 Last but not least, we really like to show our appreciation to all the folks who help us. There are so many ways to contribute and support us. All valuable and much appreciated. The "Head of Community" role focuses on building and executing recognition and award programs. It also constantly monitors the community's health and growth.
 

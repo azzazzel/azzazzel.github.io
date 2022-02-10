@@ -28,7 +28,7 @@ A title can completely change the perception of a message or the intention of a 
 
 ### Developer Advocacy
 
-Masquerading the above under a not-so-obvious title? Yep, I hear that a lot. In fact, I used to think that myself years ago. Perhaps that was the intention when it was introduced. I have no idea how it came to be, but I can picture a barnstorming session aiming to replace "evangelism" with something embracing praising but free from proselytizing accusations.
+Masquerading the above under a not-so-obvious title? Yep, I hear that a lot. In fact, I used to think that myself years ago. Perhaps that was the intention when it was introduced. I have no idea how it came to be, but I can picture a brainstorming session aiming to replace "evangelism" with something embracing praising but free from proselytizing accusations.
 
 Once freed from the negative connotation, though, the term has evolved somewhat surprisingly. It has a double meaning which ironically makes it more accurate. To describe those, I like to use two of the definitions of the word "advocate" from the Merriam-Webster dictionary:
 
