@@ -138,7 +138,7 @@ Developer Education
 Developer eXperience
 : is kind of an umbrella term for all of the above. It groups all specific goals into one uber goal - ensure developers have the best possible experience when interacting with the product or its surroundings.
 
-My next post, titled "[From DevRel to Developer eXperience](/blog/2022/01/from_devrel_to_developer_experience/)" is about how those views shaped the structure of an actual team in the company I work for.
+My next post, titled "[From DevRel to Developer eXperience](/blog/2022/02/from_devrel_to_developer_experience/)" is about how those views shaped the structure of an actual team in the company I work for.
 
 ### Why dev heck?
 

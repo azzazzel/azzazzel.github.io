@@ -1,6 +1,6 @@
 ---
 layout: new_post
-title: From DevRel to DX
+title: From DevRel to Developer eXperience
 hidden: true
 ---
 
@@ -12,7 +12,7 @@ Instead of just rushing to hire a few more folks, I started asking myself how th
 
 ### Understanding the domain
 
-As with any project, I needed to fully understand the domain space I'm trying to model. I spent some time researching and thinking about it. The "[What dev heck?](/blog/2022/01/what_dev_heck/)" post I published earlier covers my findings and thoughts. Long story short, two things became apparent:
+As with any project, I needed to fully understand the domain space I'm trying to model. I spent some time researching and thinking about it. The "[What dev heck?](/blog/2022/02/what_dev_heck/)" post I published earlier covers my findings and thoughts. Long story short, two things became apparent:
 
 Developer eXperience is the main domain
 : If you have read my previous post, it should be obvious why that is. The consumers of the products and services AxonIQ provides are software developers. It is crucial to ensure they have the best possible experience. Our core principle, "We put quality first, always." must also be applied to the interactions and processes developers go through.
@@ -29,7 +29,7 @@ The DevRel and Developer Education sub-domains have a lot in common, but no one 
 
 Here is what it looks like:
 
-![DX structure](/assets/2022-01-30-from_devrel_to_developer_experience/dx.png)
+![DX structure](/assets/2022-02-10-from_devrel_to_developer_experience/dx.png)
 
 
 ### The DevRel sub-domain
@@ -38,7 +38,7 @@ Obviously, the most critical role in that scope is the "Developer Advocate (Java
 
 The "Head of Developer Relations" is the same as "Developer Advocate" one plus the responsibility to plan and coordinate the activities of the whole team.
 
-![DevRel structure](/assets/2022-01-30-from_devrel_to_developer_experience/devrel.png)
+![DevRel structure](/assets/2022-02-10-from_devrel_to_developer_experience/devrel.png)
 
 
 ### The Community sub-domain
@@ -52,7 +52,7 @@ Naturally, we provide the most incentives and amenities in the community around 
 Last but not least, we really like to show our appreciation to all the folks who help us. There are so many ways to contribute and support us. All valuable and much appreciated. The "Head of Community" role focuses on building and executing recognition and award programs. It also constantly monitors the community's health and growth.
 
 
-![DevRel structure](/assets/2022-01-30-from_devrel_to_developer_experience/community.png)
+![DevRel structure](/assets/2022-02-10-from_devrel_to_developer_experience/community.png)
 
 
 ### The Developer Education sub-domain
@@ -64,7 +64,7 @@ Ensuring top-notch education programs is the "Learning Experience Designer" role
 I hope the "Technical Writer" and "Trainer" roles are self-explanatory. The only caveat is that we would like the trainers to share part of the responsibilities of the solution engineers <small>(in other words, be a part-time solution engineers)</small>. Our learners appreciate practical examples and lessons learned from the battlefield. There is nothing like a trainer who can provide real-life context to a theoretical study.
 
 
-![DevRel structure](/assets/2022-01-30-from_devrel_to_developer_experience/education.png)
+![DevRel structure](/assets/2022-02-10-from_devrel_to_developer_experience/education.png)
 
 ### What's next?
 
