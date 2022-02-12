@@ -126,7 +126,7 @@ Developer Advocacy and Advocates
 : are the industry-wide accepted terms. Those are the folks who promote and defend products and ideas but also plead the cause of the 3rd party developers. The double meaning of the word "advocate" nicely highlights the fact it's a two-way street.
 
 Community Management and Managers
-: are here to stay. The idea of managing people without having any formal relationship with them is an awkward one if you ask me. But no one else seems to be bothered by that. In reality, those folks probably do not mage the community itself but rather the tools, processes, and programs that improve operations and interactions.
+: are here to stay. The idea of managing people without having any formal relationship with them is an awkward one if you ask me. But no one else seems to be bothered by that. In reality, those folks probably do not manage the community itself but rather the tools, processes, and programs that improve operations and interactions.
 
 Developer Relations
 : is the industry-wide accepted term for a given part of an organization where the roles mentioned above belong. It allows grouping, coordinating, and measuring the results of all advocacy and community-related activities.
@@ -141,6 +141,6 @@ My next post, titled "[From DevRel to Developer eXperience](/blog/2022/02/from_d
 
 ### Why dev heck?
 
-I've spent quite some time clarifying and organizing my thought on all those topics during the last few weeks. For what it's worth, I thought I'd share them publicly. I hope you found them helpful or at least interesting. As always, your feedback is more than welcome.
+I've spent quite some time clarifying and organizing my thoughts on all those topics during the last few weeks. For what it's worth, I thought I'd share them publicly. I hope you found them helpful or at least interesting. As always, your feedback is more than welcome.
 
 Whatever your take on DevRel, DX, community building, or any of the related matters, I hope you'll have many satisfied users and excited developers.
