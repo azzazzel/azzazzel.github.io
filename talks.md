@@ -88,6 +88,10 @@ talks:
 
 ### 2022
 
+- `Jul 18` &nbsp; [JBCNconf](https://www.jbcnconf.com/2022/)
+&nbsp; 🇪🇸 &nbsp; Give your application memories
+- `May 28` &nbsp; [Java Day Istanbul](https://www.javaday.istanbul/)
+&nbsp; 🇹🇷 &nbsp; TBD
 - `May 24` &nbsp; [DevOps Pro Europe](https://devopspro.lt/)
 &nbsp; 🇱🇹 &nbsp; Location transparency
 - `Feb 24` &nbsp; [ConFoo](https://confoo.ca/en/2022/)
