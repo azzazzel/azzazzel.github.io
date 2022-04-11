@@ -98,7 +98,7 @@ talks:
 &nbsp; 🇱🇹 &nbsp; Location transparency
 - `May 03` &nbsp; [JAX Mainz](https://jax.de/mainz-en)
 &nbsp; 🇩🇪 &nbsp; TBD
-- `Apr 28` &nbsp; [DevOpsCon London](http://jprime.io/)
+- `Apr 28` &nbsp; [DevOpsCon London](https://devopscon.io/london/)
 &nbsp; 🇬🇧 &nbsp; Location transparency
 - `Apr 14` &nbsp; PRODYNA Experience Days
 &nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i> &nbsp; Event-driven - from concept to mission critical solutions
