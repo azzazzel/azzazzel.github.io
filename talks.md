@@ -91,9 +91,17 @@ talks:
 - `Jul 18` &nbsp; [JBCNconf](https://www.jbcnconf.com/2022/)
 &nbsp; 🇪🇸 &nbsp; Give your application memories
 - `May 28` &nbsp; [Java Day Istanbul](https://www.javaday.istanbul/)
-&nbsp; 🇹🇷 &nbsp; TBD
+&nbsp; 🇹🇷 &nbsp; Give your application memories
+- `May 25` &nbsp; [jPrime](http://jprime.io/)
+&nbsp; 🇧🇬 &nbsp; Location transparency
 - `May 24` &nbsp; [DevOps Pro Europe](https://devopspro.lt/)
 &nbsp; 🇱🇹 &nbsp; Location transparency
+- `May 03` &nbsp; [JAX Mainz](https://jax.de/mainz-en)
+&nbsp; 🇩🇪 &nbsp; TBD
+- `Apr 28` &nbsp; [DevOpsCon London](http://jprime.io/)
+&nbsp; 🇬🇧 &nbsp; Location transparency
+- `Apr 14` &nbsp; PRODYNA Experience Days
+&nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i> &nbsp; Event-driven - from concept to mission critical solutions
 - `Feb 24` &nbsp; [ConFoo](https://confoo.ca/en/2022/)
 &nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i> &nbsp; Give your application memories
 - `Feb 23` &nbsp; [ConFoo](https://confoo.ca/en/2022)
