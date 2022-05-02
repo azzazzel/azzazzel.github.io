@@ -101,7 +101,7 @@ talks:
 - `May 26` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Location transparency
 - `May 24` &nbsp; [DevOps Pro Europe](https://devopspro.lt/)
-&nbsp; 🇱🇹 &nbsp; Location transparency
+&nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i> &nbsp; Location transparency
 - `May 17` &nbsp; [Voxxed Days Zürich](https://voxxeddays.com/zurich/)
 &nbsp; 🇨🇭 &nbsp; Location transparency
 - `May 03` &nbsp; [JAX Mainz](https://jax.de/mainz-en)
