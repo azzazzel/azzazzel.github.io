@@ -5,6 +5,9 @@ talks:
  - title:  Location transparency
    thumbnail: https://slidrio-decks.global.ssl.fastly.net/1865/thumbs/1_1280.jpg
    url: https://slidr.io/azzazzel/location-transparency
+ - title:  Event-driven - from a cool concept to solid applications
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1864/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/event-driven-from-a-cool-concept-to-solid-applications
  - title:  Demystifying 'event' related software concepts and methodologies
    thumbnail: https://slidrio-decks.global.ssl.fastly.net/1805/thumbs/1_1280.jpg
    url: https://slidr.io/azzazzel/demystifying-event-related-software-concepts-and-methodologies
