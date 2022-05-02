@@ -2,6 +2,9 @@
 layout: page
 title: Talks
 talks:
+ - title:  Location transparency
+   thumbnail: https://slidrio-decks.global.ssl.fastly.net/1865/thumbs/1_1280.jpg
+   url: https://slidr.io/azzazzel/location-transparency
  - title:  Demystifying 'event' related software concepts and methodologies
    thumbnail: https://slidrio-decks.global.ssl.fastly.net/1805/thumbs/1_1280.jpg
    url: https://slidr.io/azzazzel/demystifying-event-related-software-concepts-and-methodologies
@@ -92,12 +95,14 @@ talks:
 &nbsp; 🇪🇸 &nbsp; Give your application memories
 - `May 28` &nbsp; [Java Day Istanbul](https://www.javaday.istanbul/)
 &nbsp; 🇹🇷 &nbsp; Give your application memories
-- `May 25` &nbsp; [jPrime](http://jprime.io/)
+- `May 26` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Location transparency
 - `May 24` &nbsp; [DevOps Pro Europe](https://devopspro.lt/)
 &nbsp; 🇱🇹 &nbsp; Location transparency
+- `May 17` &nbsp; [Voxxed Days Zürich](https://voxxeddays.com/zurich/)
+&nbsp; 🇨🇭 &nbsp; Location transparency
 - `May 03` &nbsp; [JAX Mainz](https://jax.de/mainz-en)
-&nbsp; 🇩🇪 &nbsp; TBD
+&nbsp; 🇩🇪 &nbsp; Give your application memories
 - `Apr 28` &nbsp; [DevOpsCon London](https://devopscon.io/london/)
 &nbsp; 🇬🇧 &nbsp; Location transparency
 - `Apr 14` &nbsp; PRODYNA Experience Days
