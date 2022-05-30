@@ -100,10 +100,15 @@ talks:
 &nbsp; 🇹🇷 &nbsp; Give your application memories
 - `May 26` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Location transparency
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://youtu.be/KBWnfQFdUpc?t=11732)
+- `May 26` &nbsp; [jPrime](http://jprime.io/)
+&nbsp; 🇧🇬 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://youtu.be/KBWnfQFdUpc?t=514)
 - `May 24` &nbsp; [DevOps Pro Europe](https://devopspro.lt/)
 &nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i> &nbsp; Location transparency
 - `May 17` &nbsp; [Voxxed Days Zürich](https://voxxeddays.com/zurich/)
 &nbsp; 🇨🇭 &nbsp; Location transparency
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=eEj7MlYFo4M)
 - `May 03` &nbsp; [JAX Mainz](https://jax.de/mainz-en)
 &nbsp; 🇩🇪 &nbsp; Give your application memories
 - `Apr 28` &nbsp; [DevOpsCon London](https://devopscon.io/london/)
