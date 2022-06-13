@@ -106,10 +106,10 @@ talks:
 &nbsp; 🇹🇷 &nbsp; Give your application memories
 - `May 26` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Location transparency
-&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://youtu.be/KBWnfQFdUpc?t=11732)
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=SCw5eYyUj2s)
 - `May 26` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
-&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://youtu.be/KBWnfQFdUpc?t=514)
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=gkMFm1VVxyI)
 - `May 24` &nbsp; [DevOps Pro Europe](https://devopspro.lt/)
 &nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i> &nbsp; Location transparency
 - `May 17` &nbsp; [Voxxed Days Zürich](https://voxxeddays.com/zurich/)
