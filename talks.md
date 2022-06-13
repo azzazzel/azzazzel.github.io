@@ -96,6 +96,12 @@ talks:
 
 - `Jul 18` &nbsp; [JBCNconf](https://www.jbcnconf.com/2022/)
 &nbsp; 🇪🇸 &nbsp; Give your application memories
+- `Jun 25` &nbsp; [Confitura](https://2022.confitura.pl/)
+&nbsp; 🇵🇱 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+- `Jun 22` &nbsp; Madrid JUG
+&nbsp; 🇪🇸 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+- `Jun 21` &nbsp; Barcelona JUG
+&nbsp; 🇪🇸 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `May 28` &nbsp; [Java Day Istanbul](https://www.javaday.istanbul/)
 &nbsp; 🇹🇷 &nbsp; Give your application memories
 - `May 26` &nbsp; [jPrime](http://jprime.io/)
