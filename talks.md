@@ -208,7 +208,7 @@ talks:
 - `Apr 21` &nbsp; [Bulgarian JUG](https://jug.bg/events/liferay-workshop/)
 &nbsp; 🇧🇬 &nbsp; Why choose between CMS and custom Java app when you can have both with Liferay?
 - `Apr 17` &nbsp; [Java With The Best](https://java.withthebest.com/)
-&nbsp; 🌍  &nbsp; Fantastic Java contracts - and where to define them?
+&nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i>  &nbsp; Fantastic Java contracts - and where to define them?
 - `Feb 17` &nbsp; [Javantura](https://javantura.com)
 &nbsp; 🇭🇷 &nbsp; Fantastic Java contracts - and where to define them?
 &nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=tadgCsWUgfQ)
@@ -392,7 +392,7 @@ talks:
 ### 2014
 
  - `Dec 18` &nbsp; [DEV.LIFE](https://www.liferay.com/community/dev.life/home)
- &nbsp; 🌍  &nbsp; Developing OSGi plugins for Liferay 6.2 and 7 with Maven
+ &nbsp; <i class="bi bi-person-video2" style="font-size:0.9rem; color: gray;"></i>  &nbsp; Developing OSGi plugins for Liferay 6.2 and 7 with Maven
  &nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=k2qxh7FzfH8)
  - `Nov 21` &nbsp; [Liferay Italy Symposium](https://www.liferay.com/web/italy2014/)
  &nbsp; 🇮🇹 &nbsp; OSGi to Create Extensible Plugins
