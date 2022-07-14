@@ -100,10 +100,12 @@ talks:
 &nbsp; 🇵🇱 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `Jun 22` &nbsp; Madrid JUG
 &nbsp; 🇪🇸 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=ks47s_pDCbk)
 - `Jun 21` &nbsp; Barcelona JUG
 &nbsp; 🇪🇸 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `May 28` &nbsp; [Java Day Istanbul](https://www.javaday.istanbul/)
 &nbsp; 🇹🇷 &nbsp; Give your application memories
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=pKIHqhHga1s)
 - `May 26` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; Location transparency
 &nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=SCw5eYyUj2s)
