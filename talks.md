@@ -94,6 +94,10 @@ talks:
 
 ### 2022
 
+- `Nov 08` &nbsp; [W-JAX](https://jax.de/munich/)
+&nbsp; 🇩🇪 &nbsp; Location transparency
+- `Sep 07` &nbsp; [JavaZone](https://2022.javazone.no)
+&nbsp; 🇳🇴 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `Jul 18` &nbsp; [JBCNconf](https://www.jbcnconf.com/2022/)
 &nbsp; 🇪🇸 &nbsp; Give your application memories
 - `Jun 25` &nbsp; [Confitura](https://2022.confitura.pl/)
