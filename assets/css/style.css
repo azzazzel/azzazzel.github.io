@@ -40,6 +40,14 @@ blockquote {
 		color: #174A2E;
 }
 
+blockquote cite {
+	display: block;
+    font-size: 0.8em;
+	color: #174A2E;
+	text-align: right;
+}
+
+
 #impliedsubmit {
 	color: #405430;
 }
