@@ -94,12 +94,13 @@ talks:
 
 ### 2022
 
-- `Dec 05` &nbsp; [DevOpsCon Munich](https://devopscon.io/munich/)
+- `Dec 07` &nbsp; [DevOpsCon Munich](https://devopscon.io/munich/)
 &nbsp; 🇩🇪 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `Nov 08` &nbsp; [W-JAX](https://jax.de/munich/)
 &nbsp; 🇩🇪 &nbsp; Location transparency
 - `Sep 07` &nbsp; [JavaZone](https://2022.javazone.no)
 &nbsp; 🇳🇴 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://vimeo.com/747697453)
 - `Jul 18` &nbsp; [JBCNconf](https://www.jbcnconf.com/2022/)
 &nbsp; 🇪🇸 &nbsp; Give your application memories
 - `Jul 17` &nbsp; [JBCNconf](https://www.jbcnconf.com/2022/)
