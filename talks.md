@@ -98,6 +98,8 @@ talks:
 &nbsp; 🇩🇪 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `Nov 08` &nbsp; [W-JAX](https://jax.de/munich/)
 &nbsp; 🇩🇪 &nbsp; Location transparency
+- `Nov 03` &nbsp; [GoTech World](https://www.gotech.world/)
+&nbsp; 🇷🇴 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `Sep 07` &nbsp; [JavaZone](https://2022.javazone.no)
 &nbsp; 🇳🇴 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 &nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://vimeo.com/747697453)
