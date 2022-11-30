@@ -96,6 +96,8 @@ talks:
 
 - `Dec 07` &nbsp; [DevOpsCon Munich](https://devopscon.io/munich/)
 &nbsp; 🇩🇪 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+- `Nov 30` &nbsp; [YOW! London](https://yowlondon.com/2022)
+&nbsp; 🇬🇧 &nbsp; Location transparency
 - `Nov 08` &nbsp; [W-JAX](https://jax.de/munich/)
 &nbsp; 🇩🇪 &nbsp; Location transparency
 - `Nov 03` &nbsp; [GoTech World](https://www.gotech.world/)
