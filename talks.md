@@ -92,6 +92,11 @@ talks:
 
 ## Events
 
+### 2023
+
+ - `Feb 7` &nbsp; [JFokus](http://www.jfokus.se/)
+ &nbsp; 🇸🇪 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+
 ### 2022
 
 - `Dec 07` &nbsp; [DevOpsCon Munich](https://devopscon.io/munich/)
