@@ -116,6 +116,7 @@ talks:
 &nbsp; 🇪🇸 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 - `Jun 25` &nbsp; [Confitura](https://2022.confitura.pl/)
 &nbsp; 🇵🇱 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=uvxr4yYbgzU)
 - `Jun 22` &nbsp; Madrid JUG
 &nbsp; 🇪🇸 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 &nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=ks47s_pDCbk)
