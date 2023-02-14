@@ -94,6 +94,10 @@ talks:
 
 ### 2023
 
+ - `May 10` &nbsp; [Devoxx UK](https://www.devoxx.co.uk/)
+ &nbsp; 🇬🇧 &nbsp; Location transparency
+ - `Apr 19` &nbsp; [GeeCON](https://2023.geecon.org/)
+ &nbsp; 🇵🇱 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
  - `Feb 7` &nbsp; [JFokus](http://www.jfokus.se/)
  &nbsp; 🇸🇪 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
 
