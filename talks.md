@@ -94,8 +94,14 @@ talks:
 
 ### 2023
 
+ - `Jun 02` &nbsp; [Devoxx Poland](https://devoxx.pl/)
+ &nbsp; 🇵🇱 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+ - `May 30` &nbsp; [jPrime](http://jprime.io/)
+ &nbsp; 🇧🇬 &nbsp; Simply a complex shopping cart
  - `May 10` &nbsp; [Devoxx UK](https://www.devoxx.co.uk/)
  &nbsp; 🇬🇧 &nbsp; Location transparency
+ - `Apr 24` &nbsp; [Java Vienna Meetup](https://www.meetup.com/java-vienna/events/292086242/)
+ &nbsp; 🇦🇹 &nbsp; TBD
  - `Apr 19` &nbsp; [GeeCON](https://2023.geecon.org/)
  &nbsp; 🇵🇱 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
  - `Feb 07` &nbsp; [JFokus](http://www.jfokus.se/)
