@@ -101,11 +101,12 @@ talks:
  - `May 10` &nbsp; [Devoxx UK](https://www.devoxx.co.uk/)
  &nbsp; 🇬🇧 &nbsp; Location transparency
  - `Apr 24` &nbsp; [Java Vienna Meetup](https://www.meetup.com/java-vienna/events/292086242/)
- &nbsp; 🇦🇹 &nbsp; TBD
+ &nbsp; 🇦🇹 &nbsp; Location transparency
  - `Apr 19` &nbsp; [GeeCON](https://2023.geecon.org/)
  &nbsp; 🇵🇱 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
  - `Feb 07` &nbsp; [JFokus](http://www.jfokus.se/)
  &nbsp; 🇸🇪 &nbsp; Demystifying 'Event' Related Software Concepts and Methodologies
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://www.youtube.com/watch?v=hl1PGT0Bsp4)
 
 ### 2022
 
