@@ -94,6 +94,8 @@ talks:
 
 ### 2023
 
+- `Oct 25` &nbsp; [JDD](https://jdd.org.pl/)
+&nbsp; 🇵🇱 &nbsp; Location transparency
 - `Oct 19` &nbsp; [GeeCON Prague](https://2023.geecon.cz/)
 &nbsp; 🇨🇿 &nbsp; Location transparency
 - `Sep 27` &nbsp; [DrivUn](https://drivun.co/)
