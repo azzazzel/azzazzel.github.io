@@ -2,10 +2,10 @@
 layout: page
 title: Talks
 talks:
- - title:  AI for Java Developers: From Buzzword to Code
+ - title: "AI for Java Developers: From Buzzword to Code"
    thumbnail: https://slidrio-decks.global.ssl.fastly.net/2708/thumbs/1_1280.jpg
    url: https://slidr.io/azzazzel/ai-for-java-developers-from-buzzword-to-code
- - title:  Location transparency
+ - title: Location transparency
    thumbnail: https://slidrio-decks.global.ssl.fastly.net/1865/thumbs/1_1280.jpg
    url: https://slidr.io/azzazzel/location-transparency
  - title:  Event-driven - from a cool concept to solid applications
