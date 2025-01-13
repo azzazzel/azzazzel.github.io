@@ -42,3 +42,5 @@ social:
 google_analytics: "UA-6858591-2"
 
 plugins: [jekyll-paginate]
+
+include: [".well-known"]
