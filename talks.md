@@ -95,6 +95,13 @@ talks:
 
 ## Events
 
+### 2025
+
+- `May 14` &nbsp; [jPrime](http://jprime.io/)
+&nbsp; 🇧🇬 &nbsp; AI for Java Developers: From Buzzword to Code
+- `May 06` &nbsp; [4Developers Warszawa](https://4developers.org.pl/)
+&nbsp; 🇵🇱 &nbsp; AI for Java Developers: From Buzzword to Code
+
 ### 2024
 
 - `Dec 11` &nbsp; [Ya!vaConf](https://yavaconf.com/)
