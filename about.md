@@ -18,7 +18,7 @@ I still enjoy coding and use every occasion to do so - customer solutions, contr
 
 ### What I have done in the past
 
-From 2020 to 2024 I was a Developer Advocate at [AxonIQ](http://axoniq.io), where I effectively led the Developer Relations team. Next to Java and modularity, I deepened and share my knowledge about Domain-Driven Design, Command and Query Responsibility Separation, Event Sourcing, and similar architectural concepts.
+From 2020 to 2024 I was a Developer Advocate at [AxonIQ](http://axoniq.io), where I effectively led the Developer Relations team. Next to Java and modularity, I deepened and shared my knowledge about Domain-Driven Design, Command and Query Responsibility Separation, Event Sourcing, and similar architectural concepts.
 
 From 2017 to 2020, I was a Developer Advocate at [Liferay](http://liferay.com). Firstly a member and then a leader of the Developer Relations team. My main focus was on Java and modularity-related aspects!
 
