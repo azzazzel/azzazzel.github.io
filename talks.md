@@ -97,8 +97,11 @@ talks:
 
 ### 2025
 
+- `Jul 08` &nbsp; [DevBcn](https://www.devbcn.com/)
+&nbsp; 🇪🇸 &nbsp; AI for Java Developers: From Buzzword to Code
 - `May 14` &nbsp; [jPrime](http://jprime.io/)
 &nbsp; 🇧🇬 &nbsp; AI for Java Developers: From Buzzword to Code
+&nbsp; [<i class="bi bi-play-btn" style="font-size:0.9rem"></i>](https://youtu.be/jYEN81EDm7E?si=OVwhbTxpL3ybTdH0)
 - `May 06` &nbsp; [4Developers Warszawa](https://4developers.org.pl/)
 &nbsp; 🇵🇱 &nbsp; AI for Java Developers: From Buzzword to Code
 
