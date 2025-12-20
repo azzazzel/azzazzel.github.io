@@ -37,7 +37,36 @@ Additionally you may execute `mvn eclipse:eclipse` to setup Eclipse IDE if, that
 Let's now add data model and services. Create file `service-builder-portlet/src/main/webapp/WEB-INF/service.xml`:
 
 ```xml
-{% include 2009-10-09-creating_liferay_portlet_with_liferay-maven-sdk/service.xml %}
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 5.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_5_2_0.dtd">
+<service-builder package-path="com.commsen.liferay.examples.portlet.servicebuilder">
+  <namespace>SB</namespace>
+  <entity
+    name="Player"
+    local-service="true"
+    remote-service="true">
+
+    <!-- PK fields -->
+    <column name="playerId" type="long" primary="true" />
+
+    <!-- Other fields -->
+    <column name="name" type="String" />
+    <column name="active" type="boolean" />
+    <column name="score" type="int" />
+    <column name="birthday" type="Date" />
+    <column name="description" type="String" />
+
+    <!-- Order -->
+    <order by="asc">
+      <order-column name="name" />
+    </order>
+
+    <!-- Finder methods -->
+    <finder name="ActivePlayers" return-type="Collection">
+      <finder-column name="active" />
+    </finder>
+  </entity>
+</service-builder>
 ```
 
 The portlet projects created by `liferay-portlet-archetype` contain maven profile with `lifray-maven-plugin`'s `build-service` goal attached to `generate-sources` phase. To run `ServiceBuilder` you need to activate the profile:
