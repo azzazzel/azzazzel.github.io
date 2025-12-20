@@ -2,6 +2,7 @@
 layout: new_post
 title: From DevRel to Developer eXperience
 date: 2022-02-10
+image: /assets/from_devrel_to_developer_experience.jpg
 ---
 
 At the time of writing this, the DevRel team at [AxonIQ](https://axoniq.io) consists of four people <small>(including me)</small>. We are two Developer Advocates, a Community Platforms Developer, and a Learning Experience Designer. The flat structure makes perfect sense at this team size. But our plans are huge, and four people can only cover so much ground. Clearly, the team needs to grow.
@@ -32,7 +33,7 @@ Here is what it looks like:
 
 ### The DevRel sub-domain
 
-Obviously, the most critical role in that scope is the "Developer Advocate (Java)" one. In my previous post, I have dived a bit deeper into [what developer advocacy is](/blog/2022/01/what_dev_heck#developer-advocacy). At the time of writing this post, AxonIQ's offer serves best developers using Java or JVM-based languages; thus, the Java focus. As we evolve our support for other environments <small>(like .Net for example)</small>, we'll adjust the team accordingly. And of course, it is much better to have a relationship with people who speak your language and understand the local culture. Thus, we would love to have advocates in North America, DACH, and UK/Ireland regions <small>(for a start)</small>.
+Obviously, the most critical role in that scope is the "Developer Advocate (Java)" one. In my previous post, I have dived a bit deeper into [what developer advocacy is](/blog/2022/02/what_dev_heck#developer-advocacy). At the time of writing this post, AxonIQ's offer serves best developers using Java or JVM-based languages; thus, the Java focus. As we evolve our support for other environments <small>(like .Net for example)</small>, we'll adjust the team accordingly. And of course, it is much better to have a relationship with people who speak your language and understand the local culture. Thus, we would love to have advocates in North America, DACH, and UK/Ireland regions <small>(for a start)</small>.
 
 The "Head of Developer Relations" is the same as "Developer Advocate" one plus the responsibility to plan and coordinate the activities of the whole team.
 
