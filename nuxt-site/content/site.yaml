@@ -1,0 +1,122 @@
+title: Milen Dyankov
+teaser: Software architecture | DevEx | Practical AI
+logo: /img/avatar.png
+description: |
+  A professional with decades of hands-on experience, helping developers and organizations 
+  make sound decisions around software architecture, developer experience, and practical AI adoption.
+
+hero:
+  headline: Applying new technology with seasoned judgment
+  image:
+    src: /img/MilenDyankov.jpg
+    alt: Milen Dyankov
+
+about:
+  title: Areas of Focus
+  offers:
+    - title: Consulting
+      icon: i-carbon-decision-tree
+      description: |
+        Helping organizations make sound architectural decisions, improve developer experience, 
+        and adopt new technologies — including AI — in practical, maintainable ways. The focus 
+        is on clarity, trade-offs, and long-term sustainability.
+    - title: Hands-on Engineering
+      icon: i-lucide-code
+      description: |
+        Working directly with developers and teams through prototyping, POCs, code reviews, 
+        architecture reviews, and technical problem-solving. Balancing strategic guidance 
+        with real-world constraints and day-to-day delivery.
+    - title: Speaking & Knowledge Sharing
+      icon: i-hugeicons-co-present
+      description: |
+        Translating complex topics into clear, usable concepts through talks, workshops, and 
+        developer-focused content. Grounded in real projects, not theory, and tailored to 
+        experienced engineers.
+
+experience:
+  title: Past Engagements
+  clients:
+    - name: BIK
+      type: financial
+      icon:
+    - name: Orange
+      type: telecom
+      icon: i-simple-icons-orange
+    - name: Empik
+      type: e-commerce
+      icon:
+    - name: T-Mobile
+      type: telecom
+      icon: i-simple-icons-deutschetelekom
+    - name: DM BOŚ
+      type: financial
+      icon:
+    - name: Vodafone
+      type: telecom
+      icon: i-simple-icons-vodafone
+    - name: Liferay
+      type: software
+      icon:
+    - name: Cisco
+      type: technology
+      icon: i-simple-icons-cisco
+    - name: PZU
+      type: insurance
+      icon:
+    - name: DIGIT (EU)
+      type: government
+      icon: i-simple-icons-europeanunion
+    - name: Raiffeisen Bank
+      type: financial
+      icon:
+    - name: AxonIQ
+      type: software
+      icon:
+    - name: TVN
+      type: digital media
+      icon:
+
+  content: |
+    Milen is a software professional with decades of experience working across enterprise systems, 
+    developer platforms, and open-source projects. His work focuses on helping developers and 
+    organizations make sound architectural decisions, improve developer experience, and adopt 
+    new technologies — including AI — in ways that are practical, maintainable, and aligned 
+    with real business needs.
+    <p>
+    Milen has led and advised teams at scale, working with organizations ranging from startups to 
+    large enterprises in regulated and high-complexity environments. His approach combines long-term 
+    architectural thinking with hands-on delivery, helping teams reduce risk, avoid unnecessary 
+    complexity, and build software that holds up over time.
+    </p>
+
+presence:
+  - label: Bluesky
+    link: 'https://bsky.app/profile/milendyankov.com'
+    icon:  i-simple-icons-bluesky
+  - label: Mastodon
+    link: 'https://fosstodon.org/@milendyankov'
+    icon: i-simple-icons-mastodon
+  - label: X
+    link: 'https://x.com/milendyankov'
+    icon: i-simple-icons-x
+  - label: LinkedIn
+    link: 'https://www.linkedin.com/in/milendyankov'
+    icon: i-simple-icons-linkedin
+  - label: GitHub
+    link: 'https://github.com/azzazzel'
+    icon: i-simple-icons-github
+  - label: Slides
+    link: 'http://www.slidr.io/azzazzel'
+    icon: i-simple-icons-slides
+  - label: Email
+    link: 'mailto:milendyankov@gmail.com 
+    icon: i-ic-baseline-email
+  - label: RSS feed
+    link: '/feed.xml'
+    icon: i-ic-rss-feed 
+
+pages:
+  - title: Blog
+    path: /blog
+  - title: Talks
+    path: /talks

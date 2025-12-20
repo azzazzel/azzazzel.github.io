@@ -1,0 +1,41 @@
+---
+layout: new_post
+title: 'Getting feedback live'
+date: 2017-03-16
+image: /assets/2017-03-16-Getting_feedback_live/javaskop_talk.jpg
+---
+
+I have spoken at [quite some conferences](/talks) over the last years. Part of the talks were just me speaking with some (hopefully not too ugly) slides behind me. Some were live demos. Either way, I'm almost never happy with my talks and therefore constantly looking for ways to improve. But in order to improve, first you need to know what your audience like and don't like. It all comes down to feedback and constructive criticism. Some conferences are quite good at collecting feedback. Polish [Confitura](http://confitura.pl) is on the top of my list, sending me a document that not only shows how people voted but also all the comments from their online survey. Most conferences though don't bother to give feedback to speakers. Some don't ever bother to collect it. It's therefore been on my mind for a while to try to find a fun and easy way for attendees to provide feedback during _(not after)_ my talk.
+
+<!--more-->
+
+### About feedback
+
+Based on many conversations I've had with attendees in the past, I figured they are more likely to give feedback the moment they disagree with you or the moment they are impressed by something. If you ask them after the talk, the moment is gone and all you get is the overall feeling, most of the time highly influenced by what you have said in the last 5 minutes. Let me give you an example. I have a couple of 45min to 1h long talks about Java modularity. Apart from introducing myself and who I work for in the beginning, I only talk about technologies, methodologies and concepts and never mention [Liferay](http://liferay.com) for about 95% of the time I have. Than I take 3 to 5 minutes at the end to explain how we apply those concepts in our products. This looks like both fair and useful approach to me. Yet every time I get feedback **after** the talk, there will be some people complaining that I'm advertising my company too much. And that would be actually OK if it wasn't the only thing they have to say about the whole talk.
+
+So I thought, what if I can get them to send feedback **during** the talk via some web application. Most people are constantly online these days anyway, so it shouldn't be too big issue. To make it more fun and motivate more people, I could even display their comments on the big screen once in a while during the talk. I can then adjust my talk based on their comments and ratings and answer their questions while still relevant without them having to interrupt me and shout from the other end of the room. I had no idea if this will work, but it was worth trying. The only question was, how do I build this web application?
+
+### There's an app for that
+
+Building simple app as "Talkback" _(this is what I ended up calling it)_ was amazingly easy and straightforward! OK, that's a bold lie! It wasn't! I struggled a lot with the UI part. Not only I'm not any good UI developer but _(since I'm modularity freak)_ I also decided to learn better [Polymer](https://www.polymer-project.org/) and [WebComponents](https://en.wikipedia.org/wiki/Web_Components) while doing it. So building a static HTML site out of web components took me quite some time and raised my frustration to higher level! But at the same time I learned a lot about front-end modularity _(which is perhaps a topic for another post)_. At the end it wasn't the prettiest thing on earth, but for someone who has spend his entire professional life on the backend side, I was satisfied with the result.
+
+![Talkback live coding at JavaSkop](/assets/2017-03-16-Getting_feedback_live/javaskop_talk.jpg)
+
+With a static HTML app in place, I had to implement authentication and some remote services to store and retrieve the data. OK, "implement" is what I would have to do without **[WeDeploy](http://wedeploy.com/) - "the service that gives you access to intuitive APIs and help you create modern apps faster"**. Yes, it is built by [Liferay](http://liferay.com). Yes, you can again blame me for advertising the company I work for. But it doesn't change the fact it's a great service that allows rapid application development! And no, you don't need to take my word for it! You can _(and if fact should)_ try it yourself! It's free! So, in the case of "Talkback" all I had to do was to configure `auth` and `data` services provided by [WeDeploy](http://wedeploy.com/) and I was done! Learning curve aside and having the UI ready, one can really build such app in minutes! I thought that was something worth sharing and this is how "From 0 to production in one conference talk time" live demo was born.
+
+### Feedback about the feedback app
+
+The first conference to give me the opportunity to present it _(or run my experiment if you prefer)_ was [JavaSkop](http://jug.mk/javaskop17) - a lovely event in Skopje, Macedonia. And it went surprisingly well! People seamed to have fun playing with the app as I was creating and deploying it! It was a relief to see so many _(now I know the number is 25)_ "thumb up" comments, 3 "average" ratings and only two "thumb down"s. There were a few questions as well, some of which I left unanswered, so let me fix that here:
+
+- **Heroku ?** - A few questions, though asked differently, were basically about the difference between [WeDeploy](http://wedeploy.com/) and [Heroku](https://www.heroku.com/). As I don't know exactly what Heroku offers let me quote my colleague [Zeno Rocha](https://zenorocha.com/) here _"Heroku lets you deploy any kind of application there, this is something WeDeploy does as well but Heroku doesn't offer you APIs that you can easily plug into your app like WeDeploy Auth, Data, Email, etc. Hosting is very important but it's just one part of WeDeploy, we believe there's a lot of value in those microservices"_
+- **OpenShift ?** - Same as above, there is conceptual difference between [WeDeploy](http://wedeploy.com/) and [OpenShift](https://www.openshift.com/). OpenShift focuses on making it easy to manage Docker containers. In another words, you _(or someone in your team)_ still needs to manage the infrastructure, just in a more modern way. And so one can of course setup and run own Auth, Data, Email, ... services running on top of OpenShift _(or Heroku or any other PaaS)_ for the cost of maintaining those. WeDeploy's goal on the other hand is to serve best application developers and make infrastructure for them as transparent as possible so they can focus on building their awesome apps.
+- **do the WeDeploy have limit of pinging other servers?** - Not that I'm aware of. Keep in mind though, at the time of writing this post, WeDeploy is in alpha _(oops I guess I said "beta" during the conference)_, so things may change.
+- **can we deploy vanila java ee app?** - As I demonstrated during the last few minutes of the talk you can [run Java applications](http://wedeploy.com/docs/other/java.html) _(SpringBoot based one in this case)_. I've also run OGSi based applications on it. I'm pretty sure you can run Java EE applications on it if you manage to package them as single executable jar _(for example by using one of the solutions from [MicroProfile](https://microprofile.io/))_. It can also run [Liferay as a service](http://wedeploy.com/docs/other/liferay.html), which is quite complex Java EE app :)
+
+If you have more questions about WeDeploy please use the conversations on [wedeploy.com](http://wedeploy.com/) or join [WeDeploy's Slack](http://wedeploy.slack.com)!
+
+### Back to feedback
+
+So that's how the experiment went! I got quite some feedback about the technologies I demonstrated. I also got zero feedback about how I was doing as a speaker :) I guess I need to figure out a way to encourage people to rate that aspect too. Overall, despite the fact I'm still scared I'll see many "thumbs down", I'm looking forward to improve the app and "build it from scratch" at few more conferences in the future.
+
+What do you think about the idea? Would you use something like "Talkback" to get feedback live during your talk? Honestly speaking, it's not something I was planning to release as service that can be used by others, but with WeDeploy that would be quite easy. Or do you have better ways to collect feedback? I'd love to hear your stories.
