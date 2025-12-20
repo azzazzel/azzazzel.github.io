@@ -56,6 +56,26 @@
       fields: ['description'],
     })
   })
+
+  const title = post.value?.title || ''
+  const description = post.value?.description || ''
+  const image = post.value?.meta?.image || '/img/MilenDyankov.jpg'
+
+  useSeoMeta({
+    title: title,
+    description: description,
+  })
+
+  useSeoMeta({
+    ogTitle: title,
+    ogDescription: description,
+    ogImage: image,
+    ogUrl: 'https://milendyankov.com',
+    twitterTitle: title,
+    twitterDescription: description,
+    twitterImage: image,
+    twitterCard: 'summary',
+  })
 </script>
 
 <style></style>

@@ -18,9 +18,34 @@
 
   const title = siteConfig.value.title || ''
   const description = siteConfig.value.description || ''
+  const image = '/img/MilenDyankov.jpg'
 
   useSeoMeta({
     title,
     description,
+  })
+
+  useSeoMeta({
+    ogTitle: title,
+    ogDescription: description,
+    ogImage: image,
+    ogUrl: 'https://milendyankov.com',
+    twitterTitle: title,
+    twitterDescription: description,
+    twitterImage: image,
+    twitterCard: 'summary',
+  })
+
+  useHead({
+    htmlAttrs: {
+      lang: 'en',
+    },
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon.png',
+      },
+    ],
   })
 </script>

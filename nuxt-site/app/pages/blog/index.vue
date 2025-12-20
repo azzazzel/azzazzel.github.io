@@ -36,4 +36,26 @@
     route.path,
     () => queryCollection('posts').order('path', 'DESC').all() || [],
   )
+
+  const title = 'Milen Dyankov :: Blog'
+  const description =
+    'A technical blog on software architecture, developer experience, and applied AI, \
+    written from the perspective of an experienced software engineer.'
+  const image = '/img/MilenDyankov.jpg'
+
+  useSeoMeta({
+    title,
+    description,
+  })
+
+  useSeoMeta({
+    ogTitle: title,
+    ogDescription: description,
+    ogImage: image,
+    ogUrl: 'https://milendyankov.com',
+    twitterTitle: title,
+    twitterDescription: description,
+    twitterImage: image,
+    twitterCard: 'summary',
+  })
 </script>
