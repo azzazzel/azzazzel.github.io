@@ -31,8 +31,6 @@
         </UPageGrid>
       </UPageSection>
 
-      <UContainer> </UContainer>
-
       <UPageSection
         :title="experience.title"
         :ui="uiSmallerTitle"

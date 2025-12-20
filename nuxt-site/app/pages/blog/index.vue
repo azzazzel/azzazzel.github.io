@@ -23,7 +23,8 @@
             :ui="{
               description: 'line-clamp-2',
             }"
-        /></UBlogPosts>
+          />
+        </UBlogPosts>
       </UPageSection>
     </UPageBody>
   </UPage>
@@ -35,13 +36,4 @@
     route.path,
     () => queryCollection('posts').order('path', 'DESC').all() || [],
   )
-  console.log(posts.value)
-
-  const buildLink = computed(() => (post: any) => {
-    const date = new Date(post.date)
-    const year = date.getFullYear()
-    const month = String(date.getMonth() + 1).padStart(2, '0')
-    const slug = post.path.split('-').slice(3).join('-')
-    return `/blog/${year}/${month}/${slug}`
-  })
 </script>

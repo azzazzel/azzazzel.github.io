@@ -41,7 +41,6 @@
 
 <script lang="ts" setup>
   const route = useRoute()
-  console.log(route)
   const { data: post } = await useAsyncData(route.path, () =>
     queryCollection('posts').where('path', '=', route.path).first(),
   )
@@ -49,7 +48,6 @@
   if (!post.value) {
     throw createError({
       statusCode: 404,
-      message: '' + JSON.stringify(route),
     })
   }
 

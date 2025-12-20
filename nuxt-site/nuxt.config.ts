@@ -1,12 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/image', '@nuxt/eslint'],
-  ssr: false,
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
   },
+
   content: {
     build: {
       markdown: {
