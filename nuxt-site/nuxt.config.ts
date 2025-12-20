@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/image', '@nuxt/eslint'],
+  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/image', '@nuxt/eslint', 'nuxt-gtag'],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   future: {
@@ -26,4 +26,8 @@ export default defineNuxtConfig({
     },
   },
   compatibilityDate: '2024-04-03',
+
+  gtag: {
+    id: 'G-PML7RDD94S',
+  },
 })
