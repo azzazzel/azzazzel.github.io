@@ -30,6 +30,8 @@
     ogDescription: description,
     ogImage: image,
     ogUrl: 'https://milendyankov.com',
+    ogSiteName: title,
+    ogType: 'website',
     twitterTitle: title,
     twitterDescription: description,
     twitterImage: image,

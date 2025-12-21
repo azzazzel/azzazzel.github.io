@@ -2,18 +2,22 @@
   <UContainer v-if="post">
     <UPageHeader :title="post.title">
       <template #headline>
-        <!-- <UBadge
-          v-bind="post.badge"
-          variant="subtle"
-        />
-        <span class="text-muted">&middot;</span> -->
-        <time class="text-muted">{{
-          new Date(post.date).toLocaleDateString('en', {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-          })
-        }}</time>
+        <time class="text-muted"
+          >{{
+            new Date(post.date).toLocaleDateString('en', {
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric',
+            })
+          }}
+        </time>
+        <span class="text-muted">&middot;</span>
+        <DisqusCount
+          :identifier="diqus.identifier"
+          :url="diqus.url"
+          tag="a"
+        >
+        </DisqusCount>
       </template>
     </UPageHeader>
 
@@ -81,7 +85,8 @@
     ogTitle: title,
     ogDescription: description,
     ogImage: image,
-    ogUrl: 'https://milendyankov.com',
+    ogUrl: 'https://milendyankov.com' + post.value?.path,
+    ogType: 'article',
     twitterTitle: title,
     twitterDescription: description,
     twitterImage: image,
