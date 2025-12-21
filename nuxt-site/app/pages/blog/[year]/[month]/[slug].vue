@@ -23,6 +23,12 @@
           v-if="post"
           :value="post"
         />
+        <USeparator v-if="surround?.length" />
+
+        <DisqusComments
+          :identifier="diqus.identifier"
+          :url="diqus.url"
+        />
 
         <USeparator v-if="surround?.length" />
 
@@ -56,6 +62,11 @@
       fields: ['description'],
     })
   })
+
+  const diqus = {
+    identifier: post.value?.path,
+    url: 'https://milendyankov.com' + post.value?.path,
+  }
 
   const title = post.value?.title || ''
   const description = post.value?.description || ''

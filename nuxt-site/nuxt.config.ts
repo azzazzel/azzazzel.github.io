@@ -1,6 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/image', '@nuxt/eslint', 'nuxt-gtag'],
+  modules: [
+    '@nuxt/content',
+    '@nuxt/ui',
+    '@nuxt/image',
+    '@nuxt/eslint',
+    'nuxt-gtag',
+    'nuxt-disqus',
+    '@nuxt/scripts',
+  ],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   future: {
@@ -29,5 +37,9 @@ export default defineNuxtConfig({
 
   gtag: {
     id: 'G-PML7RDD94S',
+  },
+
+  disqus: {
+    shortname: 'milendyankovcom',
   },
 })
