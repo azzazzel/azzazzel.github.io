@@ -11,7 +11,7 @@ Instead of just rushing to hire a few more folks, I started asking myself how th
 
 <!--more-->
 
-### Understanding the domain
+## Understanding the domain
 
 As with any project, I needed to fully understand the domain space I'm trying to model. I spent some time researching and thinking about it. The "[What dev heck?](/blog/2022/02/what_dev_heck/)" post I published earlier covers my findings and thoughts. Long story short, two things became apparent:
 
@@ -21,7 +21,7 @@ Developer eXperience is the main domain
 Developer Relations, Developer Education and Community, are the sub-domains
 : While they all are crucial parts of the developer experience, each of those areas requires slightly different skills and mindsets. Organizing it this way helps understand the scopes and the relations between them. The diagram below may look like a corporate ladder, but it is not. It is merely marking the boundaries of the sub-domains.
 
-### The DX domain
+## The DX domain
 
 The main Developer eXperience domain has one aggregate - the "VP of Developer Experience" <small>(Yay! Corporate ubiquitous language 😉)</small>. Its primary responsibilities are around strategic planning.
 
@@ -31,7 +31,7 @@ Here is what it looks like:
 
 ![DX structure](/assets/2022-02-10-from_devrel_to_developer_experience/dx.png)
 
-### The DevRel sub-domain
+## The DevRel sub-domain
 
 Obviously, the most critical role in that scope is the "Developer Advocate (Java)" one. In my previous post, I have dived a bit deeper into [what developer advocacy is](/blog/2022/02/what_dev_heck#developer-advocacy). At the time of writing this post, AxonIQ's offer serves best developers using Java or JVM-based languages; thus, the Java focus. As we evolve our support for other environments <small>(like .Net for example)</small>, we'll adjust the team accordingly. And of course, it is much better to have a relationship with people who speak your language and understand the local culture. Thus, we would love to have advocates in North America, DACH, and UK/Ireland regions <small>(for a start)</small>.
 
@@ -39,7 +39,7 @@ The "Head of Developer Relations" is the same as "Developer Advocate" one plus t
 
 ![DevRel structure](/assets/2022-02-10-from_devrel_to_developer_experience/devrel.png)
 
-### The Community sub-domain
+## The Community sub-domain
 
 The primary goal of the community team is to facilitate communication for 3rd party developers. Both among themselves and with the AxonIQ folks.
 
@@ -51,7 +51,7 @@ Last but not least, we really like to show our appreciation to all the folks who
 
 ![DevRel structure](/assets/2022-02-10-from_devrel_to_developer_experience/community.png)
 
-### The Developer Education sub-domain
+## The Developer Education sub-domain
 
 We have been investing a lot in training software developers. I don't have the exact number of all trainees to date, but it's in thousands. We also created [AxonIQ Academy](https://academy.axoniq.io/) to bring the learning experience to the next level. To date, we have ~1300 learners there. We know from experience education is a big part of the developer experience.
 
@@ -61,13 +61,13 @@ I hope the "Technical Writer" and "Trainer" roles are self-explanatory. The only
 
 ![DevRel structure](/assets/2022-02-10-from_devrel_to_developer_experience/education.png)
 
-### What's next?
+## What's next?
 
 Well, grow the team 😉. With [that plan](https://www.mindomo.com/mindmap/developer-experience-team-a624d1da224d4489b88bc61f8bc21270) at hand, we are well prepared to search for and find the right people. Or so I hope.
 
 By the way, if you can imagine a picture of yourself replacing one of those ![](https://cdn2.iconfinder.com/data/icons/business-communication-1/100/business_employee_add_addition_sum_hire_new-20.png){:.inline} icons, do not hesitate to drop me a line at milen.dyankov[at]axoniq.io.
 
-### Why am I sharing this?
+## Why am I sharing this?
 
 Two reasons:
 

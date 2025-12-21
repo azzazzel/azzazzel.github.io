@@ -11,19 +11,19 @@ In this case, my decision-making process seems as irrational as the ones softwar
 
 <!--more-->
 
-### The facts
+## The facts
 
 Google Maps navigation got me in trouble twice. Both were attempts to avoid a traffic jam. Several years back, it navigated me through a road that didn't actually exist. It happened in Romania. The "road" turned out to be a narrow path in the middle of a cornfield. The second time was last summer in Poland. The bridge that was supposed to bring me back to the main road after a 40km detour didn't exist either.
 
 I have never had the same issue with the TomTom navigation in my car. In fact, I can't recall a single time it was significantly wrong about a road. But man, it's so frustrating. It changes directions without asking or even notifying. Sometimes it does so while I'm in the middle of an intersection. Several times it made me "avoid" a traffic jam, only to return after the exact same vehicle I had in front of me before. It tells me how long to the next gas station, but not if it's on my side of the highway. It directed me on a paid road that requires an e-toll account. I had to pull over, call the highway service, and ask how to pay the highway fee to avoid a significant fine.
 
-### The perception
+## The perception
 
 The two major issues I had with Google Maps didn't ruin my trust in it. I can understand how mistakes like those can happen. I almost don't remember them. I only recall them occasionally as a fun story. Also, those were several years apart. They seem to be the exceptions of otherwise well-functioning software.
 
 On the other hand, the TomTom system in my car causes micro frustrations almost every time I use it. None of them has the severe consequences of a missing road or bridge. But those pile up quickly. Those micro frustrations build up the feeling of a fragile, not well thought, underdeveloped, etc., product. I know that is not the case. I have good friends at TomTom <small>(I was once considering joining their team in Poland)</small> and I know many super-smart folks work there. I admire the things they do.
 
-### The difference
+## The difference
 
 The fundamental difference is that while TomTom is great with maps, Google is great with user experiences and not terrible with maps.
 

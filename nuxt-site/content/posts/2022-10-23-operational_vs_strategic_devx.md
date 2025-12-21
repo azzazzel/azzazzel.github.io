@@ -12,7 +12,7 @@ There is nothing wrong with that per se. A better developer experience doesn't h
 
 <!--more-->
 
-### Which DevX Is Which
+## Which DevX Is Which
 
 There are many ways to slice and dice the DevX problem space and group the individual activities. But concerning how it fits into the organization's processes and practices, distinguishing strategic from operational activities is likely the most helpful way of thinking about it.
 
@@ -22,7 +22,7 @@ None of these alone is of strategic value. All are important, but usually, one e
 
 Strategic DevX is about making the developer experience a central part of the organization's business strategy. It's about understanding the developers' journey toward the product, their decision-making process, the epiphany, satisfaction, disappointment moments, etc. Such understanding allows the organization to judge which activities make sense at which stage. It allows for building a behavioral framework with dos and don'ts that every individual representing the organization should follow. It makes it possible to design the interaction with the community members in a non-aggressive, developer-friendly fashion and then capitalize on their satisfaction.
 
-### Which DevX Should You Do
+## Which DevX Should You Do
 
 If you are a DevX professional, that decision is not yours. It's the organization's senior leadership that gets to make it. Consciously or subconsciously.
 
@@ -44,7 +44,7 @@ The second hint is how strategic decisions within the organization are made. Thi
 
 The third hint is even trickier as it may fool you. It is how DevX's work is measured. If, within a given period, you are expected to produce X blog posts, speak at Y events, or respond to Z messages on the forum - that's clearly operational DevX. However, it may be that the measured objectives are the number of downloads / API calls, the community's new vs. inactive members ratio, users' sentiment analysis, etc. Of course, satisfying results in those areas are only possible when doing strategic DevX. As I mentioned, senior leadership wanting the result does not necessarily mean they place DevX strategically within the organization.
 
-### Which DevX Do You Want To Do
+## Which DevX Do You Want To Do
 
 Knowing what the expectations are is one thing. How one feels about them is a whole different story. Much like organizations, people have their own goals and ambitions. When those are aligned with the expectations, the DevX team is usually a friendly, excited, and self-motivated bunch of folks. Long-term misalignment leads to boredom, annoyance, conflicts, frustrations, and eventually burnout.
 

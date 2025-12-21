@@ -13,11 +13,11 @@ So this post is my take on the whole DevRel, DX, Evangelism, Advocacy, ... thing
 
 <!--more-->
 
-### TL;DR
+## TL;DR
 
 No worries. Feel free to jump to the [summary section](#summary) at the end!
 
-### Developer Evangelism
+## Developer Evangelism
 
 That was the first term that I encountered. It was back in circa 2002. I attended an event organized by Microsoft, and I met a few friendly and knowledgeable folks representing the company. Later on, I discovered they were “Developer Evangelists”. A red light went on in my mind. The friendly and knowledgeable adjectives were quickly replaced by seductive and sneaky.
 
@@ -25,7 +25,7 @@ Developer evangelism in an extrapolation from the original term related to Chris
 
 A title can completely change the perception of a message or the intention of a conversation. A title always puts those in context. It is irrelevant whether the context is adequate. The interlocutor will most likely subconsciously adjust its boundaries, filters, and alert sensors accordingly. That is why I really don’t like the term, and I’ve always rejected to use that title myself.
 
-### Developer Advocacy
+## Developer Advocacy
 
 Masquerading the above under a not-so-obvious title? Yep, I hear that a lot. In fact, I used to think that myself years ago. Perhaps that was the intention when it was introduced. I have no idea how it came to be, but I can picture a brainstorming session aiming to replace "evangelism" with something embracing praising but free from proselytizing accusations.
 
@@ -39,7 +39,7 @@ one who pleads the cause of another
 : That is the inbound direction. The acknowledgment that the community gathered around the product has a say. Advocates plead the cause of the community to the respective product management and engineering teams. They discuss various issues, ideas, and suggestions community members have. They try to understand their experience, expectations, and reasoning. They may pre-evaluate or even prototype some of them. Having strong technical expertise is crucial for this role.
 : That is the part of the role that product management, engineering, and advocates themselves appreciate most as it contributes to better products.
 
-### Community
+## Community
 
 > 'When I use a word,' Humpty Dumpty said in rather a scornful tone, 'it means just what I choose it to mean — neither more nor less.'
 
@@ -47,7 +47,7 @@ Community is an awfully overloaded word. You can pick and choose a meaning that 
 
 Belonging to a community is a matter of free will and acceptance. One must first self-identify as a member and then be accepted _(in the sense of not being rejected)_ by other members. Abandoning a community is a matter of free will alone. No one owns the community. No person or organization can singlehandedly build a community. Some members provide more incentives or amenities than others, but that does not make them owners or managers.
 
-#### "Managing" a community
+### "Managing" a community
 
 While developer communities are a natural phenomenon, many software vendors started to see huge potential benefits in claiming and owning one. Yes, one. They realized they could use **our community** like some sort of a loyalty program! So they started to invest in an infrastructure that provides all the crucial things a community needs to function. And then, they appointed a dedicated community manager. Usually someone from the marketing team.
 
@@ -61,7 +61,7 @@ as a waiting room for future customers
 
 An interesting observation regarding the above perspectives is how the line between the in-group and out-group shifts from "the things we have in common" to "the benefits we can have". But the benefits are not the same for everyone. So when such an attitude becomes apparent (trust me, it always does), the natural social categorization and grouping are tampered, and the community starts to self-dissolve. Ironically, the only way to "manage" a community is to resist the temptation to do so. I personally like the term "fostering a community". But since I've never heard of a "Community Fosterer" role or job title, I'll keep using the widely accepted term throughout this post.
 
-### Developer Relations
+## Developer Relations
 
 Years ago, the Community Manager left the company I worked for at the time. Being unable to find a new one, the executives called a "how to manage our community" meeting. As one of the informal Developer Advocates, I was invited to attend. We came up with what we called CAT (Community Action Team). The idea was to have a formal body responsible for managing and growing the community. To ensure everyone's interest is equally represented, the body would consist of people from the company and the community. I was asked to bring the idea to life, and I started working on it. Shortly after that, I went on vacation, and when I came back, I was surprised to learn that CAT is no longer a thing, we have a newly formed DevRel team, and I'm part of it.
 
@@ -82,7 +82,7 @@ DevRel as part of the Community team
 Community as part of the DevRel team
 : The way to go when the company's offering is primarily targeted at software developers. The focus, in this case, is 100% on ensuring the greatest possible developer experience. Developer Advocates play a crucial part here, fully utilizing the inbound and outbound channels discussed earlier. Naturally, software developers form a community around the product or service. Thus having community programs, recognition, awards, etc., is a nice add-on. Keeping an eye on and fostering other communities _(around languages, concepts, techniques, etc.)_ helps understand developers' needs and habits better. But overall all community fostering activities contribute to providing excellent developer experience.
 
-### Developer eXperience
+## Developer eXperience
 
 And so we have arrived at the newest kid on the block - Developer eXperience. It is such a hot topic that sometimes the number of DX experts among my social media contacts is growing with every hour. I'm not one of them, but Zeno Rocha, a former colleague of mine and _(at the time of writing this)_ VP of Developer Experience at WorkOS is. This is how he defines it:
 
@@ -96,7 +96,7 @@ First, Developer Advocates _(or anyone by themselves for that matter)_ can not *
 
 Second, a vast area significantly impacting the developers' experience is largely neglected by DevRel teams - namely Developer Education. I'm OK with stating that because blogs, conference talks, demos, etc., are not educational activities as far as I'm concerned. I am aware many DevRel teams have technical writers responsible for product documentation. Some larger organizations have dedicated teams working on courses, training, and even books. I'm not suggesting restructuring those but rather that the learning experience is part of the developer experience. Whoever is responsible for designing and implementing the learning experience must consider it in the broader scope of Developer eXperience.
 
-### Developer Education
+## Developer Education
 
 To my surprise, there is not a lot of buzz around developer education. It's almost like everyone takes it for granted. Meanwhile, it is a complex area requiring quite some expertise. I'm by far not an expert in that field, but I'll share with you some of the key factors to take into account.
 
@@ -114,7 +114,7 @@ Knowledge assessment and certification
 
 The above is far from an exhaustive list. But hopefully, it is enough to illustrate how developer education can improve or ruin the developer experience.
 
-### Summary
+## Summary
 
 Developer Evangelism and Evangelists
 : are things from the past. While some of those units and titles are still around, I expect them to migrate to advocacy sooner or later.
@@ -136,7 +136,7 @@ Developer eXperience
 
 My next post, titled "[From DevRel to Developer eXperience](/blog/2022/02/from_devrel_to_developer_experience/)" is about how those views shaped the structure of an actual team in the company I work for.
 
-### Why dev heck?
+## Why dev heck?
 
 I've spent quite some time clarifying and organizing my thoughts on all those topics during the last few weeks. For what it's worth, I thought I'd share them publicly. I hope you found them helpful or at least interesting. As always, your feedback is more than welcome.
 
