@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     'nuxt-disqus',
     '@nuxt/scripts',
+    'nuxt-llms',
   ],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
@@ -41,5 +42,13 @@ export default defineNuxtConfig({
 
   disqus: {
     shortname: 'milendyankovcom',
+  },
+
+  llms: {
+    domain: 'milendyankov.com',
+    full: {
+      title: 'Full Content',
+      description: 'The full content of this website',
+    },
   },
 })
