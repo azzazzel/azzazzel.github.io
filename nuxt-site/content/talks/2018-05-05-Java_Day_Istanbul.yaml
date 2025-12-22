@@ -1,0 +1,10 @@
+date: 2018-05-05
+event:
+  name: Java Day Istanbul
+  url: https://javaday.istanbul/
+location:
+  type: onsite
+  code: TR
+  country: Turkey
+talk: Decomposing Java applications
+recording: https://www.youtube.com/watch?v=OM8QB3H-rdM

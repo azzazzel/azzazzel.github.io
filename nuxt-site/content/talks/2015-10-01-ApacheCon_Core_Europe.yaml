@@ -1,0 +1,9 @@
+date: 2015-10-01
+event:
+  name: 'ApacheCon: Core Europe'
+  url: http://events.linuxfoundation.org/events/apachecon-core-europe
+location:
+  type: onsite
+  code: HU
+  country: Hungary
+talk: Microservices and Modularity or the difference between treatment and cure

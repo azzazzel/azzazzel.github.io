@@ -1,0 +1,10 @@
+date: 2018-02-17
+event:
+  name: Javantura
+  url: https://javantura.com
+location:
+  type: onsite
+  code: HR
+  country: Croatia
+talk: Fantastic Java contracts - and where to define them?
+recording: https://www.youtube.com/watch?v=tadgCsWUgfQ

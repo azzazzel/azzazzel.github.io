@@ -1,0 +1,10 @@
+date: 2016-06-16
+event:
+  name: JBCNconf
+  url: http://www.jbcnconf.com/2016
+location:
+  type: onsite
+  code: ES
+  country: Spain
+talk: What's not new in modular Java?
+recording: https://www.youtube.com/watch?v=2V8OEtZBBco

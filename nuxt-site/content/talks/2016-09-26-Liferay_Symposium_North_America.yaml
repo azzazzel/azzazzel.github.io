@@ -1,0 +1,9 @@
+date: 2016-09-26
+event:
+  name: Liferay Symposium North America
+  url: https://web.liferay.com/web/events2016/northamerica
+location:
+  type: onsite
+  code: US
+  country: United States
+talk: Uncovering the Business Wins in Modularity, Microservices and Other Technical Megatrends

@@ -1,0 +1,10 @@
+date: 2016-10-24
+event:
+  name: Codemotion Berlin
+  url: http://berlin2016.codemotionworld.com/
+location:
+  type: onsite
+  code: DE
+  country: Germany
+talk: What's not new in modular Java?
+recording: 🔊

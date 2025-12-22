@@ -1,0 +1,9 @@
+date: 2022-11-03
+event:
+  name: GoTech World
+  url: https://www.gotech.world/
+location:
+  type: onsite
+  code: RO
+  country: Romania
+talk: Demystifying 'Event' Related Software Concepts and Methodologies

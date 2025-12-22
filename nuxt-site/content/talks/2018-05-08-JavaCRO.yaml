@@ -1,0 +1,9 @@
+date: 2018-05-08
+event:
+  name: JavaCRO
+  url: http://2018.javacro.hr/eng
+location:
+  type: onsite
+  code: HR
+  country: Croatia
+talk: Decomposing Java applications

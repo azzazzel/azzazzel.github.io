@@ -1,0 +1,10 @@
+date: 2017-05-30
+event:
+  name: jPrime
+  url: http://jprime.io/
+location:
+  type: onsite
+  code: BG
+  country: Bulgaria
+talk: Fantastic Java contracts - and where to define them?
+recording: https://www.youtube.com/watch?v=mwpm6KLt8AA

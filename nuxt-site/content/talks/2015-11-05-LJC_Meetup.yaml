@@ -1,0 +1,10 @@
+date: 2015-11-05
+event:
+  name: LJC Meetup
+  url: http://www.meetup.com/Londonjavacommunity/
+location:
+  type: onsite
+  code: GB
+  country: United Kingdom
+talk: Microservices and Modularity or the difference between treatment and cure
+recording: https://skillsmatter.com/skillscasts/6985-microservices-and-modularity-or-the-difference-between-treatment-and-cure

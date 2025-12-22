@@ -1,0 +1,9 @@
+date: 2023-06-02
+event:
+  name: Devoxx Poland
+  url: https://devoxx.pl/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Demystifying 'Event' Related Software Concepts and Methodologies

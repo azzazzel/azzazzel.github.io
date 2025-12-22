@@ -10,6 +10,27 @@ export default defineContentConfig({
         prefix: '/',
       },
     }),
+    talks: defineCollection({
+      type: 'data',
+      schema: z.object({
+        date: z.date(),
+        event: z.object({
+          name: z.string(),
+          url: z.string().url(),
+        }),
+        location: z.object({
+          type: z.string(),
+          code: z.string().optional(),
+          country: z.string().optional(),
+        }),
+        talk: z.string(),
+        recording: z.string().url(),
+      }),
+      source: {
+        include: 'talks/*.yaml',
+        prefix: '../',
+      },
+    }),
     presentations: defineCollection({
       type: 'data',
       schema: z.object({

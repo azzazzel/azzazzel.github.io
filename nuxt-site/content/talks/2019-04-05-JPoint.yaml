@@ -1,0 +1,10 @@
+date: 2019-04-05
+event:
+  name: JPoint
+  url: https://jpoint.ru/
+location:
+  type: onsite
+  code: RU
+  country: Russia
+talk: Decomposing Java applications
+recording: https://www.youtube.com/watch?v=HL70ymW6GpM

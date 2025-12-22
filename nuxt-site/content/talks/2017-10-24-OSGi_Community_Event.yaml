@@ -1,0 +1,10 @@
+date: 2017-10-24
+event:
+  name: OSGi Community Event
+  url: https://www.osgi.org/2017-osgi-community-event/
+location:
+  type: onsite
+  code: DE
+  country: Germany
+talk: Fantastic Java contracts - and where to define them?
+recording: https://www.youtube.com/watch?v=bJOwczoRz90

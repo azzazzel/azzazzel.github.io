@@ -1,0 +1,10 @@
+date: 2016-11-15
+event:
+  name: DEVCON
+  url: https://web.liferay.com/web/events2016
+location:
+  type: onsite
+  code: DE
+  country: Germany
+talk: Software Craftsmanship in the era of Software Revolution
+recording: https://www.youtube.com/watch?v=OfCsp4h0puY

@@ -1,0 +1,10 @@
+date: 2017-11-09
+event:
+  name: Devoxx
+  url: https://devoxx.be/
+location:
+  type: onsite
+  code: BE
+  country: Belgium
+talk: Launching Projects Faster with WeDeploy
+recording: https://www.youtube.com/watch?v=sSF0eeXY7IM

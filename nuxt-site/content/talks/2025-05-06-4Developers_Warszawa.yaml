@@ -1,0 +1,9 @@
+date: 2025-05-06
+event:
+  name: 4Developers Warszawa
+  url: https://4developers.org.pl/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: 'AI for Java Developers: From Buzzword to Code'

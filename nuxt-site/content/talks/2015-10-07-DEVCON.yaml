@@ -1,0 +1,10 @@
+date: 2015-10-07
+event:
+  name: DEVCON
+  url: https://liferay.com/devcon2015
+location:
+  type: onsite
+  code: DE
+  country: Germany
+talk: Liferay infrastructure as code
+recording: https://www.youtube.com/watch?v=IjBEragveVw

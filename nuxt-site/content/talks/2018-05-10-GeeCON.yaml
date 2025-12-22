@@ -1,0 +1,10 @@
+date: 2018-05-10
+event:
+  name: GeeCON
+  url: https://2018.geecon.org/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Decomposing Java applications
+recording: https://www.youtube.com/watch?v=LrbuL9zBlLo

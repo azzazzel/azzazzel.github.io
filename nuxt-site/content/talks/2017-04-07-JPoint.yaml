@@ -1,0 +1,10 @@
+date: 2017-04-07
+event:
+  name: JPoint
+  url: https://jpoint.ru/
+location:
+  type: onsite
+  code: RU
+  country: Russia
+talk: Microservices and Modularity or the difference between treatment and cure!
+recording: https://www.youtube.com/watch?v=pkZ9uY9rlpU

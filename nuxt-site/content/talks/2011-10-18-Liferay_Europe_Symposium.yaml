@@ -1,0 +1,9 @@
+date: 2011-10-18
+event:
+  name: Liferay Europe Symposium
+  url: https://www.liferay.com/events/liferay-symposiums/europe-2011
+location:
+  type: onsite
+  code: DE
+  country: Germany
+talk: Pluggable mobile device detection

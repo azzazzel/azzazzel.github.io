@@ -1,0 +1,10 @@
+date: 2015-11-12
+event:
+  name: DEVOXX
+  url: http://www.devoxx.be/
+location:
+  type: onsite
+  code: BE
+  country: Belgium
+talk: Microservices and Modularity or the difference between treatment and cure
+recording: https://www.youtube.com/watch?v=O77777Zy_HE

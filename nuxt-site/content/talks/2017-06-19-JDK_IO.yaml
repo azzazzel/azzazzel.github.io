@@ -1,0 +1,10 @@
+date: 2017-06-19
+event:
+  name: JDK IO
+  url: https://jdk.io/
+location:
+  type: onsite
+  code: DK
+  country: Denmark
+talk: Fantastic Java contracts - and where to define them?
+recording: https://www.youtube.com/watch?v=1wRpaEr2dEk

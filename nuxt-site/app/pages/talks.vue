@@ -71,17 +71,84 @@
         </UBlogPosts>
       </template>
 
-      <template #talks> talks content </template>
+      <template #talks="{ item }">
+        <p class="text-muted mb-16 bt-8">
+          {{ item.description }}
+        </p>
+        <UPage :ui="{ left: 'col-span-4', center: 'col-span-4' }">
+          <UTimeline
+            :items="timeline"
+            size="3xl"
+            :ui="{
+              container: 'lg:ml-35 ml-25',
+              wrapper: 'mt-0 pb-0',
+              date: ' pt-3 text-right w-50 -translate-x-70 ',
+              title: '-translate-y-5',
+              description: '-translate-y-5',
+            }"
+          >
+            <template #title="{ item }">
+              <div class="font-extrabold">
+                <ULink
+                  :to="item.eventUrl ?? null"
+                  :external="true"
+                  target="_blank"
+                >
+                  {{ item.title }}
+                  <UIcon
+                    v-if="item.eventUrl"
+                    name="i-fluent-window-new-24-regular"
+                    class="size-4"
+                  />
+                </ULink>
+              </div>
+            </template>
+
+            <template #description="{ item }">
+              {{ item.description }}
+              <UButton
+                v-if="item.recordingUrl"
+                :href="item.recordingUrl"
+                icon="i-lsicon-file-movie-outline"
+                size="md"
+                variant="ghost"
+                target="_blank"
+                class="p-0 translate-y-1"
+              />
+            </template>
+          </UTimeline>
+          <template #left>
+            <div><UPageCard title="title" /></div
+          ></template>
+        </UPage>
+      </template>
     </UTabs>
   </UContainer>
 </template>
 
 <script lang="ts" setup>
-  import { pre } from '#build/ui/prose'
-  import type { TabsItem } from '@nuxt/ui'
+  import type { TabsItem, TimelineItem } from '@nuxt/ui'
 
   const presentations = usePresentationsStore()
-  console.log('Presentations loaded:', presentations.value)
+  const talks = useTalksStore()
+
+  const timeline: TimelineItem[] = talks.value.map((talk) => {
+    return {
+      date: new Date(talk.date).toLocaleDateString('en', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+      }),
+      title: talk.event.name,
+      description: talk.talk,
+      icon:
+        talk.location.type == 'online'
+          ? 'i-carbon-virtual-desktop'
+          : 'i-emojione-flag-for-' + talk.location.country?.toLowerCase().replace(' ', '-'),
+      eventUrl: talk.event.url,
+      recordingUrl: talk.recording,
+    }
+  })
 
   const tabs = [
     {

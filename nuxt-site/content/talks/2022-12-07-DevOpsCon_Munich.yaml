@@ -1,0 +1,9 @@
+date: 2022-12-07
+event:
+  name: DevOpsCon Munich
+  url: https://devopscon.io/munich/
+location:
+  type: onsite
+  code: DE
+  country: Germany
+talk: Demystifying 'Event' Related Software Concepts and Methodologies

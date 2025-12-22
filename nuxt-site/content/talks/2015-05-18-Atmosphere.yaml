@@ -1,0 +1,10 @@
+date: 2015-05-18
+event:
+  name: Atmosphere
+  url: http://atmosphere-conference.com/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Microservices and Modularity or the difference between treatment and cure
+recording: https://www.youtube.com/watch?v=Ad5aajcbuKE

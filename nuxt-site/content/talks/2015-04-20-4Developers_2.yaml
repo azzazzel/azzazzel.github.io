@@ -1,0 +1,10 @@
+date: 2015-04-20
+event:
+  name: 4Developers
+  url: http://4developers.org.pl/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Microservices and Modularity or the difference between treatment and cure
+recording: https://www.youtube.com/watch?v=_3L5raKY6hA

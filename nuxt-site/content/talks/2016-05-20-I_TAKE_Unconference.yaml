@@ -1,0 +1,9 @@
+date: 2016-05-20
+event:
+  name: I T.A.K.E. Unconference
+  url: http://itakeunconf.com/
+location:
+  type: onsite
+  code: RO
+  country: Romania
+talk: Microservices and Modularity or the difference between treatment and cure

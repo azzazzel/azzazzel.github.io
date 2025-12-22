@@ -1,0 +1,10 @@
+date: 2018-06-30
+event:
+  name: Confitura
+  url: https://2018.confitura.pl/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Decomposing Java applications
+recording: https://www.youtube.com/watch?v=9wRSPBixRX8

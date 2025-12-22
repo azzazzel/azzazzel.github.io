@@ -1,0 +1,10 @@
+date: 2022-09-07
+event:
+  name: JavaZone
+  url: https://2022.javazone.no
+location:
+  type: onsite
+  code: NO
+  country: Norway
+talk: Demystifying 'Event' Related Software Concepts and Methodologies
+recording: https://vimeo.com/747697453

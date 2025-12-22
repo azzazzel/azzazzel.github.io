@@ -1,0 +1,10 @@
+date: 2016-05-31
+event:
+  name: Liferay France Symposium
+  url: https://www.liferay.com/en/web/france2015
+location:
+  type: onsite
+  code: FR
+  country: France
+talk: OSGi Fundamentals
+recording: https://www.youtube.com/watch?v=R-VeJLp6pVA

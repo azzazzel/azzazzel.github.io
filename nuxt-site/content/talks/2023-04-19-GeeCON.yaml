@@ -1,0 +1,10 @@
+date: 2023-04-19
+event:
+  name: GeeCON
+  url: https://2023.geecon.org/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Demystifying 'Event' Related Software Concepts and Methodologies
+recording: https://youtu.be/xKFSuYR9rf0

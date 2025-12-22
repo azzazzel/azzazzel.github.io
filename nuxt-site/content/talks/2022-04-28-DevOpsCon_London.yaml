@@ -1,0 +1,9 @@
+date: 2022-04-28
+event:
+  name: DevOpsCon London
+  url: https://devopscon.io/london/
+location:
+  type: onsite
+  code: GB
+  country: United Kingdom
+talk: Location transparency

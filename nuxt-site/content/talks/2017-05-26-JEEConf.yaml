@@ -1,0 +1,10 @@
+date: 2017-05-26
+event:
+  name: JEEConf
+  url: http://jeeconf.com/
+location:
+  type: onsite
+  code: UA
+  country: Ukraine
+talk: What's not new in modular Java?
+recording: https://www.youtube.com/watch?v=6lz_UWW-mqw

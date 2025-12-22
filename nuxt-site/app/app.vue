@@ -21,7 +21,12 @@
     queryCollection('presentations').order('premiere', 'DESC').all(),
   )
   presentations.value = (presentationsData.value as unknown as Presentations[]) || []
-  console.log('Presentations loaded:', presentations.value)
+
+  const talks = useTalksStore()
+  const { data: talksData } = await useAsyncData('talks', () =>
+    queryCollection('talks').order('date', 'DESC').all(),
+  )
+  talks.value = (talksData.value as unknown as Talk[]) || []
 
   const title = siteConfig.value.title || ''
   const description = siteConfig.value.description || ''
