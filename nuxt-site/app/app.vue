@@ -16,6 +16,13 @@
   )
   siteConfig.value = (siteConfigData.value?.body as unknown as SiteConfig) || {}
 
+  const presentations = usePresentationsStore()
+  const { data: presentationsData } = await useAsyncData('presentations', () =>
+    queryCollection('presentations').order('premiere', 'DESC').all(),
+  )
+  presentations.value = (presentationsData.value as unknown as Presentations[]) || []
+  console.log('Presentations loaded:', presentations.value)
+
   const title = siteConfig.value.title || ''
   const description = siteConfig.value.description || ''
   const image = '/img/MilenDyankov.jpg'

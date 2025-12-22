@@ -1,0 +1,7 @@
+id: liferay-multi-channel-mobile-delivery-platform
+title: Liferay Multi-channel (mobile) delivery platform
+thumbnail: https://slidrio-decks.global.ssl.fastly.net/1182/thumbs/1_1280.jpg
+url: https://slidr.io/azzazzel/liferay-multi-channel-mobile-delivery-platform
+premiere: 2013-10-26
+abstract: |
+  The talk is about mobile as a strategy and user experience (as opposite to tools and frameworks). Taking Liferay as example it will try to explain what a modern enterprise platform can offer in the context of mobile delivery. Staring with the (artificial) separation Native vs Web Based we'll go through things like Responsive design, Mobile Device Detection, Mobile Preview, Native Mobile Applications, … to come to the conclusion it's still not enough.

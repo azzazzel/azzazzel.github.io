@@ -1,0 +1,7 @@
+id: demystifying-event-related-software-concepts
+title: Demystifying 'event' related software concepts and methodologies
+thumbnail: https://slidrio-decks.global.ssl.fastly.net/1805/thumbs/1_1280.jpg
+url: https://slidr.io/azzazzel/demystifying-event-related-software-concepts-and-methodologies
+premiere: 2021-10-05
+abstract: |
+  Unless you've been hiding deep under a rock for the last decade, at least a few terms starting with the word "event" must have invaded your professional space. "Event-driven" has already evolved to the level of a magical buzzword in IT marketing and sales activities. But the tech terms list is much longer. It includes "event streaming", "event storming", "event sourcing", "event store", "event modeling", "event notification", "event-carried state transfer", ... Getting dizzy already? Don't worry. Many developers feel this way. This talk is an “event-dizziness” cure. It'll walk you through the entire "event land" and explain what is what. It’ll discuss the origins, intention, and applicability of each term. So the next time you face the "event-driven" label, you can ask the right questions and make educated choices.

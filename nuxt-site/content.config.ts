@@ -10,6 +10,21 @@ export default defineContentConfig({
         prefix: '/',
       },
     }),
+    presentations: defineCollection({
+      type: 'data',
+      schema: z.object({
+        id: z.string(),
+        title: z.string(),
+        thumbnail: z.string().url(),
+        url: z.string().url(),
+        premiere: z.date().optional(),
+        abstract: z.string().optional(),
+      }),
+      source: {
+        include: 'presentations/*.yaml',
+        prefix: '../',
+      },
+    }),
     posts: defineCollection({
       type: 'page',
       schema: z.object({

@@ -1,0 +1,7 @@
+id: clustering-liferay
+title: Clustering Liferay
+thumbnail: https://0901.static.prezi.com/preview/7lxmtdhslmnrck5xl6vipzqqbd6jc3sachvcdoaizecfr3dnitcq_0_0.png
+url: https://prezi.com/4gjbivklbaet/clustering-liferay/
+premiere: 2014-06-10
+abstract: |
+  Liferay is a open source software platform that has helped many organizations succeed in their online projects. Of course, to be able to support the ever growing number of visitors it allows to easily scale horizontally! This talk will show you how it does that so you can achieve both high-availability and performance boost. We'll have a closer look on particular layers that participate in clustering so that you can understand what it takes to have a cluster running properly. Even if you not using Liferay yourself the concepts we'll discuss should give a nice examples of how proven enterprise solutions have solved scalability problems so you can apply them to your own projects.

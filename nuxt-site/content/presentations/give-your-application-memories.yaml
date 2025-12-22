@@ -1,0 +1,9 @@
+id: give-your-application-memories
+title: Give your application memories
+thumbnail: https://slidrio-decks.global.ssl.fastly.net/1789/thumbs/1_1280.jpg
+url: https://slidr.io/azzazzel/give-your-application-memories
+premiere: 2020-10-14
+abstract: |
+  Most applications only know the present. Their current state is calculated and updated somewhere on every change, effectively losing any previous states and information that only existed in the past. Can that be a limitation? Missed opportunity? What if your application could remember its entire past? Would that be any useful, or is it a worthless effort?
+
+  This talk will provoke Java developers to start asking such questions. It will provide useful mental models to better understand Event Sourcing, DDD, and CQRS concepts. It will also demonstrate what it takes to build such applications in Java.

@@ -1,0 +1,9 @@
+id: osgi-for-outsiders
+title: OSGi for outsiders
+thumbnail: https://slidrio-decks.global.ssl.fastly.net/1191/thumbs/1_1280.jpg
+url: https://slidr.io/azzazzel/osgi-for-outsiders
+premiere: 2016-10-25
+abstract: |
+  OSGi has evolved and matured beyond recognition over the last few years. It's now easier than ever before, to build dynamic, modular Java applications to address the challenges imposed by ever growing and constantly changing business requirements. Despite that fact, OSGi seems to be far from receiving the appreciation it deserves. And if you are OSGi developer who now wanders "why should I care?", let me remind you Thomas Edison's famous quote "The value of an idea lies in the using of it"!
+
+  Growing large community around given technology has proven to be an essential part of its success. In this talk I'd like to go over what OSGi community is (not) doing to attract "outsiders". I'd also argue it can do much better than that. Based on observations and conversation from the last 2 years trying to advocate for OSGi among Java developers. I'll try to position the technology in today's reality of microservices, containers, clouds, DevOps, automation, Java 9, ... and bring to your attention the perspective of an "outsider" together with all the presumptions, fallacies and promises it comes with. Finally I'd like to share some ideas about how to address those, promote relevant parts of OSGi and thus perhaps make it more attractive to Java developers!

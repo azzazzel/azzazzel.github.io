@@ -1,0 +1,9 @@
+id: fantastic-java-contracts-and-where-to-define-them
+title: Fantastic Java contracts - and where to define them
+thumbnail: https://slidrio-decks.global.ssl.fastly.net/1194/thumbs/1_1280.jpg
+url: https://slidr.io/azzazzel/fantastic-java-contracts-and-where-to-define-them
+premiere: 2017-04-03
+abstract: |
+  Creating objects in Java using `new` keyword was a no brainer for many years! Then IoC / DI questioned the approach and component containers changed the way we think about it! Managing dependencies between artifacts is yet another topic we still tend to think we have sorted out. Maven central has become the de facto standard artifact repository. Yet it's far from perfect as it is still developer's responsibility to know and configure proper dependencies. This easily becomes nightmare with transitive and provided dependencies.
+
+  So may be it's time to challenge that approach too? What if we move from hardcoded artifacts to artifact discovery based on well defined contracts? This talk will demonstrate how that can be done today and what are the issues. It will also draft a potential roadmap to fully automated dependency discovery based on requirements and capabilities expressed in the code.
