@@ -65,7 +65,7 @@ I hope the "Technical Writer" and "Trainer" roles are self-explanatory. The only
 
 Well, grow the team 😉. With [that plan](https://www.mindomo.com/mindmap/developer-experience-team-a624d1da224d4489b88bc61f8bc21270) at hand, we are well prepared to search for and find the right people. Or so I hope.
 
-By the way, if you can imagine a picture of yourself replacing one of those ![](https://cdn2.iconfinder.com/data/icons/business-communication-1/100/business_employee_add_addition_sum_hire_new-20.png){:.inline} icons, do not hesitate to drop me a line at milen.dyankov[at]axoniq.io.
+By the way, if you can imagine a picture of yourself replacing one of those people icons, do not hesitate to drop me a line at milen.dyankov\[at\]axoniq.io.
 
 ## Why am I sharing this?
 
