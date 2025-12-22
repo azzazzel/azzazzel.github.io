@@ -3,11 +3,11 @@ import { z } from 'zod'
 
 export default defineContentConfig({
   collections: {
-    site: defineCollection({
+    pages: defineCollection({
       type: 'page',
       source: {
-        include: 'site.yaml',
-        prefix: '/',
+        include: 'pages/*.yaml',
+        prefix: '../',
       },
     }),
     talks: defineCollection({

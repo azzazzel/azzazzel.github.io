@@ -1,9 +1,9 @@
 <template>
   <UContainer>
     <UPageHeader
-      headline="Experience Shared"
-      title="Talks & Presentations"
-      description="Presentation materials and speaking engagements reflecting hands-on experience and lessons learned."
+      :headline="pageData?.meta.headline as string"
+      :title="pageData?.title"
+      :description="pageData?.description"
       class="mb-16"
       :ui="{
         root: 'border-b-0 mt-16',
@@ -175,6 +175,10 @@
 <script lang="ts" setup>
   import type { TabsItem } from '@nuxt/ui'
   import { getCountriesSortedByPercentage, getTimelineItems, getLocationCount } from '~/utils/Talk'
+
+  const { data: pageData } = await useAsyncData('/talks', () =>
+    queryCollection('pages').where('path', '=', '/talks').first(),
+  )
 
   const presentations = usePresentationsStore()
   const talkStore = useTalksStore()

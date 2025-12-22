@@ -12,7 +12,7 @@
   const siteConfig = useSiteStore()
 
   const { data: siteConfigData } = await useAsyncData('site-config', () =>
-    queryCollection('site').first(),
+    queryCollection('pages').where('id', '=', '_site.yaml').first(),
   )
   siteConfig.value = (siteConfigData.value?.body as unknown as SiteConfig) || {}
 

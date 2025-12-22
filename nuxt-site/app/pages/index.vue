@@ -57,10 +57,15 @@
 </template>
 
 <script setup lang="ts">
+  const route = useRoute()
   const siteConfig = useSiteStore()
-  const hero = siteConfig.value.hero || { headline: '', image: { src: '', alt: '' } }
-  const about = siteConfig.value.about || { title: '', offers: [] }
-  const experience = siteConfig.value.experience || { title: '', clients: [] }
+  const { data: pageData } = await useAsyncData(route.path, () =>
+    queryCollection('pages').where('path', '=', route.path).first(),
+  )
+
+  const hero = (pageData.value?.meta.hero as Hero) || { headline: '', image: { src: '', alt: '' } }
+  const about = (pageData.value?.meta.about as About) || { title: '', offers: [] }
+  const experience = (pageData.value?.meta.experience as Experience) || { title: '', clients: [] }
   const uiReducedContainerPadding = {
     container: 'py-8 lg:py-8 sm:py-8',
   }

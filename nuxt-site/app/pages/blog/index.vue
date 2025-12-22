@@ -1,47 +1,65 @@
 <template>
-  <UPage>
-    <UPageBody>
-      <UPageSection>
-        <UBlogPosts>
-          <UBlogPost
-            v-for="(post, index) in posts"
-            :key="index"
-            :to="post.path"
-            :title="post.title"
-            :description="post.description"
-            :image="post.meta.image || '/img/blog_placeholder.jpg'"
-            :date="
-              new Date(post.date)?.toLocaleDateString('en', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric',
-              })
-            "
-            :orientation="index === 0 ? 'horizontal' : 'vertical'"
-            :class="[index === 0 && 'col-span-full']"
-            variant="ghost"
-            :ui="{
-              description: 'line-clamp-2',
-            }"
-          />
-        </UBlogPosts>
-      </UPageSection>
-    </UPageBody>
-  </UPage>
+  <UContainer>
+    <UPageHeader
+      :headline="pageData?.meta.headline as string"
+      :title="title"
+      :description="description"
+      class="mb-16"
+      :ui="{
+        root: 'border-b-0 mt-16',
+      }"
+    >
+    </UPageHeader>
+
+    <UPage>
+      <UPageBody>
+        <UPageSection :ui="{ container: 'lg:py-0 sm:py-0 py-0' }">
+          <UBlogPosts class="test">
+            <UBlogPost
+              v-for="(post, index) in posts"
+              :key="index"
+              :to="post.path"
+              :title="post.title"
+              :description="post.description"
+              :image="post.meta.image || '/img/blog_placeholder.jpg'"
+              :date="
+                new Date(post.date)?.toLocaleDateString('en', {
+                  year: 'numeric',
+                  month: 'short',
+                  day: 'numeric',
+                })
+              "
+              :orientation="index === 0 ? 'horizontal' : 'vertical'"
+              :class="[index === 0 && 'col-span-full']"
+              variant="ghost"
+              :ui="{
+                description: 'line-clamp-2',
+              }"
+            />
+          </UBlogPosts>
+        </UPageSection>
+      </UPageBody>
+    </UPage>
+  </UContainer>
 </template>
 
 <script lang="ts" setup>
-  const route = useRoute()
+  const { data: siteData } = await useAsyncData('blog-site', () =>
+    queryCollection('pages').where('path', '=', '/blog').first(),
+  )
+
+  const { data: pageData } = await useAsyncData('blog-page', () =>
+    queryCollection('pages').where('path', '=', '/blog').first(),
+  )
+
   const { data: posts } = await useAsyncData(
-    route.path,
+    'all-blogs',
     () => queryCollection('posts').order('path', 'DESC').all() || [],
   )
 
-  const title = 'Milen Dyankov :: Blog'
-  const description =
-    'A technical blog on software architecture, developer experience, and applied AI, \
-    written from the perspective of an experienced software engineer.'
-  const image = '/img/MilenDyankov.jpg'
+  const title = pageData.value?.title
+  const description = pageData.value?.description
+  const image = siteData.value?.meta['og_img']
 
   useSeoMeta({
     title,
