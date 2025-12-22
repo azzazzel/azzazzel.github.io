@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     'nuxt-llms',
     'nuxt-feedme',
+    '@nuxt/fonts',
   ],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
