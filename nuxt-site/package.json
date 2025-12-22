@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^10.1.8",
+    "nuxt-feedme": "^2.1.0",
     "prettier": "^3.7.4",
     "typescript": "^5.9.3",
     "unist-util-visit": "^5.0.0"
