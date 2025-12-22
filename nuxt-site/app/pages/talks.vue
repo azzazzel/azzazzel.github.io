@@ -75,7 +75,7 @@
         <p class="text-muted mb-16 bt-8">
           {{ item.description }}
         </p>
-        <UPage :ui="{ left: 'col-span-4', center: 'col-span-4' }">
+        <UPage :ui="{ left: 'lg:col-span-3', center: 'lg:col-span-7' }">
           <UTimeline
             :items="timeline"
             size="3xl"
@@ -118,8 +118,53 @@
             </template>
           </UTimeline>
           <template #left>
-            <div><UPageCard title="title" /></div
-          ></template>
+            <UContainer class="pb-10">
+              <UPageGrid>
+                <UPageCard
+                  icon="i-hugeicons-presentation-online"
+                  :ui="{ root: 'lg:col-span-3', leadingIcon: 'size-10', title: 'text-4xl' }"
+                >
+                  <template #title>
+                    {{ talkStore.stats.totalTalks }}
+                    <span class="text-sm text-muted uppercase">talks</span>
+                  </template>
+                </UPageCard>
+                <UPageCard
+                  icon="i-hugeicons-user-group"
+                  :ui="{ root: 'lg:col-span-3', leadingIcon: 'size-10', title: 'text-4xl' }"
+                >
+                  <template #title>
+                    {{ talkStore.stats.totalEvents }}
+                    <small class="text-sm text-muted uppercase">gatherings</small>
+                  </template>
+                </UPageCard>
+                <UPageCard
+                  icon="i-hugeicons-user-group"
+                  :ui="{ root: 'lg:col-span-3', leadingIcon: 'size-10', title: 'text-4xl' }"
+                >
+                  <template #title>
+                    {{ getLocationCount(talkStore.stats.locations) }}
+                    <small class="text-sm text-muted uppercase">countries</small>
+                  </template>
+
+                  <template #footer>
+                    <UTable
+                      :data="
+                        getCountriesSortedByPercentage().map((country) => ({
+                          country: country.country,
+                          percentage: country.percentage + '%',
+                        }))
+                      "
+                      class="mt-4"
+                      :ui="{
+                        thead: 'hidden',
+                      }"
+                    />
+                  </template>
+                </UPageCard>
+              </UPageGrid>
+            </UContainer>
+          </template>
         </UPage>
       </template>
     </UTabs>
@@ -127,12 +172,70 @@
 </template>
 
 <script lang="ts" setup>
-  import type { TabsItem, TimelineItem } from '@nuxt/ui'
+  import type { TabsItem, TimelineItem, TableColumn } from '@nuxt/ui'
+  import { h } from 'vue'
 
   const presentations = usePresentationsStore()
-  const talks = useTalksStore()
+  const talkStore = useTalksStore()
 
-  const timeline: TimelineItem[] = talks.value.map((talk) => {
+  /**
+   * Gets the count of unique locations from the locations record
+   * @param locations - Record<string, number> where keys are location identifiers
+   * @returns Number of unique locations, or 0 if locations is undefined/null
+   */
+  const getLocationCount = (locations: Record<string, number> | undefined): number => {
+    if (!locations) return 0
+    return Object.keys(locations).length
+  }
+
+  /**
+   * Calculates the percentage of talks per country
+   * @param locations - Record<string, number> where keys are country codes and values are talk counts
+   * @param totalTalks - Total number of talks
+   * @returns Record<string, number> with country codes as keys and percentages as values
+   */
+  const getTalksPercentagePerCountry = (
+    locations: Record<string, number> | undefined,
+    totalTalks: number,
+  ): Record<string, number> => {
+    if (!locations || totalTalks === 0) return {}
+
+    const percentages: Record<string, number> = {}
+
+    for (const [country, count] of Object.entries(locations)) {
+      percentages[country] = parseFloat(((count / totalTalks) * 100).toFixed(2))
+    }
+
+    return percentages
+  }
+
+  // Computed property for talks percentage per country
+  const talksPercentagePerCountry = computed(() =>
+    getTalksPercentagePerCountry(talkStore.value.stats.locations, talkStore.value.stats.totalTalks),
+  )
+
+  /**
+   * Gets countries sorted by talk percentage from highest to lowest
+   * @returns Array of objects with country code, percentage, and count
+   */
+  const getCountriesSortedByPercentage = () => {
+    const percentages = talksPercentagePerCountry.value
+    const locations = talkStore.value.stats.locations
+
+    if (!percentages || !locations || Object.keys(percentages).length === 0) {
+      return []
+    }
+
+    return Object.entries(percentages)
+      .map(([country, percentage]) => ({
+        country,
+        percentage,
+        count: locations[country] || 0,
+      }))
+      .sort((a, b) => b.percentage - a.percentage)
+  }
+
+  const timeline: TimelineItem[] = talkStore.value.talks.map((talk) => {
     return {
       date: new Date(talk.date).toLocaleDateString('en', {
         year: 'numeric',
