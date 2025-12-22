@@ -139,7 +139,7 @@
                   </template>
                 </UPageCard>
                 <UPageCard
-                  icon="i-hugeicons-user-group"
+                  icon="i-hugeicons-maps-location-01"
                   :ui="{ root: 'lg:col-span-3', leadingIcon: 'size-10', title: 'text-4xl' }"
                 >
                   <template #title>
