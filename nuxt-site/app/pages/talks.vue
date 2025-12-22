@@ -90,7 +90,7 @@
             <template #title="{ item }">
               <div class="font-extrabold">
                 <ULink
-                  :to="item.eventUrl ?? null"
+                  :to="item.eventUrl ? item.eventUrl : undefined"
                   :external="true"
                   target="_blank"
                 >
@@ -150,7 +150,7 @@
                   <template #footer>
                     <UTable
                       :data="
-                        getCountriesSortedByPercentage().map((country) => ({
+                        getCountriesSortedByPercentage(talkStore.stats, 5).map((country) => ({
                           country: country.country,
                           percentage: country.percentage + '%',
                         }))
@@ -158,6 +158,7 @@
                       class="mt-4"
                       :ui="{
                         thead: 'hidden',
+                        td: 'py-1.5',
                       }"
                     />
                   </template>
@@ -172,86 +173,14 @@
 </template>
 
 <script lang="ts" setup>
-  import type { TabsItem, TimelineItem, TableColumn } from '@nuxt/ui'
-  import { h } from 'vue'
+  import type { TabsItem } from '@nuxt/ui'
+  import { getCountriesSortedByPercentage, getTimelineItems, getLocationCount } from '~/utils/Talk'
 
   const presentations = usePresentationsStore()
   const talkStore = useTalksStore()
 
-  /**
-   * Gets the count of unique locations from the locations record
-   * @param locations - Record<string, number> where keys are location identifiers
-   * @returns Number of unique locations, or 0 if locations is undefined/null
-   */
-  const getLocationCount = (locations: Record<string, number> | undefined): number => {
-    if (!locations) return 0
-    return Object.keys(locations).length
-  }
-
-  /**
-   * Calculates the percentage of talks per country
-   * @param locations - Record<string, number> where keys are country codes and values are talk counts
-   * @param totalTalks - Total number of talks
-   * @returns Record<string, number> with country codes as keys and percentages as values
-   */
-  const getTalksPercentagePerCountry = (
-    locations: Record<string, number> | undefined,
-    totalTalks: number,
-  ): Record<string, number> => {
-    if (!locations || totalTalks === 0) return {}
-
-    const percentages: Record<string, number> = {}
-
-    for (const [country, count] of Object.entries(locations)) {
-      percentages[country] = parseFloat(((count / totalTalks) * 100).toFixed(2))
-    }
-
-    return percentages
-  }
-
-  // Computed property for talks percentage per country
-  const talksPercentagePerCountry = computed(() =>
-    getTalksPercentagePerCountry(talkStore.value.stats.locations, talkStore.value.stats.totalTalks),
-  )
-
-  /**
-   * Gets countries sorted by talk percentage from highest to lowest
-   * @returns Array of objects with country code, percentage, and count
-   */
-  const getCountriesSortedByPercentage = () => {
-    const percentages = talksPercentagePerCountry.value
-    const locations = talkStore.value.stats.locations
-
-    if (!percentages || !locations || Object.keys(percentages).length === 0) {
-      return []
-    }
-
-    return Object.entries(percentages)
-      .map(([country, percentage]) => ({
-        country,
-        percentage,
-        count: locations[country] || 0,
-      }))
-      .sort((a, b) => b.percentage - a.percentage)
-  }
-
-  const timeline: TimelineItem[] = talkStore.value.talks.map((talk) => {
-    return {
-      date: new Date(talk.date).toLocaleDateString('en', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-      }),
-      title: talk.event.name,
-      description: talk.talk,
-      icon:
-        talk.location.type == 'online'
-          ? 'i-carbon-virtual-desktop'
-          : 'i-emojione-flag-for-' + talk.location.country?.toLowerCase().replace(' ', '-'),
-      eventUrl: talk.event.url,
-      recordingUrl: talk.recording,
-    }
-  })
+  // Use consolidated function for timeline items
+  const timeline = getTimelineItems(talkStore.value.talks)
 
   const tabs = [
     {

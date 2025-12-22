@@ -27,37 +27,8 @@
     queryCollection('talks').order('date', 'DESC').all(),
   )
   talkStore.value.talks = (talksData.value as unknown as Talk[]) || []
-  talkStore.value.stats.totalTalks = talkStore.value.talks.length
-
-  talkStore.value.stats.totalEvents = talkStore.value.talks.reduce(
-    (acc: Set<string>, talk: Talk, index) => {
-      const key = talk.date + talk.event.name
-      if (index == 0) acc = new Set()
-      acc.add(key)
-      return acc
-    },
-    {} as Set<string>,
-  ).size
-
-  talkStore.value.stats.titles = talkStore.value.talks.reduce(
-    (acc: Record<string, number>, talk: Talk) => {
-      const key = talk.talk
-      acc[key] = (acc[key] || 0) + 1
-      return acc
-    },
-    {} as Record<string, number>,
-  )
-
-  talkStore.value.stats.locations = talkStore.value.talks.reduce(
-    (acc: Record<string, number>, talk: Talk) => {
-      if (talk.location.type == 'onsite') {
-        const key = talk.location.country!
-        acc[key] = (acc[key] || 0) + 1
-      }
-      return acc
-    },
-    {} as Record<string, number>,
-  )
+  // Calculate all stats using consolidated function
+  talkStore.value.stats = calculateTalkStats(talkStore.value.talks)
 
   const title = siteConfig.value.title || ''
   const description = siteConfig.value.description || ''
