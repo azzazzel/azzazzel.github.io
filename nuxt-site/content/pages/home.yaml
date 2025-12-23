@@ -114,3 +114,16 @@ testimonials:
     title: Assesments & Recommendations
   certs:
     title: Courses & Certifications
+
+cta:
+  title: Get in Touch
+  description: For consulting, advisory work, speaking engagements, or full-time roles, reach out directly to start a conversation.
+  methods:
+    - text: MilenDyankov[at]gmail.com
+      icon: material-symbols-mail-rounded
+    - text: LinkedIn
+      icon: mdi-linkedin
+      link: https://www.linkedin.com/in/milendyankov
+    - text: Schedule an e-meeting
+      icon: akar-icons-schedule
+      link: https://appt.link/meet-with-milen-dyankov/e-meeting

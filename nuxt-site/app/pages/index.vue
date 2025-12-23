@@ -178,6 +178,39 @@
           </UContainer>
         </UPageGrid>
       </UPageSection>
+
+      <UPageCTA
+        :title="ctaSection.title"
+        :description="ctaSection.description"
+        orientation="horizontal"
+        :ui="{
+          container: 'lg:grid-cols-3',
+          wrapper: 'col-span-2',
+        }"
+      >
+        <template #default>
+          <UPageList>
+            <UPageFeature
+              v-for="(method, index) in ctaSection.methods"
+              :key="index"
+              :description="method.text"
+              :icon="method.icon"
+              class="my-1"
+            >
+              <template #description>
+                <NuxtLink
+                  v-if="method.link"
+                  :href="method.link"
+                  target="_blank"
+                  external
+                  class="text-primary border-b border-transparent hover:border-primary"
+                  >{{ method.text }}</NuxtLink
+                >
+              </template>
+            </UPageFeature>
+          </UPageList>
+        </template>
+      </UPageCTA>
     </UPageBody>
   </UPage>
 </template>
@@ -203,6 +236,7 @@
   const servicesSection = pageData.value?.meta.services
   const experience = (pageData.value?.meta.experience as Experience) || { title: '', clients: [] }
   const testimonialsSection = pageData.value?.meta.testimonials
+  const ctaSection = pageData.value?.meta.cta
 
   console.log(testimonialsSection)
 
