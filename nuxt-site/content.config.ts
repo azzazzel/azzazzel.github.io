@@ -59,5 +59,24 @@ export default defineContentConfig({
         prefix: '/',
       },
     }),
+    certs: defineCollection({
+      type: 'data',
+      schema: z.object({
+        date: z.string().date(),
+        title: z.object({
+          orig: z.string().optional(),
+          en: z.string(),
+        }),
+        file: z.object({
+          path: z.string(),
+          lang: z.string(),
+          type: z.string(),
+        }),
+      }),
+      source: {
+        include: 'certs/*.yaml',
+        prefix: '/',
+      },
+    }),
   },
 })

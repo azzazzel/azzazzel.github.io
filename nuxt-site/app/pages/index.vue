@@ -52,20 +52,95 @@
           />
         </UMarquee>
       </UPageSection>
+
+      <UPageSection>
+        <UPageGrid>
+          <UContainer></UContainer>
+          <UContainer></UContainer>
+          <UContainer>
+            <div class="text-primary">
+              {{ certsSction.title }}
+            </div>
+            <UTable
+              :data="certs"
+              :columns="[
+                {
+                  accessorKey: 'icon',
+                },
+                {
+                  accessorKey: 'title',
+                },
+                {
+                  accessorKey: 'file',
+                },
+              ]"
+              class="mt-4"
+              :ui="{
+                thead: 'hidden',
+                td: 'py-1.5 px-0.5',
+              }"
+            >
+              <template #icon-cell="{ row }">
+                <UBadge
+                  size="sm"
+                  variant="soft"
+                  color="neutral"
+                  >{{ row.original.file.lang.toUpperCase() }}</UBadge
+                >
+              </template>
+              <template #title-cell="{ row }">
+                <div class="flex items-center gap-3">
+                  <div>
+                    <p class="text-xs text-highlighted">
+                      {{
+                        row.original.title.orig ? row.original.title.orig : row.original.title.en
+                      }}
+                    </p>
+                    <p
+                      v-if="row.original.title.orig"
+                      class="text-xs"
+                    >
+                      {{ row.original.title.en }}
+                    </p>
+                  </div>
+                </div>
+              </template>
+              <template #file-cell="{ row }">
+                <UButton
+                  icon="i-lucide-download"
+                  size="xs"
+                  color="neutral"
+                  variant="outline"
+                  :href="row.original.file.path"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Download file"
+                  :external="true"
+                />
+              </template>
+            </UTable>
+          </UContainer>
+        </UPageGrid>
+      </UPageSection>
     </UPageBody>
   </UPage>
 </template>
 
 <script setup lang="ts">
-  const route = useRoute()
   const siteConfig = useSiteStore()
-  const { data: pageData } = await useAsyncData(route.path, () =>
-    queryCollection('pages').where('path', '=', route.path).first(),
+  const { data: pageData } = await useAsyncData('home-page', () =>
+    queryCollection('pages').where('path', '=', '/').first(),
+  )
+
+  const { data: certs } = await useAsyncData('home-certs', () =>
+    queryCollection('certs').order('date', 'DESC').all(),
   )
 
   const hero = (pageData.value?.meta.hero as Hero) || { headline: '', image: { src: '', alt: '' } }
   const about = (pageData.value?.meta.about as About) || { title: '', offers: [] }
   const experience = (pageData.value?.meta.experience as Experience) || { title: '', clients: [] }
+  const certsSction = (pageData.value?.meta.certs as { title: string }) || { title: '' }
+
   const uiReducedContainerPadding = {
     container: 'py-8 lg:py-8 sm:py-8',
   }
