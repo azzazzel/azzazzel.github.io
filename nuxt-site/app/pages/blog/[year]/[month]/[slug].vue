@@ -91,6 +91,7 @@
     twitterDescription: description,
     twitterImage: image,
     twitterCard: 'summary',
+    articlePublishedTime: post.value.date,
   })
 </script>
 
