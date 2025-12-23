@@ -17,6 +17,7 @@
             :href="place.link"
             target="place.target"
             :aria-label="place.label"
+            :external="true"
           />
         </UTooltip>
       </template>
