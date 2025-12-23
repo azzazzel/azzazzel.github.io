@@ -78,5 +78,19 @@ export default defineContentConfig({
         prefix: '/',
       },
     }),
+    testimonials: defineCollection({
+      type: 'data',
+      schema: z.object({
+        date: z.string().date(),
+        by: z.string(),
+        source: z.string().optional(),
+        category: z.string(),
+        text: z.string(),
+      }),
+      source: {
+        include: 'testimonials/*.yaml',
+        prefix: '/',
+      },
+    }),
   },
 })
