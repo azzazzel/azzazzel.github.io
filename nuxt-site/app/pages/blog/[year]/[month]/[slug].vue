@@ -76,6 +76,10 @@
   const description = post.value?.description || ''
   const image = post.value?.meta?.image || '/img/MilenDyankov.jpg'
 
+  if (post.value.meta.twitter) {
+    useScript('https://platform.twitter.com/widgets.js')
+  }
+
   useSeoMeta({
     title: title,
     description: description,

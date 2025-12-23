@@ -3,6 +3,7 @@ layout: new_post
 title: Mind the involuntary observational learning
 date: 2019-12-14
 image: /assets/2019-12-14-Mind_the_involuntary_observational_learning/talk-screenshot-anonymous.png
+twitter: true
 ---
 
 Today I want to talk about something that has been bothering me for quite a while now - the side effects of how we teach people to use frameworks, libraries, tools, ...
