@@ -150,7 +150,10 @@
                   <template #footer>
                     <UTable
                       :data="
-                        getCountriesSortedByPercentage(talkStore.stats, 5).map((country) => ({
+                        getCountriesSortedByPercentage(
+                          talkStore.stats,
+                          pageData.meta.countries.threshold,
+                        ).map((country) => ({
                           country: country.country,
                           percentage: country.percentage + '%',
                         }))
@@ -174,8 +177,6 @@
 
 <script lang="ts" setup>
   import type { TabsItem } from '@nuxt/ui'
-  import { getCountriesSortedByPercentage, getTimelineItems, getLocationCount } from '~/utils/Talk'
-
   const { data: pageData } = await useAsyncData('/talks', () =>
     queryCollection('pages').where('path', '=', '/talks').first(),
   )
