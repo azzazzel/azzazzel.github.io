@@ -3,6 +3,11 @@ import { z } from 'zod'
 
 export default defineContentConfig({
   collections: {
+    // not needed but the feed generator expects a collection named `content`
+    content: defineCollection({
+      type: 'page',
+      source: '_content/*',
+    }),
     pages: defineCollection({
       type: 'page',
       source: {
