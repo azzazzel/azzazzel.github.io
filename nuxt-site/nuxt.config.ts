@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxt/eslint',
-    'nuxt-gtag',
     'nuxt-disqus',
     '@nuxt/scripts',
     'nuxt-llms',
@@ -44,8 +43,12 @@ export default defineNuxtConfig({
     },
   },
 
-  gtag: {
-    id: 'G-PML7RDD94S',
+  scripts: {
+    registry: {
+      googleTagManager: {
+        id: 'GTM-N2XCQ4B7',
+      },
+    },
   },
 
   disqus: {
