@@ -125,7 +125,7 @@
                   :ui="{ root: 'lg:col-span-3', leadingIcon: 'size-10', title: 'text-4xl' }"
                 >
                   <template #title>
-                    {{ talkStore.stats.totalTalks }}
+                    {{ talkStats.totalTalks }}
                     <span class="text-sm text-muted uppercase">talks</span>
                   </template>
                 </UPageCard>
@@ -134,7 +134,7 @@
                   :ui="{ root: 'lg:col-span-3', leadingIcon: 'size-10', title: 'text-4xl' }"
                 >
                   <template #title>
-                    {{ talkStore.stats.totalEvents }}
+                    {{ talkStats.totalEvents }}
                     <small class="text-sm text-muted uppercase">gatherings</small>
                   </template>
                 </UPageCard>
@@ -143,7 +143,7 @@
                   :ui="{ root: 'lg:col-span-3', leadingIcon: 'size-10', title: 'text-4xl' }"
                 >
                   <template #title>
-                    {{ getLocationCount(talkStore.stats.locations) }}
+                    {{ getLocationCount(talkStats.locations) }}
                     <small class="text-sm text-muted uppercase">countries</small>
                   </template>
 
@@ -151,7 +151,7 @@
                     <UTable
                       :data="
                         getCountriesSortedByPercentage(
-                          talkStore.stats,
+                          talkStats,
                           pageData.meta.countries.threshold,
                         ).map((country) => ({
                           country: country.country,
@@ -181,11 +181,20 @@
     queryCollection('pages').where('path', '=', '/talks').first(),
   )
 
-  const presentations = usePresentationsStore()
-  const talkStore = useTalksStore()
+  const { data: presentationsData } = await useAsyncData('presentations', () =>
+    queryCollection('presentations').order('premiere', 'DESC').all(),
+  )
+  const presentations = (presentationsData.value as unknown as Presentations[]) || []
+
+  const { data: talksData } = await useAsyncData('talks', () =>
+    queryCollection('talks').order('date', 'DESC').all(),
+  )
+  const talks = (talksData.value as unknown as Talk[]) || []
+  // Calculate all stats using consolidated function
+  const talkStats = calculateTalkStats(talks)
 
   // Use consolidated function for timeline items
-  const timeline = getTimelineItems(talkStore.value.talks)
+  const timeline = getTimelineItems(talks)
 
   const tabs = [
     {
