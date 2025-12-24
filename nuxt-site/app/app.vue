@@ -23,9 +23,6 @@
   useSeoMeta({
     title,
     description,
-  })
-
-  useSeoMeta({
     ogTitle: title,
     ogDescription: description,
     ogImage: image,

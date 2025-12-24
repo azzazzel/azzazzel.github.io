@@ -2,8 +2,8 @@
   <UContainer>
     <UPageHeader
       :headline="pageData?.meta.headline as string"
-      :title="pageData?.title"
-      :description="pageData?.description"
+      :title="title"
+      :description="description"
       class="mb-16"
       :ui="{
         root: 'border-b-0 mt-16',
@@ -210,6 +210,23 @@
       slot: 'slides' as const,
     },
   ] satisfies TabsItem[]
+
+  const title = pageData.value?.title
+  const description = pageData.value?.description
+  const image = pageData.value?.meta['og_img'] || undefined
+
+  useSeoMeta({
+    title,
+    description,
+    ogTitle: title,
+    ogDescription: description,
+    ogImage: image,
+    ogUrl: '/talks',
+    twitterTitle: title,
+    twitterDescription: description,
+    twitterImage: image,
+    twitterCard: 'summary',
+  })
 </script>
 
 <style></style>

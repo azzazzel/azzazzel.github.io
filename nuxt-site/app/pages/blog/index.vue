@@ -44,10 +44,6 @@
 </template>
 
 <script lang="ts" setup>
-  const { data: siteData } = await useAsyncData('blog-site', () =>
-    queryCollection('pages').where('path', '=', '/blog').first(),
-  )
-
   const { data: pageData } = await useAsyncData('blog-page', () =>
     queryCollection('pages').where('path', '=', '/blog').first(),
   )
@@ -59,18 +55,15 @@
 
   const title = pageData.value?.title
   const description = pageData.value?.description
-  const image = siteData.value?.meta['og_img']
+  const image = pageData.value?.meta['og_img'] || undefined
 
   useSeoMeta({
     title,
     description,
-  })
-
-  useSeoMeta({
     ogTitle: title,
     ogDescription: description,
     ogImage: image,
-    ogUrl: 'https://milendyankov.com',
+    ogUrl: 'https://milendyankov.com/blog',
     twitterTitle: title,
     twitterDescription: description,
     twitterImage: image,
