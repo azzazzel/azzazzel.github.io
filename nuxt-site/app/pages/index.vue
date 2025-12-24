@@ -238,8 +238,6 @@
   const testimonialsSection = pageData.value?.meta.testimonials
   const ctaSection = pageData.value?.meta.cta
 
-  console.log(testimonialsSection)
-
   const testimonialIcon = (category: string): string => {
     switch (category) {
       case 'Professionalism':
