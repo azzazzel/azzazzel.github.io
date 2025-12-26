@@ -44,4 +44,8 @@
       },
     ],
   })
+
+  useScript(
+    'https://cdn-cookieyes.com/client_data/72c1c3300b0116173a86f07a/cookie-policy/script.js',
+  )
 </script>
