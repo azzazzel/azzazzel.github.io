@@ -1,0 +1,9 @@
+id: web-application-performance-tuning-beyond-xmx
+title: Web application performance tuning beyond Xmx
+thumbnail: https://slidrio-decks.global.ssl.fastly.net/1183/thumbs/1_1280.jpg
+url: https://slidr.io/azzazzel/web-application-performance-tuning-beyond-xmx
+premiere: 2014-06-05
+abstract: |
+  Please, stop increasing Xmx - it will NOT help! Please don't blindly copy JVM settings from various blogs - they are not meant to be for you!
+
+  In the spirit of the famous Albert Einstein's quote "Any fool can know. The point is to understand.", this talk will try to help you understand both your web application and your environment, so you can tune what needs to be tuned!

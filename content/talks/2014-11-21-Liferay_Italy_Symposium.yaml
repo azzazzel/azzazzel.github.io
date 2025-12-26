@@ -1,0 +1,10 @@
+date: 2014-11-21
+event:
+  name: Liferay Italy Symposium
+  url: https://www.liferay.com/web/italy2014/
+location:
+  type: onsite
+  code: IT
+  country: Italy
+talk: OSGi to Create Extensible Plugins
+recording: https://www.youtube.com/watch?v=6WQNDm8780o#t=16

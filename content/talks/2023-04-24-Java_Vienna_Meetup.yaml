@@ -1,0 +1,9 @@
+date: 2023-04-24
+event:
+  name: Java Vienna Meetup
+  url: https://www.meetup.com/java-vienna/events/292086242/
+location:
+  type: onsite
+  code: AT
+  country: Austria
+talk: Location transparency

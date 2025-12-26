@@ -1,0 +1,10 @@
+date: 2018-05-18
+event:
+  name: JEEConf
+  url: http://jeeconf.com/
+location:
+  type: onsite
+  code: UA
+  country: Ukraine
+talk: Decomposing Java applications
+recording: https://www.youtube.com/watch?v=OFgoSnlZEII

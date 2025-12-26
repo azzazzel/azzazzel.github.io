@@ -1,0 +1,10 @@
+date: 2018-10-02
+event:
+  name: Liferay Digital Solutions Forum
+  url: https://www.liferay.com/web/events-ldsf-uk
+location:
+  type: onsite
+  code: GB
+  country: United Kingdom
+talk: Untangling dependencies in modular systems
+recording: https://www.youtube.com/watch?v=hGNrZmr0zz8

@@ -1,0 +1,9 @@
+date: 2017-10-10
+event:
+  name: Brussels JUG meetup
+  url: https://www.meetup.com/BruJUG/events/243469673/
+location:
+  type: onsite
+  code: BE
+  country: Belgium
+talk: Fantastic Java contracts - and where to define them?

@@ -1,0 +1,10 @@
+date: 2017-04-26
+event:
+  name: Liferay France Symposium
+  url: https://www.liferay.com/fr/web/events-symposium-france
+location:
+  type: onsite
+  code: FR
+  country: France
+talk: From zero to production in 1 conference talk time
+recording: https://www.youtube.com/watch?v=WJHMuu3iJVc

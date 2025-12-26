@@ -1,0 +1,10 @@
+date: 2015-10-22
+event:
+  name: GeeCON Prague
+  url: http://2015.geecon.cz/
+location:
+  type: onsite
+  code: CZ
+  country: Czechia
+talk: Your role in the next release of "World" project!
+recording: https://vimeo.com/146805999

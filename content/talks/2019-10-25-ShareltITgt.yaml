@@ -1,0 +1,9 @@
+date: 2019-10-25
+event:
+  name: Share&lt;IT&gt;
+  url: https://shareit.hycom.pl/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Decomposing Java applications

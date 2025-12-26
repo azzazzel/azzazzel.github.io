@@ -1,0 +1,10 @@
+date: 2018-12-12
+event:
+  name: Madrid JUG
+  url: https://www.meetup.com/MadridJUG/events/
+location:
+  type: onsite
+  code: ES
+  country: Spain
+talk: Decomposing Java applications
+recording: https://www.youtube.com/watch?v=18zKdzV4AiI

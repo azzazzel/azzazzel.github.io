@@ -1,0 +1,9 @@
+date: 2017-09-26
+event:
+  name: TomcatCon
+  url: https://tomcat.apache.org/conference.html
+location:
+  type: onsite
+  code: GB
+  country: United Kingdom
+talk: Science of buzzwords (demystifying software trends)

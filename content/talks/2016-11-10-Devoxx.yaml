@@ -1,0 +1,10 @@
+date: 2016-11-10
+event:
+  name: Devoxx
+  url: https://devoxx.be/
+location:
+  type: onsite
+  code: BE
+  country: Belgium
+talk: What's not new in modular Java?
+recording: https://www.youtube.com/watch?v=gHk_XxRKNiw

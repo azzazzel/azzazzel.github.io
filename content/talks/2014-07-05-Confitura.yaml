@@ -1,0 +1,10 @@
+date: 2014-07-05
+event:
+  name: Confitura
+  url: http://2014.confitura.pl/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Web application performance tuning beyond Xmx
+recording: https://www.youtube.com/watch?v=QKH1kJmjc78

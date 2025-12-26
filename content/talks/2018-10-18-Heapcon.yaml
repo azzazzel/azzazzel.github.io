@@ -1,0 +1,10 @@
+date: 2018-10-18
+event:
+  name: Heapcon
+  url: https://heapcon.io/
+location:
+  type: onsite
+  code: RS
+  country: Serbia
+talk: Decomposing Java applications
+recording: https://www.youtube.com/watch?v=2_v2JybFKUw

@@ -1,0 +1,9 @@
+date: 2015-06-17
+event:
+  name: Liferay France Symposium
+  url: https://www.liferay.com/en/web/france2015
+location:
+  type: onsite
+  code: FR
+  country: France
+talk: OSGi to Create Extensible Plugins

@@ -1,0 +1,9 @@
+id: ai-for-java-developers
+title: 'AI for Java Developers: From Buzzword to Code'
+thumbnail: https://slidrio-decks.global.ssl.fastly.net/2708/thumbs/1_1280.jpg
+url: https://slidr.io/azzazzel/ai-for-java-developers-from-buzzword-to-code
+premiere: 2024-12-11
+abstract: |
+  AI is undeniably a buzzword, but it is here to stay. What does this mean for Java developers? Can we design and build applications that harness the power of AI? Most importantly, where do we start?  
+
+  This session focuses on inference—using pre-trained models directly from your code. Instead of relying on proprietary APIs, it'll demystify the "magic" by breaking the AI buzzword down into familiar concepts and components. This will enable you to use AI models as naturally as you would work with databases or workflows. Through live demos, you'll learn to leverage basic embedding models, explore vector databases, and use tools like LangChain4J. By the end, you'll have a practical roadmap to kickstart your journey into Java-powered AI.

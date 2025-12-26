@@ -1,0 +1,10 @@
+date: 2017-05-06
+event:
+  name: Java Day Istanbul
+  url: https://javaday.istanbul/
+location:
+  type: onsite
+  code: TR
+  country: Turkey
+talk: What's not new in modular Java?
+recording: https://www.youtube.com/watch?v=p55sKNUQ8o0

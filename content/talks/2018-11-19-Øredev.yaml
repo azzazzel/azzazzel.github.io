@@ -1,0 +1,10 @@
+date: 2018-11-19
+event:
+  name: Øredev
+  url: http://oredev.org/2018
+location:
+  type: onsite
+  code: SE
+  country: Sweden
+talk: Decomposing Java applications
+recording: https://vimeo.com/311505951

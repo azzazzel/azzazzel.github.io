@@ -1,0 +1,9 @@
+date: 2024-12-11
+event:
+  name: Ya!vaConf
+  url: https://yavaconf.com/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: 'AI for Java Developers: From Buzzword to Code'

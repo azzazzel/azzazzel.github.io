@@ -1,0 +1,9 @@
+date: 2016-03-19
+event:
+  name: Codemotion Rome
+  url: http://rome2016.codemotionworld.com
+location:
+  type: onsite
+  code: IT
+  country: Italy
+talk: What's not new in modular Java?

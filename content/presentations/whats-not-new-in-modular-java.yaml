@@ -1,0 +1,7 @@
+id: whats-not-new-in-modular-java
+title: What's NOT new in modular Java
+thumbnail: https://slidrio-decks.global.ssl.fastly.net/1188/thumbs/1_1280.jpg
+url: https://slidr.io/azzazzel/what-s-not-new-in-modular-java
+premiere: 2016-02-10
+abstract: |
+  With Java 9 and Jigsaw project around the corner (this time apparently for real), we finally need to stop pretending we can simply ignore the concept of modularity in Java! The thing is - modularity is NOT just some new framework! Neither it is a simple set of APIs! It's a complex concept that has been around for almost as long as the industry itself. So in this talk I'd like to take a step back and reason about the fundamental idea of modularity in Java by comparing the concepts of Jigsaw with other Java modularity approaches and implementations that have been around for quite some time.

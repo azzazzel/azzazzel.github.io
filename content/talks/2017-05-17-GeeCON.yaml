@@ -1,0 +1,10 @@
+date: 2017-05-17
+event:
+  name: GeeCON
+  url: https://2017.geecon.org/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: What's not new in modular Java?
+recording: https://www.youtube.com/watch?v=n6H3_KkFZCs

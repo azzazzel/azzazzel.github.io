@@ -1,0 +1,8 @@
+date: 2022-06-21
+event:
+  name: Barcelona JUG
+location:
+  type: onsite
+  code: ES
+  country: Spain
+talk: Demystifying 'Event' Related Software Concepts and Methodologies

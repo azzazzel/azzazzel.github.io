@@ -1,0 +1,9 @@
+date: 2016-10-14
+event:
+  name: OpenSlava
+  url: http://www.openslava.sk/2016/
+location:
+  type: onsite
+  code: SK
+  country: Slovakia
+talk: Building Modular OSGi Applications with Liferay DXP

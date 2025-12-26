@@ -1,0 +1,10 @@
+date: 2016-02-10
+event:
+  name: JFokus
+  url: http://www.jfokus.se/
+location:
+  type: onsite
+  code: SE
+  country: Sweden
+talk: What's not new in modular Java?
+recording: https://www.youtube.com/watch?v=ImRznovfJuM

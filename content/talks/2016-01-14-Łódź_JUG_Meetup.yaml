@@ -1,0 +1,10 @@
+date: 2016-01-14
+event:
+  name: Łódź JUG Meetup
+  url: https://www.meetup.com/Java-User-Group-Lodz/events/227132299/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Microservices and Modularity or the difference between treatment and cure
+recording: https://www.youtube.com/watch?v=gzAsmQQM0Bs

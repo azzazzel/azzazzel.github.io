@@ -1,0 +1,10 @@
+date: 2016-10-25
+event:
+  name: EclipseCon
+  url: https://www.eclipsecon.org/europe2016/
+location:
+  type: onsite
+  code: DE
+  country: Germany
+talk: OSGi for outsiders
+recording: https://www.youtube.com/watch?v=hwV0HwwVOy0

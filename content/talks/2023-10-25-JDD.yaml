@@ -1,0 +1,9 @@
+date: 2023-10-25
+event:
+  name: JDD
+  url: https://jdd.org.pl/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Location transparency

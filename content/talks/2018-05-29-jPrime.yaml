@@ -1,0 +1,10 @@
+date: 2018-05-29
+event:
+  name: jPrime
+  url: http://jprime.io/
+location:
+  type: onsite
+  code: BG
+  country: Bulgaria
+talk: Decomposing Java applications
+recording: https://www.youtube.com/watch?v=FodUKpwtae0

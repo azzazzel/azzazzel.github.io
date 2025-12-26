@@ -1,0 +1,10 @@
+date: 2014-11-13
+event:
+  name: DEVOXX
+  url: http://www.devoxx.be/
+location:
+  type: onsite
+  code: BE
+  country: Belgium
+talk: Web application performance tuning beyond Xmx
+recording: https://www.youtube.com/watch?v=uW9kSCU9jCg

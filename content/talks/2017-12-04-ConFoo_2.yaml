@@ -1,0 +1,9 @@
+date: 2017-12-04
+event:
+  name: ConFoo
+  url: https://confoo.ca/en/yvr2017/
+location:
+  type: onsite
+  code: CA
+  country: Canada
+talk: Microservices and Modularity or the difference between treatment and cure!

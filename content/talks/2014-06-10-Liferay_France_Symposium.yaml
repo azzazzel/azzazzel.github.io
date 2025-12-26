@@ -1,0 +1,10 @@
+date: 2014-06-10
+event:
+  name: Liferay France Symposium
+  url: http://www.liferay.com/france2014
+location:
+  type: onsite
+  code: FR
+  country: France
+talk: Clustering Liferay
+recording: https://www.youtube.com/watch?v=JtV4_n5pXGE

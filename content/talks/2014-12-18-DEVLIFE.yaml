@@ -1,0 +1,8 @@
+date: 2014-12-18
+event:
+  name: DEV.LIFE
+  url: https://www.liferay.com/community/dev.life/home
+location:
+  type: online
+talk: Developing OSGi plugins for Liferay 6.2 and 7 with Maven
+recording: https://www.youtube.com/watch?v=k2qxh7FzfH8

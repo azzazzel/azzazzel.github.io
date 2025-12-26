@@ -1,0 +1,9 @@
+date: 2022-07-17
+event:
+  name: JBCNconf
+  url: https://www.jbcnconf.com/2022/
+location:
+  type: onsite
+  code: ES
+  country: Spain
+talk: Demystifying 'Event' Related Software Concepts and Methodologies

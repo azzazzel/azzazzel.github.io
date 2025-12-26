@@ -1,0 +1,9 @@
+date: 2015-06-30
+event:
+  name: Liferay Budapest Tech Meetup
+  url: http://www.meetup.com/Liferay-Budapest-Tech-Meetup/events/222957142/
+location:
+  type: onsite
+  code: HU
+  country: Hungary
+talk: Microservices and Modularity or the difference between treatment and cure

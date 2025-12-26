@@ -1,0 +1,9 @@
+date: 2017-04-03
+event:
+  name: 4Developers
+  url: http://2017.4developers.org.pl/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Fantastic Java contracts - and where to define them?

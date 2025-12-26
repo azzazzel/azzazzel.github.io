@@ -1,0 +1,9 @@
+date: 2017-03-18
+event:
+  name: Łódź JUG meetup
+  url: https://www.meetup.com/Java-User-Group-Lodz/events/238207914/
+location:
+  type: onsite
+  code: PL
+  country: Poland
+talk: Architecture Kata

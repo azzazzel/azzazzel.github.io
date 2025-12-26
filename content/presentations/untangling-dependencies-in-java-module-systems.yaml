@@ -1,0 +1,11 @@
+id: untangling-dependencies-in-java-module-systems
+title: Untangling dependencies in Java module systems
+thumbnail: https://slidrio-decks.global.ssl.fastly.net/1483/thumbs/1_1280.jpg
+url: https://slidr.io/azzazzel/untangling-dependencies-in-java-module-systems
+premiere: 2018-10-02
+abstract: |
+  All developers know hells exists: DLL hell, JAR hell, Bundle hell, ... and the brand new Module hell introduced in Java 9. The word "hell" seem to describe the dense web of interconnected things, impossible for the human brain to grasp. In that sense, all those are particular implementations of the more general Dependency hell.
+
+  In modular Java systems dependencies are more fine grained (packages, contracts, services, ...) thus more flexible. Yet so many developers struggle with them! Could it be because we heavily misuse one of the core Java concepts - packages? Or do we lack the tools?
+
+  Taking OSGi (the most mature modular system in Java) as playground, the talk will demonstrate how with proper mindset and tools, one can untangle the dependencies web and turn hell into livable place.

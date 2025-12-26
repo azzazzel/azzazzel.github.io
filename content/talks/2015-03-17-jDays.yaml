@@ -1,0 +1,9 @@
+date: 2015-03-17
+event:
+  name: jDays
+  url: http://www.jdays.se/
+location:
+  type: onsite
+  code: SE
+  country: Sweden
+talk: Microservices and Modularity or the difference between treatment and cure

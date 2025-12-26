@@ -1,0 +1,9 @@
+date: 2018-04-21
+event:
+  name: Bulgarian JUG
+  url: https://jug.bg/events/liferay-workshop/
+location:
+  type: onsite
+  code: BG
+  country: Bulgaria
+talk: Why choose between CMS and custom Java app when you can have both with Liferay?
