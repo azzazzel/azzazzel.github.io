@@ -216,9 +216,12 @@
 </template>
 
 <script setup lang="ts">
-  import type { icon } from '#build/ui/prose'
+  // const siteConfig = useSiteStore()
 
-  const siteConfig = useSiteStore()
+  const { data: siteConfig } = await useAsyncData('site-config', () =>
+    queryCollection('pages').where('id', '=', '_site.yaml').first(),
+  )
+
   const { data: pageData } = await useAsyncData('home-page', () =>
     queryCollection('pages').where('path', '=', '/').first(),
   )
