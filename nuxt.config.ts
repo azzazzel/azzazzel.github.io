@@ -51,16 +51,16 @@ export default defineNuxtConfig({
     },
   },
 
+  routeRules: {
+    '/about': { redirect: '/' },
+    '/certificates': { redirect: '/' },
+    '/posts': { redirect: '/blog' },
+  },
+
   scripts: {
     registry: {
       googleTagManager: {
         id: 'GTM-N2XCQ4B7',
-      },
-    },
-    globals: {
-      cookieYes: {
-        src: 'https://cdn-cookieyes.com/client_data/72c1c3300b0116173a86f07a/cookie-policy/script.js',
-        id: 'cky-cookie-policy',
       },
     },
   },
