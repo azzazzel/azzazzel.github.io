@@ -10,7 +10,7 @@
           container: 'py-8 lg:py-8 sm:py-8',
         }"
       >
-        <img
+        <NuxtImg
           :src="hero.image.src"
           :alt="hero.image.alt"
           class="w-full rounded-lg"

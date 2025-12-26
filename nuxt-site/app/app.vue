@@ -36,6 +36,7 @@
   })
 
   useHead({
+    title,
     htmlAttrs: {
       lang: 'en',
     },

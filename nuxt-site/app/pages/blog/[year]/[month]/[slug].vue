@@ -85,6 +85,10 @@
     description: description,
   })
 
+  useHead({
+    title,
+  })
+
   useSeoMeta({
     ogTitle: title,
     ogDescription: description,
@@ -96,6 +100,7 @@
     twitterImage: image,
     twitterCard: 'summary',
     articlePublishedTime: post.value.date,
+    articleModifiedTime: post.value.date,
   })
 </script>
 

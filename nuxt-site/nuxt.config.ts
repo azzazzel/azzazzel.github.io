@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/content',
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxt/eslint',
@@ -10,11 +9,20 @@ export default defineNuxtConfig({
     'nuxt-llms',
     'nuxt-feedme',
     '@nuxt/fonts',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    '@nuxt/content',
   ],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
+  },
+
+  site: {
+    url: 'milendyankov.com',
+    name: 'Milen Dyankov',
+    description: "Milen Dyankov's website",
   },
 
   content: {

@@ -215,6 +215,10 @@
   const description = pageData.value?.description
   const image = pageData.value?.meta['og_img'] || undefined
 
+  useHead({
+    title,
+  })
+
   useSeoMeta({
     title,
     description,
