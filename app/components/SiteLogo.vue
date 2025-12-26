@@ -12,7 +12,7 @@
 <script setup lang="ts">
   const siteConfig = useSiteStore()
   const avatar = {
-    src: siteConfig.value.logo || '/logo.png',
+    src: siteConfig.value.logo || '/img/avatar.png',
     icon: 'i-lucide-image',
   }
 </script>
