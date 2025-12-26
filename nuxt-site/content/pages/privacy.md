@@ -3,9 +3,9 @@ layout: page
 title: Privacy and Cookies Policy
 ---
 
-You can visit this web site without giving any information about yourself. 
-The software logs and cookies are used for general statistical purposes only and 
-none of the information gathered in this way can be used to identify any individual who visits the site. 
+You can visit this web site without giving any information about yourself.
+The software logs and cookies are used for general statistical purposes only and
+none of the information gathered in this way can be used to identify any individual who visits the site.
 
 <h3>Google Analytics</h3>
 
