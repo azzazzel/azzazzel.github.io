@@ -9,15 +9,11 @@
 </template>
 
 <script setup lang="ts">
-  const siteConfig = useSiteStore()
+  const appConfig = useAppConfig()
+  const siteConfig = appConfig.site
 
-  const { data: siteConfigData } = await useAsyncData('site-config', () =>
-    queryCollection('pages').where('id', '=', '_site.yaml').first(),
-  )
-  siteConfig.value = (siteConfigData.value?.body as unknown as SiteConfig) || {}
-
-  const title = siteConfig.value.title || ''
-  const description = siteConfig.value.description || ''
+  const title = siteConfig.title || ''
+  const description = siteConfig.description || ''
   const image = '/img/MilenDyankov.jpg'
 
   useSeoMeta({

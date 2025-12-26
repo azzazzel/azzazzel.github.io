@@ -28,10 +28,11 @@
 </template>
 
 <script setup lang="ts">
-  const siteConfig = useSiteStore()
+  const appConfig = useAppConfig()
+  const siteConfig = appConfig.site
   const route = useRoute()
 
-  const pages = siteConfig.value.pages?.map((page) => ({
+  const pages = siteConfig.pages?.map((page) => ({
     label: page.title,
     to: page.path,
     active: route.path === `/${page.path}`,

@@ -10,9 +10,10 @@
 </template>
 
 <script setup lang="ts">
-  const siteConfig = useSiteStore()
+  const appConfig = useAppConfig()
+  const siteConfig = appConfig.site
   const avatar = {
-    src: siteConfig.value.logo || '/img/avatar.png',
+    src: siteConfig.logo || '/img/avatar.png',
     icon: 'i-lucide-image',
   }
 </script>

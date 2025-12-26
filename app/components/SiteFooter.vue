@@ -26,6 +26,7 @@
 </template>
 
 <script setup lang="ts">
-  const siteConfig = useSiteStore()
-  const presence = siteConfig.value.presence || []
+  const appConfig = useAppConfig()
+  const siteConfig = appConfig.site
+  const presence = siteConfig.presence || []
 </script>
