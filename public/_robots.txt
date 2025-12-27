@@ -1,4 +1,3 @@
 User-agent: *
 Disallow: /__nuxt_content/
 Disallow: /__sitemap__/
-Disallow: /_fonts/
