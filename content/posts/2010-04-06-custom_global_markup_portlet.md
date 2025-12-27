@@ -44,11 +44,11 @@ Unique codes/keys may be provided in portlet preferences but still it's not very
 
 custom-global-markup-portlet was written to solve all of the problems described above. The portlet is based on Samuel Kong's example, but it also provides convenient management interface in Liferay's control panel:
 
-[![Custom Global Markup Portlet Configuration](/assets/2010-04-06-custom_global_markup_portlet/CustomGlobalMarkupConfig.png)](/assets/2010-04-06-custom_global_markup_portlet/CustomGlobalMarkupConfig.png)
+![Custom Global Markup Portlet Configuration](/assets/2010-04-06-custom_global_markup_portlet/CustomGlobalMarkupConfig.png)
 
 As you can see from the above screenshot portal administrator can easly add/modify/delete any markup (javascript, CSS, HTML, ...). Here is how the portal look like after you save the above markups:
 
-[![Portal changed via Custom Global Markup Portlet](/assets/2010-04-06-custom_global_markup_portlet/CustomGlobalMarkupResult.png)](/assets/2010-04-06-custom_global_markup_portlet/CustomGlobalMarkupResult.png)
+![Portal changed via Custom Global Markup Portlet](/assets/2010-04-06-custom_global_markup_portlet/CustomGlobalMarkupResult.png)
 
 As you may have already noticed there are a few important features. First of all the markup can be divided into multiple entries and each entry can be enabled/disabled and placed on top (in <head> section) or bottom (before </html>) of the page. All entries are persisted into database which eliminates potential problems with maintaining different portlet preferences in different environments (development, staging, production). Also note that custom-global-markup-portlet is community scoped, which allows adding markup to pages of specific community.
 

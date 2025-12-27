@@ -13,7 +13,7 @@ Instead of just rushing to hire a few more folks, I started asking myself how th
 
 ## Understanding the domain
 
-As with any project, I needed to fully understand the domain space I'm trying to model. I spent some time researching and thinking about it. The "[What dev heck?](/blog/2022/02/what_dev_heck/)" post I published earlier covers my findings and thoughts. Long story short, two things became apparent:
+As with any project, I needed to fully understand the domain space I'm trying to model. I spent some time researching and thinking about it. The "[What dev heck?](/blog/2022/02/what_dev_heck)" post I published earlier covers my findings and thoughts. Long story short, two things became apparent:
 
 Developer eXperience is the main domain
 : If you have read my previous post, it should be obvious why that is. The consumers of the products and services AxonIQ provides are software developers. It is crucial to ensure they have the best possible experience. Our core principle, "We put quality first, always." must also be applied to the interactions and processes developers go through.
