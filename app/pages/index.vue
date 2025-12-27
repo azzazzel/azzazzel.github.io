@@ -14,6 +14,8 @@
           :src="hero.image.src"
           :alt="hero.image.alt"
           class="w-full rounded-lg"
+          sizes="sm:320px md:640px lg:1024px"
+          format="webp"
         />
       </UPageHero>
 

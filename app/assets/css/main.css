@@ -1,10 +1,6 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
 
-/* @theme {
-  --font-display: 'Gudea', 'sans-serif';
-} */
-
 :root {
   /* font-family: Zain; */
   /* font-family: Onest; */

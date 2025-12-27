@@ -1,4 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+const yearInSeconds = 365 * 24 * 60 * 60
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
@@ -114,5 +117,29 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+
+  nitro: {
+    routeRules: {
+      '/_nuxt/**': {
+        headers: { 'cache-control': `public,max-age=${yearInSeconds},s-maxage=${yearInSeconds}` },
+      },
+      '/_ipx/**': {
+        headers: { 'cache-control': `public,max-age=${yearInSeconds},s-maxage=${yearInSeconds}` },
+      },
+      '/_fonts/**': {
+        headers: { 'cache-control': `public,max-age=${yearInSeconds},s-maxage=${yearInSeconds}` },
+      },
+    },
+  },
+
+  image: {
+    screens: {
+      sm: 320,
+      md: 640,
+      lg: 1024,
+    },
+
+    format: ['webp'],
   },
 })

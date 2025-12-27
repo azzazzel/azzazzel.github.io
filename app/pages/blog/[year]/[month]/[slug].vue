@@ -74,9 +74,9 @@
 
   const title = post.value?.title || ''
   const description = post.value?.description || ''
-  const image = post.value?.meta?.image || '/img/MilenDyankov.jpg'
+  const image = post.value?.image || '/img/MilenDyankov.jpg'
 
-  if (post.value.meta.twitter) {
+  if (post.value.twitter) {
     useScript('https://platform.twitter.com/widgets.js')
   }
 

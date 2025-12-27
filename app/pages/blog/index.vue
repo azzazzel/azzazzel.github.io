@@ -21,7 +21,6 @@
               :to="post.path"
               :title="post.title"
               :description="post.description"
-              :image="post.meta.image || '/img/blog_placeholder.jpg'"
               :date="
                 new Date(post.date)?.toLocaleDateString('en', {
                   year: 'numeric',
@@ -35,7 +34,16 @@
               :ui="{
                 description: 'line-clamp-2',
               }"
-            />
+            >
+              <template #header>
+                <NuxtImg
+                  :src="post.image || '/img/blog_placeholder.jpg'"
+                  sizes="sm:320px md:640px lg:1024px"
+                  format="webp"
+                  class="w-full"
+                />
+              </template>
+            </UBlogPost>
           </UBlogPosts>
         </UPageSection>
       </UPageBody>

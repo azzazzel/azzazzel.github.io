@@ -25,7 +25,6 @@
             v-for="(presentation, index) in presentations"
             :key="index"
             :title="presentation.title"
-            :image="presentation.thumbnail"
             :date="
               new Date(presentation.premiere as Date).toLocaleDateString('en', {
                 year: 'numeric',
@@ -36,6 +35,14 @@
             variant="ghost"
             class="y-8"
           >
+            <template #header>
+              <NuxtImg
+                :src="presentation.thumbnail || undefined"
+                sizes="sm:320px md:640px lg:1024px"
+                format="webp"
+                class="w-full"
+              />
+            </template>
             <template #footer>
               <div class="text-right">
                 <UModal

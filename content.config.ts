@@ -58,6 +58,8 @@ export default defineContentConfig({
         date: z.string(),
         description: z.string().optional(),
         categories: z.array(z.string()).optional(),
+        image: z.string().optional().default(''),
+        twitter: z.string().optional(),
       }),
       source: {
         include: 'posts/**',
