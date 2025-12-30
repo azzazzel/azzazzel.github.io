@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 const yearInSeconds = 365 * 24 * 60 * 60
+const domain = 'MilenDyankov.com'
+const siteUrl = 'https://' + domain
+const title = "Milen Dyankov's Website"
+
+console.log('config !!!')
 
 export default defineNuxtConfig({
   modules: [
@@ -23,9 +28,9 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'milendyankov.com',
+    url: domain,
     name: 'Milen Dyankov',
-    description: "Milen Dyankov's website",
+    description: title,
   },
 
   content: {
@@ -50,7 +55,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      siteUrl: 'https://milendyankov.com',
+      siteUrl: siteUrl,
     },
   },
 
@@ -73,12 +78,34 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'milendyankov.com',
-    title: 'Milen Dyankov Blog',
+    domain: siteUrl,
+    title: title,
     full: {
       title: 'Full Content',
       description: 'The full content of this website',
     },
+    sections: [
+      {
+        title: 'Pages',
+        links: [
+          {
+            title: 'Home page',
+            description: 'About Milen Dyankov',
+            href: '/',
+          },
+          {
+            title: 'Blog',
+            description: "Milen Dyankov's blog",
+            href: '/blog',
+          },
+          {
+            title: 'Talks',
+            description: "Milen Dyankov's talks and presentations",
+            href: '/talks',
+          },
+        ],
+      },
+    ],
   },
 
   feedme: {
@@ -87,32 +114,31 @@ export default defineNuxtConfig({
         collections: ['posts'], // Use the 'posts' collection for RSS feeds
         fixDateFields: true,
         feed: {
-          title: 'Milen Dyankov Blog',
+          title: title,
           description: 'Latest blog posts and articles',
           copyright: '© 2025 Milen Dyankov',
-          link: 'https://milendyankov.com/blog',
+          link: siteUrl + '/blog',
         },
         replace: [
-          ['/assets/', 'https://milendyankov.com/assets/'],
-          ['/img/', 'https://milendyankov.com/img/'],
+          ['/assets/', siteUrl + '/assets/'],
+          ['/img/', siteUrl + '/img/'],
         ],
         mapping: [['link', 'path']],
-        item: { title: 'AAA' },
       },
       routes: {
         '/feed.xml': {
           feed: {
-            title: 'Milen Dyankov Blog', // because `title` in `common` doesn't work
+            title: title, // because `title` in `common` doesn't work
           },
         },
         '/feed.atom': {
           feed: {
-            title: 'Milen Dyankov Blog', // because `title` in `common` doesn't work
+            title: title, // because `title` in `common` doesn't work
           },
         },
         '/feed.json': {
           feed: {
-            title: 'Milen Dyankov Blog', // because `title` in `common` doesn't work
+            title: title, // because `title` in `common` doesn't work
           },
         },
       },
