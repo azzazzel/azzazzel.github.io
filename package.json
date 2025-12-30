@@ -6,7 +6,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "clean": "rm -rf .data .nuxt .output"
   },
   "dependencies": {
     "@nuxt/content": "^3.9.0",
