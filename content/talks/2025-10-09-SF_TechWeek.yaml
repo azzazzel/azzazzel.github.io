@@ -1,0 +1,10 @@
+date: 2025-10-09
+event:
+  name: San Francisco Tech Week
+  url: https://sf-techweek.com/
+location:
+  type: onsite
+  code: US
+  country: United States
+talk: 'AI-powered search and recommendation app'
+recording: https://youtu.be/ju58amdX-OM
