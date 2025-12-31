@@ -1,8 +1,10 @@
 ---
 layout: new_post
-title: 'Micro-services or μServices'
+title: Micro-services or μServices
 date: 2016-09-21
 image: /assets/2016-09-21-microservices_or_mServices/liferaybooth.jpg
+topic:
+  - "[[Modularity]]"
 ---
 
 Yesterday someone very well known and respected in Java world _(I didn't ask him for permission, so I'm not mentioning his name)_, approached Liferay's booth at JavaOne. He expressed his concerns about the word "**μServices**" in the message printed on our booth's wall. I wasn't there at the time this happened. I spoke with my colleagues few minutes later, as the non-developers were getting worried we made a terrible and embarrassing typo. As a non-native English speaker I wasn't quite sure what the exact argument was, but it was clear to me the person believed we should have used "**micro-services**" instead. I urged to reassure my colleagues this is not a typo but an important differentiator in today's buzzword driven world.

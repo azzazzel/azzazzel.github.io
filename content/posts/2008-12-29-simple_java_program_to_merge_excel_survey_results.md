@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Simple Java program to merge Excel survey results
-date: '2008-12-29 14:13:20 +0100'
+date: 2008-12-29 14:13:20 +0100
 mt_id: 4
 blog_id: 1
 post_id: 4
 basename: simple_java_program_to_merge_excel_survey_results
 categories:
   - software
+topic:
+  - "[[Java]]"
 ---
 
 A friend of mine recently asked me about merging survey results, which reminded me I had similar problem about an year ago and have written a peace of code to solve it. It's not a framework or user friendly application and it's not well documented. It was written in a couple of hours to solve particular problem, but in case anyone is interested here is so called [SpreadSurvey](/assets/2008-12-29-simple_java_program_to_merge_excel_survey_results/SpreadSurvey.zip).

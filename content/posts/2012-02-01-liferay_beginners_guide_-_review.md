@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Liferay Beginner's Guide - review
-date: '2012-02-01 07:34:59 +0100'
+date: 2012-02-01 07:34:59 +0100
 mt_id: 23
 blog_id: 1
 post_id: 23
 basename: liferay_beginners_guide_-_review
 categories:
-- liferay
+  - liferay
+topic:
+  - "[[Liferay]]"
+  - "[[Books]]"
 ---
 <img style="float:right; margin: 10px" src="https://www.packtpub.com/sites/default/files/imagecache/productview/7003OS_Liferay%20Beginner's%20Guidecov_Low.jpg" />
 

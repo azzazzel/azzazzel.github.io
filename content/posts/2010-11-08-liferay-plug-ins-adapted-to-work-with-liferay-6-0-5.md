@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Liferay plug-ins adapted to work with Liferay 6.0.5
-date: '2010-11-08 22:12:16 +0100'
+date: 2010-11-08 22:12:16 +0100
 mt_id: 15
 blog_id: 1
 post_id: 15
 basename: liferay-plug-ins-adapted-to-work-with-liferay-6-0-5
 categories:
   - liferay
+topic:
+  - "[[Liferay]]"
 ---
 
 As soon as Liferay 6.0.5 was released I decided to adapt my plug-ins to the newest framework version. But as we all know, being determined to do something is not the same as having the time to do it. The good news is, a few days ago I finally quit saying myself "_never mind, you'll do it tomorrow_" and started getting things done. And now I'm happy to announce that [Custom Global Markup](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4846919), [Tailgate](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4924578) and [Liferay-UI Taglib Demo](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4906953) are already upgraded to work with Liferay 6.0.5.

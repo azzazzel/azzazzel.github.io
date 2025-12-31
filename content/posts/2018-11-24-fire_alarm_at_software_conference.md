@@ -3,6 +3,8 @@ layout: new_post
 title: Fire alarm at software conference
 date: 2018-11-24
 image: /assets/2018-11-24-fire_alarm_at_software_conference/mayor.jpg
+topic:
+  - "[[Conferences & Events]]"
 ---
 
 I guess if you do something often and long enough, you get to experience all possible scenarios eventually. Leaving the conference venue due to fire alarm going on, was not necessarily on my bucket list but now I can both add it and scratch it off at the same time. It happened last week in Malmö, Sweden.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple mobile device emulator in Firefox
-date: '2011-10-28 01:22:12 +0200'
+date: 2011-10-28 01:22:12 +0200
 mt_id: 21
 blog_id: 1
 post_id: 21
@@ -10,6 +10,8 @@ image: /assets/mobile_device_emulator.jpg
 categories:
   - tips_and_tricks
   - software
+topic:
+  - "[[Personal projects]]"
 ---
 
 After my "Pluggable mobile device detection" presentation during [Liferay Europe Symposium](http://www.liferay.com/events/liferay-symposiums/europe-2011/agenda) a lot of people asked about the mobile device emulator I was using. The truth is, it's not a real "emulator" but a simple combination of html page and a Firefox user script. However, it does the trick and for most people seems to be good enough (at least for a start). So, I made a promise to share it and finally found the time to blog about it.

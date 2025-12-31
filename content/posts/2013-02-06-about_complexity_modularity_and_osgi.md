@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'About complexity, modularity and OSGi '
-date: '2013-02-06 10:56:02 +0100'
+title: "About complexity, modularity and OSGi "
+date: 2013-02-06 10:56:02 +0100
 mt_id: 29
 blog_id: 1
 post_id: 29
@@ -10,6 +10,10 @@ categories:
   - misc
   - OSGi
 twitter: true
+topic:
+  - "[[Java]]"
+  - "[[Modularity]]"
+  - "[[Software Craftsmanship]]"
 ---
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

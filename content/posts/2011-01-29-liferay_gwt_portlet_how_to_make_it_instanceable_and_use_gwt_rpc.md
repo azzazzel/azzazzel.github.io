@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Liferay GWT portlet - how to make it "instanceable" and use GWT RPC
-date: '2011-01-29 15:46:35 +0100'
+date: 2011-01-29 15:46:35 +0100
 mt_id: 17
 blog_id: 1
 post_id: 17
@@ -10,6 +10,8 @@ image: /assets/2011-01-29-liferay_gwt_portlet_how_to_make_it_instanceable_and_us
 categories:
   - liferay
   - tips_and_tricks
+topic:
+  - "[[Liferay]]"
 ---
 
 Every once in a while somebody asks about writing [Liferay](http://liferay.com) portlets in [GWT](http://code.google.com/webtoolkit/). It seems a lot of people are successfully using [GWT](http://code.google.com/webtoolkit/) with [Liferay](http://liferay.com) but surprisingly I couldn't find any complete tutorial on the subject. There are a of course tutorials explaining the basics but what they concentrate on, is how to build _single-instance_ and _client-side-only_ portlets. This is good enough to get you started but chances are sooner or later you'll need to place two instances of the same [GWT](http://code.google.com/webtoolkit/) portlet on the same page and/or implement [GWT RPC](http://code.google.com/intl/pl/webtoolkit/doc/latest/tutorial/RPC.html) to make use of the [Liferay](http://liferay.com) services.

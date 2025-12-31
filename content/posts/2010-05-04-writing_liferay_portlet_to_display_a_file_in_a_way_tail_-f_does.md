@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Writing Liferay portlet to display a file in a way "tail -f" does  '
-date: '2010-05-04 00:10:42 +0200'
+date: 2010-05-04 00:10:42 +0200
 mt_id: 11
 blog_id: 1
 post_id: 11
@@ -10,6 +10,9 @@ image: /assets/2010-05-04-writing_liferay_portlet_to_display_a_file_in_a_way_tai
 categories:
   - tips_and_tricks
   - liferay
+topic:
+  - "[[Liferay]]"
+  - "[[Personal projects]]"
 ---
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />

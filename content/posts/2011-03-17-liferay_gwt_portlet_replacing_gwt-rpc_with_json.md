@@ -1,13 +1,16 @@
 ---
 layout: post
-title: 'Liferay GWT portlet - replacing GWT-RPC with JSON '
-date: '2011-03-17 19:05:14 +0100'
+title: "Liferay GWT portlet - replacing GWT-RPC with JSON "
+date: 2011-03-17 19:05:14 +0100
 mt_id: 19
 blog_id: 1
 post_id: 19
 basename: liferay_gwt_portlet_replacing_gwt-rpc_with_json
 categories:
   - liferay
+topic:
+  - "[[Liferay]]"
+  - "[[Personal projects]]"
 ---
 
 This is a continuation of my previous post [Liferay GWT portlet - how to make it "instanceable" and use GWT RPC](/blog/2011/01/liferay_gwt_portlet_how_to_make_it_instanceable_and_use_gwt_rpc/). The approach described there uses Liferay specific functionality called [PortalDelegateServlet](http://longgoldenears.blogspot.com/2008/03/portaldelegateservlet-servlet-session.html). This way one can easily use GWT RPC which somewhat simplifies client-server communication. However if you need to develop a JSR 286 portlet you need a more standard compatible way of doing AJAX calls. For this reason JSR 286 defines `serverResource` method and this post will show how to refactor the code to replace GWT RPC calls with exchanging JSON messages using serverResource method.

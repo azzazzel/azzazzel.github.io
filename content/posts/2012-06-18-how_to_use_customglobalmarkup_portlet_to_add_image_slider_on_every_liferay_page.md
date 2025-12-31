@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to use CustomGlobalMarkup portlet to add image slider on every Liferay page
-date: '2012-06-18 16:06:00 +0200'
+date: 2012-06-18 16:06:00 +0200
 mt_id: 27
 blog_id: 1
 post_id: 27
@@ -10,6 +10,9 @@ image: /assets/2012-06-18-how_to_use_customglobalmarkup_portlet_to_add_image_sli
 categories:
   - liferay
   - tips_and_tricks
+topic:
+  - "[[Liferay]]"
+  - "[[Personal projects]]"
 ---
 
 The [original purpose of CustomGlobalMarkup portlet](/blog/2010/04/custom_global_markup_portlet) was to provide convenient interface for adding 3rd parties javascript code (like Google Analytics, Geminus, ClickTale, Crazy Egg, ...) to every page. However since it allows to add any markup it can be used to do some other cool things. For example - image slideshows.

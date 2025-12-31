@@ -1,7 +1,8 @@
 ---
 layout: new_post
-title: 'Am I against JPMS and microservices?'
+title: Am I against JPMS and microservices?
 date: 2017-11-10
+topic: "[[Java]]"
 ---
 
 I started writing this on my way back home from Devoxx BE 2017. The reason is, two things happened during the conference, that made me ask myself this question.

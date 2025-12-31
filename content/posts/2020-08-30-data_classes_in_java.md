@@ -3,6 +3,9 @@ layout: new_post
 title: Data classes in Java
 date: 2020-08-30
 twitter: true
+topic:
+  - "[[Java]]"
+  - "[[Dev tools]]"
 ---
 
 I recently joined [AxonIQ](http://axoniq.io) to help them evolve their Developer Relations to the next level. One of the things I am currently evaluating is the steepness of the adoption curve of [Axon Framework](https://axoniq.io/product-overview/axon-framework) and [Axon Server](https://axoniq.io/product-overview/axon-server). One of the things that catch my attention was that, in almost all examples and demos, the classes representing events, commands and queries are written as Kotlin data classes ([here is an example](https://github.com/AxonIQ/giftcard-demo/blob/master/src/main/java/io/axoniq/demo/giftcard/api/api.kt)).

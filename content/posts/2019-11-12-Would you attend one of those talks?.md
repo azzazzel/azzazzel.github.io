@@ -2,6 +2,8 @@
 layout: new_post
 title: Would you attend one of those talks?
 date: 2019-11-12
+topic:
+  - "[[Public speaking]]"
 ---
 
 After several years of traveling around the world to speak at conferences, I needed a break. I have no idea what people like Venkat Subramaniam or Josh Long or Philipp Krenn are made of, but the assembly line that made me, certainly didn't use the same material. Luckily 2019 offered me that break and allowed me to focus on other things. It was great time but also kind of sad as I like to share the little things I know with other people and I like even more to learn from the people I meet. So I'm planning to be back on the road in 2020.

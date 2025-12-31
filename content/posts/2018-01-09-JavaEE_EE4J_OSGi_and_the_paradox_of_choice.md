@@ -1,7 +1,10 @@
 ---
 layout: new_post
-title: 'Java EE, EE4J, OSGi, ... and the paradox of choice'
+title: Java EE, EE4J, OSGi, ... and the paradox of choice
 date: 2018-01-09
+topic:
+  - "[[Java]]"
+  - "[[Modularity]]"
 ---
 
 Not so long ago, I had very interesting conversation with someone who works on Java SE. At some point we discussed the donation of Java EE to Eclipse Foundation. I don't quite remember what statement I was making when I got this response _(not a precise quote)_:

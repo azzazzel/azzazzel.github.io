@@ -1,8 +1,12 @@
 ---
 layout: new_post
-title: 'Getting feedback live'
+title: Getting feedback live
 date: 2017-03-16
 image: /assets/2017-03-16-Getting_feedback_live/javaskop_talk.jpg
+topic:
+  - "[[Public speaking]]"
+  - "[[Conferences & Events]]"
+  - "[[Personal projects]]"
 ---
 
 I have spoken at [quite some conferences](/talks) over the last years. Part of the talks were just me speaking with some (hopefully not too ugly) slides behind me. Some were live demos. Either way, I'm almost never happy with my talks and therefore constantly looking for ways to improve. But in order to improve, first you need to know what your audience like and don't like. It all comes down to feedback and constructive criticism. Some conferences are quite good at collecting feedback. Polish [Confitura](http://confitura.pl) is on the top of my list, sending me a document that not only shows how people voted but also all the comments from their online survey. Most conferences though don't bother to give feedback to speakers. Some don't ever bother to collect it. It's therefore been on my mind for a while to try to find a fun and easy way for attendees to provide feedback during _(not after)_ my talk.

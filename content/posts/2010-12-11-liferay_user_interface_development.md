@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Liferay User Interface Development
-date: '2010-12-11 16:56:00 +0100'
+date: 2010-12-11 16:56:00 +0100
 mt_id: 16
 blog_id: 1
 post_id: 16
 basename: liferay_user_interface_development
 categories:
   - liferay
+topic:
+  - "[[Books]]"
+  - "[[Liferay]]"
 ---
 
 <img alt="" align="right" src="https://www.packtpub.com/sites/default/files/imagecache/productview/2626OS_Mockup%20cover_0.jpg" />

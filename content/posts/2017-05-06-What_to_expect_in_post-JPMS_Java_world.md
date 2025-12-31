@@ -1,7 +1,8 @@
 ---
 layout: new_post
-title: 'What to expect in post-JPMS Java world'
+title: What to expect in post-JPMS Java world
 date: 2017-05-06
+topic: "[[Java]]"
 ---
 
 The atmosphere around Java 9 (and most notably JPMS a.k.a. JSR 376 a.k.a. Jigsaw) is getting really hot. Java community seams to be divided into 3 camps "developers who honestly believe JPMS can simplify modularity", "developers who have been dealing with modularity long enough to clearly see the issues Java platform architects don't want to see" and "developers who don't care (for now)". I personally think the 3rd group is by far the largest and this is the main issue and the main reason for the noise. Why? Because those are the developers who never cared about modularity. Most of them still don't care, but now they will be forced to learn about modularity. The question is what will they learn? Real modularity as described in [Modulariy Maturiy Model](http://enroute.osgi.org/appnotes/modularity-maturity-model.html) or limited version of it wrapped in a package with a label "simple" on it?

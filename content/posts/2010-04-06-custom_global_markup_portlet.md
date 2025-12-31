@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Custom global markup portlet
-date: '2010-04-06 00:40:01 +0200'
+date: 2010-04-06 00:40:01 +0200
 mt_id: 10
 blog_id: 1
 post_id: 10
@@ -10,6 +10,8 @@ image: /assets/2010-04-06-custom_global_markup_portlet/CustomGlobalMarkupConfig.
 categories:
   - tips_and_tricks
   - liferay
+topic:
+  - "[[Liferay]]"
 ---
 
 What would you do if a customer demands to "integrate" his Liferay based corporate portal with [Google Analytics](http://www.google.com/analytics), [Geminus](http://www.gemius.com/), [ClickTale](http://www.clicktale.com/), [Crazy Egg](http://www.crazyegg.com/), and whole bunch of other analytics tools available out there?

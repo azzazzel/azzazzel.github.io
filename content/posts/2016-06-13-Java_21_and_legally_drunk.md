@@ -1,7 +1,8 @@
 ---
 layout: new_post
-title: 'Java: 21 & Legally drunk!'
+title: "Java: 21 & Legally drunk!"
 date: 2016-06-13
+topic: "[[Java]]"
 ---
 
 I've stated that before but allow me to repeat myself: [jPrime](http://jprime.io) is one of my favorite conferences. I've been there two years in a row and to quote Karol Kaliński "[it costs about 80 EUR, but can easily compete with western Europe conferences in terms of quality](http://karolkalinski.github.io/jprime-2016-summary/)". This year, apart from great talks, fantastic atmosphere and the cute new [Bulgarian JUG logo](https://twitter.com/bgjug) there was one more thing I was pleasantly surprised by, namely the conference's headline "**Java: 21 & Legally drunk!**".

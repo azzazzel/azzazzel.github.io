@@ -2,6 +2,9 @@
 layout: new_post
 title: Lessons learned from speaking at conferences
 date: 2016-05-04
+topic:
+  - "[[Public speaking]]"
+  - "[[DevRel]]"
 ---
 
 Time has come to resurrect the blog (again)! I was never much of a blogger but 3 years is ... oh well, almost a lifetime in software industry. It's not that I don't have anything to write about (quite the opposite in fact), it's just that I have always preferred more interactive communication. So for the last 3 years I was concentrating on presenting my thoughts and experience on various conferences rather than posting them here. A huge mistake apparently which someone pointed out to me recently. On the bright side - I learned a few things about being a conference speaker and I'll share them here. If you think going down that road, here is what to expect.

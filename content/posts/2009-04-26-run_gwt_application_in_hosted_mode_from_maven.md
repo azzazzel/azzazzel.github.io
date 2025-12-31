@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Run GWT application in "hosted mode" from maven
-date: '2009-04-26 12:39:35 +0200'
+date: 2009-04-26 12:39:35 +0200
 mt_id: 8
 blog_id: 1
 post_id: 8
 basename: run_gwt_application_in_hosted_mode_from_maven
 categories:
   - tips_and_tricks
+topic:
+  - "[[Java]]"
 ---
 
 It seems to get more and more [cloudy](http://www.infoworld.com/d/cloud-computing/nick-carr-many-ways-cloud-computing-will-disrupt-it-798) in the IT world these days . It's a matter of time before the rain (of applications) starts. When this happen one will need the proper tools, to be able to add his/hers own few drops.

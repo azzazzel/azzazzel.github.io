@@ -3,6 +3,10 @@ layout: new_post
 title: From DevRel to Developer eXperience
 date: 2022-02-10
 image: /assets/from_devrel_to_developer_experience.jpg
+topic:
+  - "[[DevRel]]"
+  - "[[Developer Experience]]"
+  - "[[Career & Professional Journey]]"
 ---
 
 At the time of writing this, the DevRel team at [AxonIQ](https://axoniq.io) consists of four people <small>(including me)</small>. We are two Developer Advocates, a Community Platforms Developer, and a Learning Experience Designer. The flat structure makes perfect sense at this team size. But our plans are huge, and four people can only cover so much ground. Clearly, the team needs to grow.

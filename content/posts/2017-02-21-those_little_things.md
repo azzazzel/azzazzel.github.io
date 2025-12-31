@@ -1,7 +1,9 @@
 ---
 layout: new_post
-title: 'All Those Little Things'
+title: All Those Little Things
 date: 2017-02-21
+topic:
+  - "[[Developer Experience]]"
 ---
 
 As developer advocate, I do a fair amount of traveling. Most of my journeys start with about an hour long drive to the airport. It's nice highway, not a big deal, easy to do it without needless stops. Yet I like to make one stop, get myself out of the car for a while, grab a coffee, smoke, ...

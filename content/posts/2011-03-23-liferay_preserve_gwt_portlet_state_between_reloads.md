@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Liferay - preserve GWT portlet state between reloads
-date: '2011-03-23 07:53:31 +0100'
+date: 2011-03-23 07:53:31 +0100
 mt_id: 20
 blog_id: 1
 post_id: 20
@@ -9,6 +9,8 @@ basename: liferay_preserve_gwt_portlet_state_between_reloads
 categories:
   - liferay
   - tips_and_tricks
+topic:
+  - "[[Liferay]]"
 ---
 
 One of the problems with GWT _(which is even more noticeable in portal environment)_ is preserving it's state between page reloads. In a GWT-only application _(or single portlet on the page case)_ one can give user no other option but using only GWT controls to practically avoid page reloads. In most cases however this is not really possible nor wise thing to do. In portlet environments in particular, reloading the page is a very commmon thing to do, giving all portlets a chance to refresh their content after some action has taken place. The thing is, GWT portlets will, by default, render their initial state, which may not be what user expects.

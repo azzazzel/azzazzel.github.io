@@ -1,7 +1,7 @@
 ---
 layout: post
 title: More "Simple" than "XStream"
-date: '2010-07-20 00:56:21 +0200'
+date: 2010-07-20 00:56:21 +0200
 mt_id: 13
 blog_id: 1
 post_id: 13
@@ -9,6 +9,8 @@ basename: more_simple_than_xstream
 categories:
   - tips_and_tricks
   - misc
+topic:
+  - "[[Dev tools]]"
 ---
 
 I guess every Java developer dealing with JAVA/XML serialization/deserialization knows about [XStream](http://xstream.codehaus.org). I was using it for years until yesterday. What happened yesterday? I found out XStream dos not work out of the box with [GAE](http://code.google.com/appengine/). Well is's not exactly XStream's fault. A lot of stuff does not work properly with GAE due to its limitations and odd security restrictions. But my hope to quickly find patch/workaround, went away as soon as I realized the problem was reported to XStream over an year ago ([http://jira.codehaus.org/browse/XSTR-566](http://jira.codehaus.org/browse/XSTR-566)) and there is still no good solution.

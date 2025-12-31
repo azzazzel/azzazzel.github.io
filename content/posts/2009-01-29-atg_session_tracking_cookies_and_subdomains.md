@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ATG session tracking cookies and subdomains.
-date: '2009-01-29 14:50:58 +0100'
+date: 2009-01-29 14:50:58 +0100
 mt_id: 7
 blog_id: 1
 post_id: 7
@@ -9,6 +9,8 @@ basename: atg_session_tracking_cookies_and_subdomains
 categories:
   - atg
   - tips_and_tricks
+topic:
+  - "[[Java]]"
 ---
 
 If an ATG based web application is available under few subdomains (domain.com, www.domain.com, shop.domain.com) keeping track of session cookies across subdomains may be a challenge. Session tracking cookies (like jsessionid) usually do not have domain property set, which means they are sent back to exactly the same host they came from. So if visitors switch to another subdomain while navigating through the application they would most likely end up having a new session. Depending on what information session holds, the number of visitors and how many simultaneous sessions the server can handle, this may or may not be a problem.

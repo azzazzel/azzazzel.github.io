@@ -3,6 +3,9 @@ layout: new_post
 title: The fruits of our labor
 date: 2018-02-14
 image: /assets/the_fruits_of_our_labor/slide.030.jpeg
+topic:
+  - "[[Leadership]]"
+  - "[[Soft Skills]]"
 ---
 
 I usually do rather technical [talks](/talks) around software architecture and design. Unless one is а famous storyteller, IT conferences would rather take one

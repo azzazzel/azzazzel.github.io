@@ -1,13 +1,15 @@
 ---
 layout: post
 title: I just finished installing Movable Type
-date: '2009-01-01 23:42:34 +0100'
+date: 2009-01-01 23:42:34 +0100
 mt_id: 1
 blog_id: 1
 post_id: 1
 basename: i_just_finished_installing_movable_type_4
 categories:
   - tips_and_tricks
+topic:
+  - "[[Personal projects]]"
 ---
 
 Welcome to my new blog powered by Movable Type. Finally got it up and running but it took me a few hours. Cutting the long story short, here is a note of what problems I had and how they were solved.

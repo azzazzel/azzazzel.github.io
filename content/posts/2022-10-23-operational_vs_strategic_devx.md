@@ -4,6 +4,8 @@ title: Operational vs. Strategic DevX
 date: 2022-10-23
 path: /blog/2022-10-23-operational_vs_strategic_devx
 image: /assets/operational_vs_strategic_devx.jpg
+topic:
+  - "[[DevRel]]"
 ---
 
 It is 2022, and Developer Relations (DevRel) and Developer eXperience (DevX) teams are to be found in almost any organization whose offering has anything to do _(even if very little)_ with software developers. Many prominent examples prove that DevX-done-well significantly contributes to the organization's success. Way more organizations hope to replicate the success story by merely "sprinkling a DevX spice" on top of their traditional marketing/sales-driven practices.

@@ -1,7 +1,9 @@
 ---
 layout: new_post
-title: 'Developers about OSGi'
+title: Developers about OSGi
 date: 2016-09-30
+topic:
+  - "[[Modularity]]"
 ---
 
 Some time ago I published a survey asking developers what they think about OSGi. It took a while to reach some reasonable amount of responses and then to process the results, but finally I'm ready to publish them.

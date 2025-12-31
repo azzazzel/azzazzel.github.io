@@ -1,13 +1,15 @@
 ---
 layout: post
-title: 'Tagging the latest version of previously tagged files in CVS '
-date: '2006-02-10 03:06:44 +0100'
+title: "Tagging the latest version of previously tagged files in CVS "
+date: 2006-02-10 03:06:44 +0100
 mt_id: 3
 blog_id: 1
 post_id: 3
 basename: tagging_the_latest_version_of_previously_tagged_files_in_cvs
 categories:
   - tips_and_tricks
+topic:
+  - "[[Dev tools]]"
 ---
 
 Some time ago a set of files ware committed to CVS repository and tagged (lets say with TAG1) . These files have changed a few times since then. Today I needed to tag the latest versions of all files that have ever been tagged TAG1 with TAG2.

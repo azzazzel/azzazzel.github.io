@@ -3,6 +3,9 @@ layout: new_post
 title: Conference Tracker
 date: 2019-12-02
 image: /assets/2019-12-02-Conference_Tracker/conference_tracker.png
+topic:
+  - "[[DevRel]]"
+  - "[[Public speaking]]"
 ---
 
 I try hard to keep track of conferences around the world. Mainly in a Google spreadsheet but also in a calendar shared with my team. I always thought that if all the DevRel folks were to share and merge their spreadsheets (or whatever else they use) into one single place, it would literally save days of work.

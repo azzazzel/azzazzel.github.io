@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Liferay multi-device extension
-date: '2011-03-10 05:52:15 +0100'
+date: 2011-03-10 05:52:15 +0100
 mt_id: 18
 blog_id: 1
 post_id: 18
@@ -9,6 +9,9 @@ basename: liferay_multidevice_extension
 image: /assets/liferay_multi_device_extension.jpg
 categories:
   - liferay
+topic:
+  - "[[Liferay]]"
+  - "[[Personal projects]]"
 ---
 
 **UPDATE: The extension described here targets Liferay 6.0. It was contributed to Liferay and is [available out of the box since Liferay 6.1](/blog/2012/05/mobile_device_detection_in_liferay_61)**

@@ -1,7 +1,10 @@
 ---
 layout: new_post
-title: 'Cleaning up my GitHub mess'
+title: Cleaning up my GitHub mess
 date: 2017-09-03
+topic:
+  - "[[Developer Experience]]"
+  - "[[Software Craftsmanship]]"
 ---
 
 You know how it goes. You continuously stack stuff in the most convenient place (shelf, drawer, desk, ...) and it's all fine, up until the moment you no longer can find what you need. That is the day when you need to put everything else aside and clean up your mess. Not sure if it is Conway's Law to blame but this seams to happen to my repositories on GitHib. And today was the day when I no longer could recall which repo is under which account, where it resides on my local hard drive and if it's actually in sync. So today was my GitHub cleanup day. Just in case you need to cleanup yours or if you use one of my projects and something is no longer where you expect it to be, here is what changed.

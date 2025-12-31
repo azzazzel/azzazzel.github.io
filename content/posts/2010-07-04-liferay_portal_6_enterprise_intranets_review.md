@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Liferay Portal 6 Enterprise Intranets review
-date: '2010-07-04 09:56:19 +0200'
+date: 2010-07-04 09:56:19 +0200
 mt_id: 12
 blog_id: 1
 post_id: 12
 basename: liferay_portal_6_enterprise_intranets_review
 categories:
   - liferay
+topic:
+  - "[[Liferay]]"
 ---
 
 <img alt="" align="right" src="https://www.packtpub.com/sites/default/files/imagecache/productview/0387_Liferay%20Portal%206%20Enterprise%20Intranets.jpg" />

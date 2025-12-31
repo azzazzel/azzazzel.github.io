@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Liferay Portal Systems Development - review
-date: '2012-04-01 14:52:53 +0200'
+date: 2012-04-01 14:52:53 +0200
 mt_id: 25
 blog_id: 1
 post_id: 25
 basename: liferay_portal_systems_development_-_review
 categories:
-- liferay
+  - liferay
+topic:
+  - "[[Liferay]]"
+  - "[[Books]]"
 ---
 
 <img src="https://www.packtpub.com/sites/default/files/imagecache/productview/5986OS_Liferay%20Portal%20System%20Development_Frontcover.jpg" style="float:right; margin: 10px" />

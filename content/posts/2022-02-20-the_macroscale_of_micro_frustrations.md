@@ -3,6 +3,8 @@ layout: new_post
 title: The macroscale of micro frustrations
 date: 2022-02-20
 image: /assets/the_macroscale_of_micro_frustrations.jpg
+topic:
+  - "[[Developer Experience]]"
 ---
 
 I have experience with two GPS navigation systems. My Android phone has Google Maps. My car also has one, powered by TomTom. All things being equal <small>(as when I drive my car)</small> both are in direct competition. I have to put my trust in one of them. I can't objectively tell which one is better. Yet, somehow I tend to use one of them often and avoid the other.

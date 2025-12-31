@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Just added 'J' in front of WebThumb
-date: '2010-07-23 00:21:42 +0200'
+date: 2010-07-23 00:21:42 +0200
 mt_id: 14
 blog_id: 1
 post_id: 14
 basename: just_added_j_in_front_of_webthumb
 categories:
   - software
+topic:
+  - "[[Dev tools]]"
+  - "[[Personal projects]]"
 ---
 
 Yep, good guess, a Java API to [bluga.net webthumb](http://webthumb.bluga.net) in now available. Making your Java application display website thumbnails is now something really easy to implement. Get your API KEY form [bluga.net webthumb](http://webthumb.bluga.net), download [JWebThumb](http://sourceforge.net/projects/jwebthumb/files/) and start requesting and fetching thumbnails with just a few lines of code.

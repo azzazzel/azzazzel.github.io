@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mobile device detection in Liferay 6.1
-date: '2012-05-29 14:28:24 +0200'
+date: 2012-05-29 14:28:24 +0200
 mt_id: 26
 blog_id: 1
 post_id: 26
@@ -9,6 +9,9 @@ basename: mobile_device_detection_in_liferay_61
 image: /assets/mobile_device_detection_liferay_6_1.jpg
 categories:
   - liferay
+topic:
+  - "[[Liferay]]"
+  - "[[Personal projects]]"
 ---
 
 I'm still getting a lot of questions about how to use the [multi-device extension](/blog/2011/03/liferay_multidevice_extension) in Liferay 6.1. The answer is, **you don't have to**! The code was contributed to Liferay and it's now available OOTB in Liferay 6.1.
