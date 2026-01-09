@@ -58,7 +58,7 @@
 
   const { data: posts } = await useAsyncData(
     'all-blogs',
-    () => queryCollection('posts').order('path', 'DESC').all() || [],
+    () => queryCollection('posts').order('date', 'DESC').all() || [],
   )
 
   const title = pageData.value?.title
