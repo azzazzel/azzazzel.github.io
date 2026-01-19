@@ -63,6 +63,9 @@ export default defineNuxtConfig({
     '/about': { redirect: '/' },
     '/certificates': { redirect: '/' },
     '/posts': { redirect: '/blog' },
+    '/blog/2025/01/Multi-Hat-Disorder-Building-Personal-Website-Like-an-Enterprise-App': {
+      redirect: '/blog/2026/01/Multi-Hat-Disorder-Building-Personal-Website-Like-an-Enterprise-App',
+    },
   },
 
   scripts: {
