@@ -39,17 +39,28 @@
         <UContentSurround :surround="surround" />
       </UPageBody>
 
-      <template
-        v-if="post?.body?.toc?.links?.length"
-        #right
-      >
-        <UContentToc :links="post.body.toc.links" />
+      <template #right>
+        <div>
+          <UContentToc
+            :links="post.body.toc.links"
+            v-if="post?.body?.toc?.links?.length"
+          >
+            <template #bottom>
+              <USeparator v-if="surround?.length" />
+              <UContainer class="w-full px-2 sm:px-2 lg:px-2 mt-4">
+                <SubscribeForm />
+              </UContainer>
+            </template>
+          </UContentToc>
+        </div>
       </template>
     </UPage>
   </UContainer>
 </template>
 
 <script lang="ts" setup>
+  import SubscribeForm from '~/components/SubscribeForm.vue'
+
   const route = useRoute()
   const { data: post } = await useAsyncData(route.path, () =>
     queryCollection('posts').where('path', '=', route.path).first(),

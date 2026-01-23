@@ -53,5 +53,11 @@
         href: canonicalUrl,
       },
     ],
+    meta: [
+      {
+        name: 'follow.it-verification-code',
+        content: '3y01qU3p3PQBuSVcGSmq',
+      },
+    ],
   })
 </script>
