@@ -69,6 +69,9 @@ export default defineNuxtConfig({
     '/blog/2025/01/Multi-Hat-Disorder-Building-Personal-Website-Like-an-Enterprise-App': {
       redirect: '/blog/2026/01/Multi-Hat-Disorder-Building-Personal-Website-Like-an-Enterprise-App',
     },
+    'https://milendyankov.com/blog/2016/09/microservices_or_%CE%BCServices/': {
+      redirect: 'https://milendyankov.com/blog/2016/09/microservices_or_Services',
+    },
     conferencetracker: { redirect: '/ConferenceTracker' }, // dedicated GitHub repo
   },
 
