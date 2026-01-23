@@ -5,8 +5,6 @@ const domain = 'MilenDyankov.com'
 const siteUrl = 'https://' + domain
 const title = "Milen Dyankov's Website"
 
-console.log('config !!!')
-
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
@@ -31,6 +29,11 @@ export default defineNuxtConfig({
     url: domain,
     name: 'Milen Dyankov',
     description: title,
+    trailingSlash: true,
+  },
+
+  sitemap: {
+    autoLastmod: true,
   },
 
   content: {
