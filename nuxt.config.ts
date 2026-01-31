@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     url: domain,
     name: 'Milen Dyankov',
     description: title,
-    trailingSlash: true,
+    trailingSlash: false,
   },
 
   sitemap: {

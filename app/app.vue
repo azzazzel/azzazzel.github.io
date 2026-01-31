@@ -19,8 +19,8 @@
   const runtimeConfig = useRuntimeConfig()
   const route = useRoute()
   // Ensure path ends with a slash (unless it's just the root)
-  const cleanPath = route.path.endsWith('/') ? route.path : `${route.path}/`
-  const canonicalUrl = `${runtimeConfig.public.siteUrl}${cleanPath}`
+  // const cleanPath = route.path.endsWith('/') ? route.path : `${route.path}/`
+  const canonicalUrl = `${runtimeConfig.public.siteUrl}${route.path}`
 
   useSeoMeta({
     title,

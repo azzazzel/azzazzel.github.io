@@ -10,12 +10,12 @@ categories:
   - liferay
   - tips_and_tricks
 topic:
-  - "[[Liferay]]"
+  - '[[Liferay]]'
 ---
 
 One of the problems with GWT _(which is even more noticeable in portal environment)_ is preserving it's state between page reloads. In a GWT-only application _(or single portlet on the page case)_ one can give user no other option but using only GWT controls to practically avoid page reloads. In most cases however this is not really possible nor wise thing to do. In portlet environments in particular, reloading the page is a very commmon thing to do, giving all portlets a chance to refresh their content after some action has taken place. The thing is, GWT portlets will, by default, render their initial state, which may not be what user expects.
 
-For example, consider the GWT `Chatroom` portlet I was using in my previous posts [Liferay GWT portlet - how to make it "instanceable" and use GWT RPC](/blog/2011/01/liferay_gwt_portlet_how_to_make_it_instanceable_and_use_gwt_rpc/) and [Liferay GWT portlet - replacing GWT-RPC with JSON](/blog/2011/03/liferay_gwt_portlet_replacing_gwt-rpc_with_json/). Imagine user has entered a chatroom. Then she clicks on some other portlet on the page. The page is reloaded and `Chatroom` portlet returns to it's initial state. The user will have to enter the room again every time she clicks on another portlet. Let's see how this can be fixed.
+For example, consider the GWT `Chatroom` portlet I was using in my previous posts [Liferay GWT portlet - how to make it "instanceable" and use GWT RPC](/blog/2011/01/liferay_gwt_portlet_how_to_make_it_instanceable_and_use_gwt_rpc) and [Liferay GWT portlet - replacing GWT-RPC with JSON](/blog/2011/03/liferay_gwt_portlet_replacing_gwt-rpc_with_json). Imagine user has entered a chatroom. Then she clicks on some other portlet on the page. The page is reloaded and `Chatroom` portlet returns to it's initial state. The user will have to enter the room again every time she clicks on another portlet. Let's see how this can be fixed.
 
 <!--more-->
 

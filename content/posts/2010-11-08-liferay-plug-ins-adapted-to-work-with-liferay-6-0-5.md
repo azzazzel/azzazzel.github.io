@@ -9,14 +9,14 @@ basename: liferay-plug-ins-adapted-to-work-with-liferay-6-0-5
 categories:
   - liferay
 topic:
-  - "[[Liferay]]"
+  - '[[Liferay]]'
 ---
 
 As soon as Liferay 6.0.5 was released I decided to adapt my plug-ins to the newest framework version. But as we all know, being determined to do something is not the same as having the time to do it. The good news is, a few days ago I finally quit saying myself "_never mind, you'll do it tomorrow_" and started getting things done. And now I'm happy to announce that [Custom Global Markup](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4846919), [Tailgate](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4924578) and [Liferay-UI Taglib Demo](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4906953) are already upgraded to work with Liferay 6.0.5.
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-Please read my previous posts "[Custom global markup portlet](/blog/2010/04/custom_global_markup_portlet)" and "[Writing Liferay portlet to display a file in a way "tail -f" does](/blog/2010/05/writing_liferay_portlet_to_display_a_file_in_a_way_tail_-f_does/)" for more information about [Custom Global Markup](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4846919) and [Tailgate](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4924578) respectively.
+Please read my previous posts "[Custom global markup portlet](/blog/2010/04/custom_global_markup_portlet)" and "[Writing Liferay portlet to display a file in a way "tail -f" does](/blog/2010/05/writing_liferay_portlet_to_display_a_file_in_a_way_tail_-f_does)" for more information about [Custom Global Markup](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4846919) and [Tailgate](http://www.liferay.com/downloads/liferay-portal/community-plugins/-/software_catalog/products/4924578) respectively.
 
 <!--more-->
 
