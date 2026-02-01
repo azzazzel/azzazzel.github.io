@@ -169,7 +169,7 @@ export default defineNuxtConfig({
     },
     hooks: {
       'prerender:generate'(route) {
-        if (route.fileName?.endsWith('/index.html') && route.fileName !== 'index.html') {
+        if (route.fileName?.endsWith('/index.html') && route.fileName !== '/index.html') {
           route.fileName = route.fileName.replace(/\/index\.html$/, '.html')
         }
       },
