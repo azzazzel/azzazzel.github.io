@@ -21,13 +21,7 @@
               :to="post.path"
               :title="post.title"
               :description="post.description"
-              :date="
-                new Date(post.date)?.toLocaleDateString('en', {
-                  year: 'numeric',
-                  month: 'short',
-                  day: 'numeric',
-                })
-              "
+              :date="formatDate(post.date)"
               :orientation="index === 0 ? 'horizontal' : 'vertical'"
               :class="[index === 0 && 'col-span-full']"
               variant="ghost"
@@ -60,6 +54,30 @@
     'all-blogs',
     () => queryCollection('posts').order('date', 'DESC').all() || [],
   )
+
+  const formatDate = (dateString) => {
+    const date = new Date(dateString)
+    const months = [
+      'Jan',
+      'Feb',
+      'Mar',
+      'Apr',
+      'May',
+      'Jun',
+      'Jul',
+      'Aug',
+      'Sep',
+      'Oct',
+      'Nov',
+      'Dec',
+    ]
+
+    const day = date.getUTCDate()
+    const month = months[date.getUTCMonth()]
+    const year = date.getUTCFullYear()
+
+    return `${month} ${day}, ${year}`
+  }
 
   const title = pageData.value?.title
   const description = pageData.value?.description
