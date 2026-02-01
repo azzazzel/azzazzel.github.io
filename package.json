@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate && node scripts/generate-redirects.mjs",
+    "generate": "nuxt generate ",
     "preview": "nuxt preview",
     "clean": "rm -rf .data .nuxt .output"
   },

@@ -167,13 +167,6 @@ export default defineNuxtConfig({
         headers: { 'cache-control': `public,max-age=${yearInSeconds},s-maxage=${yearInSeconds}` },
       },
     },
-    hooks: {
-      'prerender:generate'(route) {
-        if (route.fileName?.endsWith('/index.html') && route.fileName !== 'index.html') {
-          route.fileName = route.fileName.replace(/\/index\.html$/, '.html')
-        }
-      },
-    },
   },
 
   image: {
