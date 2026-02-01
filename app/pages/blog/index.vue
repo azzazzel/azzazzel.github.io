@@ -55,7 +55,7 @@
     () => queryCollection('posts').order('date', 'DESC').all() || [],
   )
 
-  const formatDate = (dateString) => {
+  const formatDate = (dateString: string) => {
     const date = new Date(dateString)
     const months = [
       'Jan',
