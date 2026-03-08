@@ -35,7 +35,7 @@ Another reason is to get early feedback on what you actually want to learn. If y
 
 Finally, this post will serve as a table of contents for the series. I'll update the list below as each new post is released.
 
-- From code to AI/ML model - simplest example
+- [AI/ML Models Are Not Libraries](/blog/2026/03/AI-ML-Models-Are-Not-Libraries)
 - Understanding model types and architectures (not just LLMs)
 - How Inference Works
 - Inference Runtimes
