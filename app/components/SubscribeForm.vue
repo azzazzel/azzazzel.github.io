@@ -2,7 +2,7 @@
   <UForm
     :schema="schema"
     :state="state"
-    class="space-y-4"
+    class="space-y-2"
     method="POST"
     action="https://api.follow.it/subscription-form/NTByT1ZKVWNRZWJycTVwWnNCdGVYTG1ieWhlc1VRWWNpZHFXVVJkc3V5cFVUZ1hZNXFQTFZiL3ZheWc2S2FGSDlTSnFWNndTZGlxaUlaVjNTWlltTzNlOUF6YmtvcXBMb2oxalRUUnRzZHdlNTVOekdiYnc5bG5OeXFrU3k4U0V8bm9qcmNYQVVUK2NMbEN0cjRuNHg5dlByeDhmWk5rVldWeFk2NExmNjVrST0=/8"
     @submit="onSubmit"
@@ -13,11 +13,13 @@
     >
       <UInput
         v-model="state.email"
+        class="w-full"
         name="email"
       />
       <input
         type="hidden"
         name="email"
+        class="w-full"
         :value="state.email"
       />
     </UFormField>

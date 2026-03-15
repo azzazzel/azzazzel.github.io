@@ -45,9 +45,21 @@
             :links="post.body.toc.links"
             v-if="post?.body?.toc?.links?.length"
           >
+            <template #top>
+              <div class="mb-5">
+                <NuxtImg
+                  v-if="post.image"
+                  :src="post.image"
+                  format="webp"
+                  class="w-full rounded-lg"
+                />
+              </div>
+            </template>
             <template #bottom>
               <USeparator v-if="surround?.length" />
-              <UContainer class="w-full px-2 sm:px-2 lg:px-2 mt-4">
+              <UContainer
+                class="w-full px-2 sm:px-2 lg:p-2 mt-4 bg-primary-100 dark:bg-secondary-900 rounded-lg"
+              >
                 <SubscribeForm />
               </UContainer>
             </template>
