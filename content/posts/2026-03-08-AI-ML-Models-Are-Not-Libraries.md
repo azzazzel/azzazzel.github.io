@@ -5,7 +5,7 @@ date: 2026-03-08
 image: /assets/ModelsAreNotLibraries.png
 ---
 
-The first time I wanted to use a model in my own application, I expected the experience to be similar to using a library or a framework. It seemed [Hugging Face](https://huggingface.co/) was the Maven Central or the npm _(or the CPAN for my old Perl friends)_ of the AI world. I was under the impression that models were language-agnostic and we could simply download them and interact with them via a standard API.
+The first time I wanted to use a model in my own application, I expected the experience to be similar to using a library or a framework. It seemed [Hugging Face](https://huggingface.co/){target=\_blank} was the Maven Central or the npm _(or the CPAN for my old Perl friends)_ of the AI world. I was under the impression that models were language-agnostic and we could simply download them and interact with them via a standard API.
 
 It turns out it's not that simple. To make sense of a model repository, we need to take a step back and understand what a model actually _is_.
 
@@ -80,7 +80,7 @@ If mathematicians used Java, Hugging Face would have been the largest repository
 
 Jokes aside, serialization seems reasonable distribution practice if the sole recipients are fellow researchers who run the model in complete isolation. Sadly, historically that was the assumption, and that is how the model landscape has shaped.
 
-I plan to publish a dedicated piece on model formats but generally speaking, the published model artifacts depends on the training tool used. It could be a serialized data structure, a tool-specific format, an archive of files, or something else entirely. If we were to indeed train the model described above, and give it to the world - out best bet for interoperability is [ONNX](https://onnx.ai/).
+I plan to publish a dedicated piece on model formats but generally speaking, the published model artifacts depends on the training tool used. It could be a serialized data structure, a tool-specific format, an archive of files, or something else entirely. If we were to indeed train the model described above, and give it to the world - out best bet for interoperability is [ONNX](https://onnx.ai/){target=\_blank}.
 
 The size of a model (both in-memory and on-disk) largely depends on the number of its **_parameters_**.️
 

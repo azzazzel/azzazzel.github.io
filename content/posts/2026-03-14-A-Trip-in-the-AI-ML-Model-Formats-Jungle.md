@@ -7,7 +7,7 @@ image: /assets/ModelFormatsJungle.png
 
 As developers, we can immediately recognize the structure of a `.csv` file and how it differs from a `.md` one. Want to experience the frustration of someone completely lost when faced with those extensions? Then take a trip through the `.bin`, `.pb`, `.h5`, `.nemo`, `.dduf`, `.pt`, `.pth`, `.ckpt`, `.safetensors`, `.onnx`, `.gguf`, ... jungle of model formats.
 
-In the section "[The Model Artifact](https://milendyankov.com/blog/2026/03/AI-ML-Models-Are-Not-Libraries#the-model-artifact)" of the previous post, I wrote that producing a model means storing the weights, biases, and architecture in a persistent form. Well, that was an oversimplification. In reality, what's actually stored and distributed varies considerably.
+In the section "[The Model Artifact](/blog/2026/03/AI-ML-Models-Are-Not-Libraries#the-model-artifact)" of the previous post, I wrote that producing a model means storing the weights, biases, and architecture in a persistent form. Well, that was an oversimplification. In reality, what's actually stored and distributed varies considerably.
 
 ## Weights-Only Formats
 
