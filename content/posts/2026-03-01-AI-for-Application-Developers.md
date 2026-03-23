@@ -37,7 +37,7 @@ Finally, this post will serve as a table of contents for the series. I'll update
 
 - [AI/ML Models Are Not Libraries](/blog/2026/03/AI-ML-Models-Are-Not-Libraries)
 - [A Trip in the AI/ML Model Formats Jungle](/blog/2026/03/A-Trip-in-the-AI-ML-Model-Formats-Jungle)
-- Understanding model types and architectures (not just LLMs)
+- [Anatomy of a Model From a Developer Perspective](/blog/2026/03/Anatomy-of-a-Model-From-a-Developer-Perspective)
 - How Inference Works
 - Inference Runtimes
 - TBD
