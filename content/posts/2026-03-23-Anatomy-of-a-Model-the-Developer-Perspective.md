@@ -1,6 +1,6 @@
 ---
 layout: new_post
-title: Anatomy of a Model From a Developer Perspective
+title: Anatomy of a Model - the Developer Perspective
 date: 2026-03-23
 image: /assets/AnatomyOfAModel.png
 ---
