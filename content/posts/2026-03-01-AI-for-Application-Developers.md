@@ -38,8 +38,6 @@ Finally, this post will serve as a table of contents for the series. I'll update
 - [AI/ML Models Are Not Libraries](/blog/2026/03/AI-ML-Models-Are-Not-Libraries)
 - [A Trip in the AI/ML Model Formats Jungle](/blog/2026/03/A-Trip-in-the-AI-ML-Model-Formats-Jungle)
 - [Anatomy of a Model - the Developer Perspective](/blog/2026/03/Anatomy-of-a-Model-the-Developer-Perspective)
-- How Inference Works
-- Inference Runtimes
-- TBD
+- [The Inference Engine - Bringing Models to Life](/blog/2026/04/The_Inference_Engine_Bringing_Models_to_Life)
 
 I've added a "Get new posts by email" feature to the blog section of my website for those who want notifications, but you can just as easily use the RSS feed or track my social media posts.
