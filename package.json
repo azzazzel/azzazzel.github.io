@@ -10,6 +10,7 @@
     "clean": "rm -rf .data .nuxt .output"
   },
   "dependencies": {
+    "@barzhsieh/nuxt-content-mermaid": "2.2.3",
     "@nuxt/content": "^3.9.0",
     "@nuxt/eslint": "1.12.1",
     "@nuxt/fonts": "0.12.1",

@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     '@nuxt/content',
+    '@barzhsieh/nuxt-content-mermaid',
   ],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
@@ -48,7 +49,7 @@ export default defineNuxtConfig({
             // Theme used if `html.sepia`
             sepia: 'monokai',
           },
-          langs: ['java', 'xml', 'groovy', 'kotlin', 'bash', 'yaml', 'shell', 'perl'],
+          langs: ['java', 'xml', 'groovy', 'kotlin', 'bash', 'yaml', 'shell', 'perl', 'json'],
         },
       },
       transformers: ['~/transformers/blog-path'],
