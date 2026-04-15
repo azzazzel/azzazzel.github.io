@@ -1,0 +1,10 @@
+date: 2026-06-04
+event:
+  name: jPrime
+  url: http://jprime.io/
+location:
+  type: onsite
+  code: BG
+  country: Bulgaria
+talk: 'Beyond the LLM API - What Developers Actually Need to Know About ML'
+recording:
