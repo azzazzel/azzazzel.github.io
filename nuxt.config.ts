@@ -70,8 +70,11 @@ export default defineNuxtConfig({
     '/blog/2025/01/Multi-Hat-Disorder-Building-Personal-Website-Like-an-Enterprise-App': {
       redirect: '/blog/2026/01/Multi-Hat-Disorder-Building-Personal-Website-Like-an-Enterprise-App',
     },
-    'https://milendyankov.com/blog/2016/09/microservices_or_%CE%BCServices/': {
-      redirect: 'https://milendyankov.com/blog/2016/09/microservices_or_Services',
+    '/blog/2016/09/microservices_or_%CE%BCServices/': {
+      redirect: '/blog/2016/09/microservices_or_Services',
+    },
+    '/blog/2026/04/The_Inference_Engine_Bringing_Models_to_Life': {
+      redirect: '/blog/2026/04/The-Inference-Engine-Bringing-Models-to-Life',
     },
     conferencetracker: { redirect: '/ConferenceTracker' }, // dedicated GitHub repo
   },

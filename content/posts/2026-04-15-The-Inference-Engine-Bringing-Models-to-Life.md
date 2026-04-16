@@ -130,7 +130,7 @@ Keep in mind this describes a conceptual flow. It completely ignores aspects lik
 #### Inference Request Processing
 
 6. The service receives a request. The payload is a string.
-7. The service performs standard checks to ensure the request should be processed (authentication, rate‑limit, quotas, etc.). It may also enhance/change the message according to some policy _(spellcheck, anonymization, ...)_.
+7. The service performs standard checks to ensure the request should be processed (authentication, rate-limit, quotas, etc.). It may also enhance/change the message according to some policy _(spellcheck, anonymization, ...)_.
 8. The service calls the tokenizer to convert the content into token IDs. It's crucial that the service uses the exact same tokenizer and vocabulary as the one the model used during training.
 9. The service gets a vector of token IDs from the tokenizer
 10. The service requests to start a computation session on the currently loaded inference runtime, passing the vector of token IDs.
@@ -141,7 +141,7 @@ Keep in mind this describes a conceptual flow. It completely ignores aspects lik
 15. Assuming it is a streaming service, it calls the tokenizer to de-tokenize the ID
 16. The service gets the actual word/fragment from the tokenizer.
 17. The service sends the actual word/fragment back to the client.
-18. If the selected token is the model’s `<|EOS|>` (End-Of-Sequence) token, then the service completes the session with the client. Otherwise, it appends the newly obtained token ID to the current vector of token IDs and repeats the process from step 10.
+18. If the selected token is the model’s `<|EOS|>` (End-Of-Sequence) token, then the service completes the session with the client. Otherwise, it appends the newly obtained token ID to the current vector of token IDs and repeats the process from step 10.
 
 ### Latent Diffusion Inference
 
@@ -251,21 +251,21 @@ Again, this is a conceptual flow. In production environments, the flow would be 
 26. The service receives the final generated asset from the runtime.
 27. The service performs any final post-processing (like PNG encoding) and delivers the completed image to the client, closing the session.
 
-## Single‑Shot Inference
+## Single-Shot Inference
 
-While the above flows relay on inference loops, many smaller models can get their work don using a single‑shot inference. That means we don't have to do the above mentioned predict-next loop and get the results we need by calling the inference runtime just once.
+While the above flows relay on inference loops, many smaller models can get their work done using a single-shot inference. That means we don't have to do the above mentioned predict-next loop and get the results we need by calling the inference runtime just once.
 
 Consider the following categories of models:
 
-- **Classification** – “which class does this belong to?”
-- **Regression** – “what is the numerical value?”
-- **Ranking/Recommendation** – “rank these items from most to least relevant.”
-- **Similarity / Retrieval** – “which items are most similar?”
-- **Detection / Segmentation** – “where are the objects? / what is the mask?”
-- **Forecasting** – “what will the next value be?”
-- **Anomaly** – “is this point an outlier?”
+- **Classification** - “which class does this belong to?”
+- **Regression** - “what is the numerical value?”
+- **Ranking/Recommendation** - “rank these items from most to least relevant.”
+- **Similarity / Retrieval** - “which items are most similar?”
+- **Detection / Segmentation** - “where are the objects? / what is the mask?”
+- **Forecasting** - “what will the next value be?”
+- **Anomaly** - “is this point an outlier?”
 
-The steps to use any of those from our code are almost identical. At the initialization phase, we still need to pick a model, an inference runtime that can load it, potentially a compatible tokenizer, and a compute backend. At request processing time, we still need to preprocess the input, execute the computation, and postprocess the result. As not all models work with text and word tokenizers, let's see how other examples follow the same process.
+The steps to use any of those from our code are almost identical. At the initialization phase, we still need to pick a model, an inference runtime that can load it, potentially a compatible tokenizer, and a compute backend. At request processing time, we still need to preprocess the input, execute the computation, and postprocess the result. As not all models work with text and word tokenizers, let's see how other examples follow the same process.
 
 Say we have a `json` with some credit card transactions and want to check for possible fraud. Our input could be a `json` like the one below.
 
@@ -373,7 +373,7 @@ It was only after reproducing these behaviors in language stacks like Java and T
 ---
 
 ::note{color='soft' title='AI for Application Developers Series' icon='mdi-light-book-multiple'}  
-The post is part of the [AI for Application Developers](/blog/2026/03/AI-for-Application-Developers) series - my personal notes on various AI topics converted to blog posts.
+The post is part of the [AI for Application Developers](/blog/2026/03/AI-for-Application-Developers) series - my personal notes on various AI topics converted to blog posts.
 
-Please do not hesitate to **correct** me if I got something wrong, **contribute** if something is missing, **ask** me to clarify or simply **share** your experience and views.  
+Please do not hesitate to **correct** me if I got something wrong, **contribute** if something is missing, **ask** me to clarify or simply **share** your experience and views.  
 ::
