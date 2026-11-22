@@ -43,7 +43,7 @@
             :icon="offer.icon"
             :ui="{
               title: 'text-lg',
-              leadingIcon: 'size-10',
+              leadingIcon: 'size-10 text-primary',
             }"
           >
             <template #description>
@@ -56,6 +56,7 @@
                   :description="item"
                   icon="ic-baseline-check"
                   class="my-1"
+                  :ui="{ leadingIcon: 'text-primary' }"
                 />
               </UPageList>
             </template>
@@ -86,16 +87,62 @@
       </UPageSection>
 
       <UPageSection
+        :title="projectsSection.title"
+        :ui="{ container: 'py-8 lg:py-8 sm:py-8' }"
+      >
+        <div class="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+          <article
+            v-for="project in projectsSection.items"
+            :key="project.name"
+            class="flex flex-col overflow-hidden rounded-lg border border-default bg-elevated/50"
+          >
+            <div class="h-44 overflow-hidden bg-white dark:bg-gray-900">
+              <img
+                :src="project.image"
+                :alt="project.imageAlt"
+                class="h-full w-full"
+                :class="project.imageDark ? 'object-contain p-8 dark:hidden' : 'object-cover'"
+                loading="lazy"
+              />
+              <img
+                v-if="project.imageDark"
+                :src="project.imageDark"
+                :alt="project.imageAlt"
+                class="hidden h-full w-full object-contain p-8 dark:block"
+                loading="lazy"
+              />
+            </div>
+            <div class="flex flex-1 flex-col p-6">
+              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-primary">
+                {{ project.type }}
+              </p>
+              <h3 class="text-xl font-semibold text-highlighted">{{ project.name }}</h3>
+              <p class="mt-2 text-muted">{{ project.description }}</p>
+              <div class="mt-auto pt-6">
+                <UButton
+                  v-for="link in project.links"
+                  :key="link.url"
+                  :href="link.url"
+                  external
+                  color="secondary"
+                  variant="soft"
+                  trailing-icon="i-ic-baseline-arrow-forward"
+                  >{{ link.text }}</UButton
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </UPageSection>
+
+      <UPageSection
         :title="testimonialsSection.title"
         :ui="{
           container: 'py-8 lg:py-8 sm:py-8',
         }"
       >
         <UPageGrid>
-          <UContainer class="col-span-2">
-            <div class="text-primary pb-3">
-              {{ testimonialsSection.recommendations.title }}
-            </div>
+          <div class="col-span-full">
             <UPageColumns :ui="{ base: 'lg:columns-2' }">
               <UPageCard
                 v-for="(testimonial, index) in testimonials"
@@ -114,105 +161,61 @@
                 </template>
               </UPageCard>
             </UPageColumns>
-          </UContainer>
-          <UContainer>
-            <div class="text-primary">
-              {{ testimonialsSection.certs.title }}
-            </div>
-            <UTable
-              :data="certs"
-              :columns="[
-                {
-                  accessorKey: 'icon',
-                },
-                {
-                  accessorKey: 'title',
-                },
-                {
-                  accessorKey: 'file',
-                },
-              ]"
-              class="mt-4"
-              :ui="{
-                thead: 'hidden',
-                td: 'py-1.5 px-0.5',
-              }"
-            >
-              <template #icon-cell="{ row }">
-                <UBadge
-                  size="sm"
-                  variant="soft"
-                  color="neutral"
-                  >{{ row.original.file.lang.toUpperCase() }}</UBadge
-                >
-              </template>
-              <template #title-cell="{ row }">
-                <div class="flex items-center gap-3">
-                  <div>
-                    <p class="text-xs text-highlighted">
-                      {{
-                        row.original.title.orig ? row.original.title.orig : row.original.title.en
-                      }}
-                    </p>
-                    <p
-                      v-if="row.original.title.orig"
-                      class="text-xs"
-                    >
-                      {{ row.original.title.en }}
-                    </p>
-                  </div>
-                </div>
-              </template>
-              <template #file-cell="{ row }">
-                <UButton
-                  icon="i-ph-file-pdf-light"
-                  size="md"
-                  color="neutral"
-                  variant="ghost"
-                  :href="row.original.file.path"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Download file"
-                  :external="true"
-                />
-              </template>
-            </UTable>
-          </UContainer>
+          </div>
         </UPageGrid>
       </UPageSection>
 
-      <UPageCTA
-        :title="ctaSection.title"
-        :description="ctaSection.description"
-        orientation="horizontal"
-        :ui="{
-          container: 'lg:grid-cols-3',
-          wrapper: 'col-span-2',
-        }"
-      >
-        <template #default>
-          <UPageList>
-            <UPageFeature
-              v-for="(method, index) in ctaSection.methods"
-              :key="index"
-              :description="method.text"
-              :icon="method.icon"
-              class="my-1"
+      <UContainer>
+        <section class="grid gap-8 rounded-lg bg-elevated/50 p-6 sm:p-8 lg:grid-cols-4 lg:p-10">
+          <div class="lg:col-span-2">
+            <h2 class="text-3xl font-bold text-highlighted">{{ ctaSection.title }}</h2>
+            <p class="mt-4 text-muted">{{ ctaSection.description }}</p>
+          </div>
+          <div>
+            <p class="text-sm text-muted">{{ ctaSection.directDescription }}</p>
+            <UPageList class="mt-4">
+              <UPageFeature
+                v-for="(method, index) in ctaSection.methods"
+                :key="index"
+                :description="method.text"
+                :icon="method.icon"
+                :ui="{ leadingIcon: 'text-secondary' }"
+                class="my-1"
+              >
+                <template #description>
+                  <NuxtLink
+                    v-if="method.link"
+                    :href="method.link"
+                    external
+                    class="text-secondary underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary"
+                    >{{ method.text }}</NuxtLink
+                  >
+                </template>
+              </UPageFeature>
+            </UPageList>
+          </div>
+          <div>
+            <p class="text-sm text-muted">{{ ctaSection.companyDescription }}</p>
+            <NuxtLink
+              :href="ctaSection.companyLink.url"
+              external
+              :aria-label="ctaSection.companyLink.text"
+              class="mt-4 inline-flex rounded-lg border border-default bg-default px-4 py-2 transition-colors hover:border-secondary focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-secondary"
             >
-              <template #description>
-                <NuxtLink
-                  v-if="method.link"
-                  :href="method.link"
-                  target="_blank"
-                  external
-                  class="text-primary border-b border-transparent hover:border-primary"
-                  >{{ method.text }}</NuxtLink
-                >
-              </template>
-            </UPageFeature>
-          </UPageList>
-        </template>
-      </UPageCTA>
+              <img
+                src="/img/initiatives/commsen-light.svg"
+                alt="Commsen"
+                class="h-8 w-auto dark:hidden"
+              />
+              <img
+                src="/img/initiatives/commsen-dark.svg"
+                alt="Commsen"
+                class="hidden h-8 w-auto dark:block"
+              />
+            </NuxtLink>
+          </div>
+        </section>
+      </UContainer>
     </UPageBody>
   </UPage>
 </template>
@@ -236,6 +239,7 @@
   const hero = (pageData.value?.meta.hero as Hero) || { headline: '', image: { src: '', alt: '' } }
   const about = (pageData.value?.meta.about as About) || { title: '', offers: [] }
   const servicesSection = pageData.value?.meta.services
+  const projectsSection = pageData.value?.meta.projects
   const experience = (pageData.value?.meta.experience as Experience) || { title: '', clients: [] }
   const testimonialsSection = pageData.value?.meta.testimonials
   const ctaSection = pageData.value?.meta.cta

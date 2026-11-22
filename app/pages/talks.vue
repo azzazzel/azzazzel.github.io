@@ -100,6 +100,7 @@
                   :to="item.eventUrl ? item.eventUrl : undefined"
                   :external="true"
                   target="_blank"
+                  class="text-secondary hover:underline"
                 >
                   {{ item.title }}
                   <UIcon
@@ -118,6 +119,7 @@
                 :href="item.recordingUrl"
                 icon="i-lsicon-file-movie-outline"
                 size="md"
+                color="secondary"
                 variant="ghost"
                 target="_blank"
                 class="p-0 translate-y-1"

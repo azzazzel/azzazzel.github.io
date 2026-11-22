@@ -26,6 +26,7 @@
         <ContentRenderer
           v-if="post"
           :value="post"
+          class="article-content"
         />
         <USeparator v-if="surround?.length" />
 
@@ -58,7 +59,7 @@
             <template #bottom>
               <USeparator v-if="surround?.length" />
               <UContainer
-                class="w-full px-2 sm:px-2 lg:p-2 mt-4 bg-primary-100 dark:bg-secondary-900 rounded-lg"
+                class="w-full px-2 sm:px-2 lg:p-2 mt-4 bg-primary-100 dark:bg-primary-900 rounded-lg"
               >
                 <SubscribeForm />
               </UContainer>

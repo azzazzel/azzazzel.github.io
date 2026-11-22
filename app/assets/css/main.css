@@ -6,3 +6,7 @@
   /* font-family: Onest; */
   font-family: 'Radio Canada';
 }
+
+.article-content a {
+  color: var(--ui-secondary);
+}

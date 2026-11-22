@@ -52,6 +52,45 @@ services:
         - Introducing AI responsibly into existing systems
         - Bridging legacy platforms with modern practices
 
+projects:
+  title: Featured Initiatives
+  items:
+    - name: Commsen International
+      type: Consulting company
+      image: /img/initiatives/commsen-light.svg
+      imageDark: /img/initiatives/commsen-dark.svg
+      imageAlt: Commsen logo
+      description: Practical consulting in architecture, developer experience, AI, and technical leadership.
+      links:
+        - text: Explore Commsen
+          url: https://commsen.com
+    - name: MindMile
+      type: Initiative
+      image: /img/initiatives/mindmile-logo-light.svg
+      imageDark: /img/initiatives/mindmile-logo-dark.svg
+      imageAlt: MindMile logo
+      description: Practical guides, activities, and tools for a changing digital workplace.
+      links:
+        - text: Explore MindMile
+          url: https://mindmile.com
+    - name: MindMile Learning
+      type: Learning platform
+      image: /img/initiatives/mindmile-learning-light.svg
+      imageDark: /img/initiatives/mindmile-learning-dark.svg
+      imageAlt: MindMile Learning logo
+      description: Structured learning for professionals and teams.
+      links:
+        - text: Explore courses
+          url: https://learn.mindmile.com
+    - name: AI Fundamentals
+      type: Course
+      image: https://lwfiles.mycourse.app/6a9afdd5a0ad0276599b77b9-public/0f084f2650038d3aa2685f0a66fc5e62.png
+      imageAlt: AI Fundamentals course artwork
+      description: Understand how AI assistants work, their limitations, and how to use them at work.
+      links:
+        - text: AI Fundamentals
+          url: https://learn.mindmile.com/course/ai-fundamentals
+
 experience:
   title: Past Engagements
   clients:
@@ -109,18 +148,22 @@ experience:
     </p>
 
 testimonials:
-  title: Credibility
-  recommendations:
-    title: Assesments & Recommendations
+  title: What People Say
   certs:
     title: Courses & Certifications
 
 cta:
   title: Get in Touch
-  description: For consulting, advisory work, speaking engagements, or full-time roles, reach out directly to start a conversation.
+  description: Whether you are considering consulting, advisory work, a speaking engagement, or a full-time role, I would be happy to hear from you.
+  directDescription: For speaking engagements, full-time roles, or a conversation about my work and ideas, get in touch with me directly.
+  companyDescription: For business-to-business consulting and advisory engagements, connect through my consulting company.
+  companyLink:
+    text: Visit Commsen
+    url: https://commsen.com/#contact
   methods:
-    - text: MilenDyankov[at]gmail.com
+    - text: contact@milendyankov.com
       icon: material-symbols-mail-rounded
+      link: mailto:contact@milendyankov.com
     - text: LinkedIn
       icon: mdi-linkedin
       link: https://www.linkedin.com/in/milendyankov

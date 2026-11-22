@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" role="img" aria-labelledby="title desc">
+  <title id="title">Commsen International logo concept</title>
+  <desc id="desc">A green wind flywheel inspired by the original Commsen mark beside the wordmark.</desc>
+  <g transform="translate(10 12) scale(.31)">
+    <g fill="none" stroke="#a4bf70" stroke-width="17" stroke-linejoin="round">
+      <path id="flywheel-side" d="M94 42C130 105 203 130 270 94"/>
+      <use href="#flywheel-side" transform="rotate(90 156 156)"/>
+      <use href="#flywheel-side" transform="rotate(180 156 156)"/>
+      <use href="#flywheel-side" transform="rotate(270 156 156)"/>
+    </g>
+    <circle cx="156" cy="156" r="18" fill="#a4bf70"/>
+    <g fill="#405b43">
+      <path id="flywheel-blade" d="M104 7 125 2C131 35 150 61 180 81 141 70 116 49 109 27Z"/>
+      <use href="#flywheel-blade" transform="rotate(90 156 156)"/>
+      <use href="#flywheel-blade" transform="rotate(180 156 156)"/>
+      <use href="#flywheel-blade" transform="rotate(270 156 156)"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#a4bf70" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(126 28)">
+    <path d="M32 2H13C6 2 2 8 2 17s4 15 11 15h19"/>
+    <rect x="44" y="2" width="32" height="30" rx="15"/>
+    <path d="M88 32V2l16 17 16-17v30"/>
+    <path d="M132 32V2l16 17 16-17v30"/>
+    <path d="M208 2h-23c-5 0-9 3-9 7s4 8 9 8h14c6 0 9 3 9 7s-3 8-9 8h-23"/>
+    <path d="M220 2h32M220 17h27M220 32h32"/>
+    <path d="M264 32V2l32 30V2"/>
+  </g>
+  <text x="126" y="94" fill="#a4bf70" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="700" textLength="296" lengthAdjust="spacing">INTERNATIONAL</text>
+</svg>
