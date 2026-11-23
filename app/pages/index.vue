@@ -118,7 +118,7 @@
               </p>
               <h3 class="text-xl font-semibold text-highlighted">{{ project.name }}</h3>
               <p class="mt-2 text-muted">{{ project.description }}</p>
-              <div class="mt-auto pt-6">
+              <div class="mt-auto flex flex-wrap justify-end gap-2 pt-6">
                 <UButton
                   v-for="link in project.links"
                   :key="link.url"
@@ -126,7 +126,10 @@
                   external
                   color="secondary"
                   variant="soft"
-                  trailing-icon="i-ic-baseline-arrow-forward"
+                  class="[font-variant:small-caps]"
+                  trailing-icon="i-ic-baseline-open-in-new"
+                  rel="opener"
+                  :target="link.target"
                   >{{ link.text }}</UButton
                 >
               </div>

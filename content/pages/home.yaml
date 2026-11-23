@@ -53,7 +53,7 @@ services:
         - Bridging legacy platforms with modern practices
 
 projects:
-  title: Featured Initiatives
+  title: What I’m Involved In
   items:
     - name: Commsen International
       type: Consulting company
@@ -62,34 +62,39 @@ projects:
       imageAlt: Commsen logo
       description: Practical consulting in architecture, developer experience, AI, and technical leadership.
       links:
-        - text: Explore Commsen
+        - text: Explore
           url: https://commsen.com
-    - name: MindMile
+          target: commsen
+    - name: Mindmile
       type: Initiative
       image: /img/initiatives/mindmile-logo-light.svg
       imageDark: /img/initiatives/mindmile-logo-dark.svg
-      imageAlt: MindMile logo
+      imageAlt: Mindmile logo
       description: Practical guides, activities, and tools for a changing digital workplace.
       links:
-        - text: Explore MindMile
+        - text: Explore
           url: https://mindmile.com
-    - name: MindMile Learning
+          target: mindmile
+    - name: Mindmile Learning
       type: Learning platform
       image: /img/initiatives/mindmile-learning-light.svg
       imageDark: /img/initiatives/mindmile-learning-dark.svg
-      imageAlt: MindMile Learning logo
+      imageAlt: Mindmile Learning logo
       description: Structured learning for professionals and teams.
       links:
-        - text: Explore courses
+        - text: Explore
           url: https://learn.mindmile.com
+          target: mindmile-learning
+
     - name: AI Fundamentals
       type: Course
       image: https://lwfiles.mycourse.app/6a9afdd5a0ad0276599b77b9-public/0f084f2650038d3aa2685f0a66fc5e62.png
       imageAlt: AI Fundamentals course artwork
       description: Understand how AI assistants work, their limitations, and how to use them at work.
       links:
-        - text: AI Fundamentals
+        - text: Explore
           url: https://learn.mindmile.com/course/ai-fundamentals
+          target: ai-fundamentals
 
 experience:
   title: Past Engagements
